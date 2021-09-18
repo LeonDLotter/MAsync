@@ -1,0 +1,23 @@
+ID,cl1_exp_sum,cl1_all_sum,cl1_contr_prc
+Anders 2011-pseudo: predict perciever's from sender's activity,0.019265,0.019265,0.000000
+Bilek 2015 1-(dyad-ISC during interaction > no interaction) > random-ISC,0.018155,0.019265,5.760449
+Bilek 2015 2-(dyad-ISC during interaction > no interaction) > random-ISC,0.017521,0.019265,9.052604
+Dikker 2014-pseudo: speaker/listener-ISC,0.019265,0.019265,0.000000
+Koike 2016 1 3 +  2019b-2016 1  dyad-ISC during mutual gaze after JA (same partner),0.016905,0.019265,12.251111
+Koike 2016 2-dyad-ISC during mutual gaze without JA task,0.018887,0.019265,1.962465
+Koike 2019a-dyad-ISC during mutual gaze with live video > delayed video,0.019265,0.019265,0.000001
+Kostorz 2020-pseudo: intructor-observer-ISC across conditions  > 0,0.017588,0.019265,8.703193
+"Liu 2021 + 2021 pp-pseudo: speaker/listener-ISC, 0 sec time-lag",0.019265,0.019265,0.000071
+Miyata 2021-dyad-ISC during imitation > random-ISC,0.019111,0.019265,0.797537
+Saito 2010-dyad-ISC during JA > random-ISC,0.019265,0.019265,0.000000
+Salazar 2021-dyad-ISC during JAct > random-ISC,0.019265,0.019265,0.000000
+Shaw 2018-dyad-ISC during ultimatum game > control task,0.019265,0.019265,0.000000
+Shaw 2020-dyad-ISC during coop/comp > random-ISC,0.017843,0.019265,7.383368
+Silbert 2014-pseudo: speaker/listener-ISC > random-ISC,0.017161,0.019265,10.921445
+Smirnov 2019-pseudo: speaker/listener-ISC > random correlation,0.019263,0.019265,0.010694
+"Spiegelhalder 2014-dyad-ISC during speak/listen > control, no time-lag",0.017866,0.019265,7.263952
+Spilakova 2020-dyad-ISC during cooperation > random-ISC,0.016254,0.019265,15.627872
+Stephens 2010-pseudo: speaker-listener-ISC > listener-listener-ISC,0.017586,0.019265,8.714273
+Wang 2021 pp-dyad-ISC during coop/comp,0.019119,0.019265,0.754974
+Xie 2020-dyad-ISC during collaborative drawing > random-ISC,0.018107,0.019265,6.011884
+Yoshioka 2021-task-dependent dyad-ISC during JA > random-ISC,0.018505,0.019265,3.946045

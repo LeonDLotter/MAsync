@@ -1,0 +1,63 @@
+MAsync_CONNpp_rTPJ_conjunction: 2707 Experiments (40189 subjects, 33692 foci)
+
+Action.Observation	1.51	0.0131
+Cognition.Social Cognition	1.31	0.0311
+Perception.Vision	1.24	0.0442
+Emotion.Negative.Sadness	1.39	0.0162
+Interoception.Heartbeat Detection	2.55	0.0021
+Perception.Audition	1.20	0.0330
+Cognition.Language.Syntax	1.39	0.0107
+Interoception.Gastrointestinal/Genitourinary (GI/GU)	1.53	0.0040
+Emotion.Negative	1.17	0.0244
+Cognition.Temporal	1.39	0.0053
+Emotion.Negative.Disgust	1.24	0.0100
+Emotion.Positive.Happiness	1.21	0.0150
+Action.Inhibition	1.15	0.0221
+Emotion.Positive	1.19	0.0155
+Emotion.Negative.Anxiety	1.24	0.0073
+Emotion.Negative.Fear	1.16	0.0170
+Emotion.Valence	1.15	0.0088
+Perception.Somesthesis	1.08	0.0183
+Emotion.Intensity	1.19	0.0027
+Interoception.Hunger	1.17	0.0033
+Perception.Gustation	1.10	0.0122
+Interoception.Thermoregulation	1.12	0.0026
+Emotion.Negative.Anger	1.09	0.0072
+Perception.Somesthesis.Pain	1.04	0.0235
+Perception.Vision.Motion	1.05	0.0169
+Cognition.Somatic	1.08	0.0052
+Cognition.Language.Semantics	1.03	0.0662
+Cognition.Language.Phonology	1.03	0.0153
+Cognition.Music	1.02	0.0208
+Perception.Vision.Shape	1.01	0.0278
+Cognition.Memory.Explicit	1.00	0.0522
+Cognition.Attention	0.99	0.1199
+Cognition.Reasoning	0.99	0.0660
+Emotion.Positive.Reward/Gain	0.93	0.0521
+Action.Execution	0.77	0.0420
+Cognition.Language.Speech	0.89	0.0375
+Cognition.Memory.Working	0.88	0.0368
+Interoception.Sexuality	0.95	0.0162
+Cognition.Spatial	0.88	0.0113
+Cognition.Language.Orthography	0.91	0.0112
+Perception.Olfaction	0.79	0.0091
+Action.Execution.Speech	0.54	0.0061
+Action.Imagination	0.98	0.0068
+Action.Preparation	0.96	0.0052
+Cognition.Language	0.96	0.0050
+Cognition.Memory	0.89	0.0042
+Perception.Vision.Color	0.81	0.0035
+Interoception.Respiration Regulation	0.71	0.0030
+Interoception.Sleep	0.51	0.0014
+Action.Motor Learning	0.54	0.0011
+Emotion.Negative.Punishment/Loss	0.80	0.0016
+Interoception.Thirst	0.76	0.0012
+Action.Rest	0.67	0.0009
+Emotion.Positive.Humor	0.99	0.0011
+Interoception.Osmoregulation	0.51	0.0006
+Cognition.Memory.Implicit	0.92	0.0007
+Interoception.Vestibular	0.45	0.0003
+Interoception.Baroregulation	0.95	0.0006
+Emotion.Negative.Embarrassment	0.59	0.0003
+Emotion.Negative.Guilt	0.87	0.0005
+Not Defined.	0.52	0.0002

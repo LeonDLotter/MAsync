@@ -1,0 +1,3 @@
+cluster_id,peak_x,peak_y,peak_z,cluster_mean,volume_mm,talairach_gyrus,talairach_ba,aal
+1.0,62.0,-48.0,16.0,0.014112813740626319,8008.0,40.96% Superior_Temporal_Gyrus; 25.07% Middle_Temporal_Gyrus; 11.49% Supramarginal_Gyrus; 8.59% Middle_Occipital_Gyrus; 6.79% Inferior_Parietal_Lobule,66.93% Background; 11.39% Brodmann_area_22; 6.89% Brodmann_area_39; 6.19% Brodmann_area_40,47.15% Temporal_Mid_R; 24.88% Temporal_Sup_R; 12.49% SupraMarginal_R; 7.89% Temporal_Inf_R
+2.0,38.0,-58.0,4.0,0.009285570122301579,40.0,80.00% Sub-Gyral; 20.00% Middle_Temporal_Gyrus,100.00% Background,100.00% no_label

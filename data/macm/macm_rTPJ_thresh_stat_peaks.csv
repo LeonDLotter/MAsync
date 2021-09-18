@@ -1,0 +1,8 @@
+cluster_id,peak_x,peak_y,peak_z,peak_value,volume_mm,talairach_gyrus,talairach_ba,aal
+1.0,62.0,-48.0,14.0,0.2482309341430664,19640.0,Superior_Temporal_Gyrus,Background,Temporal_Mid_R
+2.0,-62.0,-48.0,20.0,0.05796609818935394,14800.0,Superior_Temporal_Gyrus,Brodmann_area_22,Temporal_Sup_L
+3.0,36.0,24.0,-2.0,0.06849048286676407,12600.0,Inferior_Frontal_Gyrus,Background,Insula_R
+4.0,2.0,6.0,54.0,0.05399138852953911,4976.0,Superior_Frontal_Gyrus,Background,Supp_Motor_Area_R
+5.0,-32.0,18.0,4.0,0.07696326822042465,3112.0,Insula,Background,Insula_L
+6.0,6.0,-24.0,-8.0,0.04831084609031677,1976.0,Background,Background,no_label
+7.0,16.0,-2.0,0.0,0.04248037189245224,1544.0,Lentiform_Nucleus,Medial_Globus_Pallidus,Pallidum_R

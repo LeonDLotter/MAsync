@@ -1,0 +1,2 @@
+cluster_id,peak_x,peak_y,peak_z,peak_value,volume_mm,talairach_gyrus,talairach_ba,aal
+1.0,62.0,-48.0,16.0,0.04170818254351616,3040.0,Superior_Temporal_Gyrus,Background,Temporal_Mid_R

@@ -9,7 +9,7 @@ These are the majority of results published in our manuscript *Title*.
 - **[macm_rTPJ_idx.nii.gz](macm_rTPJ_idx.nii.gz)**: MACM volume with indexed clusters.
 
 
-- **ale/..**: results of the main ALE analyses ('ale': p < 0.001, 'ale01': p < 0.01).
+- **ale/..**: results of the main ALE analyses ('ale_[...]': voxel-level p < 0.001, 'ale01_[...]': p < 0.01).
   - **ale_logp_[...].nii.gz, ale_z_[...].nii.gz**: cluster/voxel-corrected NiMARE outputs.
   - **ale_p.nii.gz, ale_stat.nii.gz, ale_z.nii.gz**: unthresholded NiMARE output.
   - **ale_thresh_[...].nii.gz**: volumes thresholded at cluster-level p < 0.05.
@@ -36,15 +36,14 @@ These are the majority of results published in our manuscript *Title*.
 - **loeo/..**: ALE results (see above) from all Leave-One-Experiment-Out ALEs.
 
 
-- **macm/..**:  MACM input and results.
+- **macm/..**: MACM input and results.
   - **ale_rTPJ_bin_forSleuth.nii.gz**: ALE rTPJ cluster with 1x1x1mm^3 resolution 
   - **cor_macm_ale.csv**: parcel-wise ALE value estimates for ALE-MACM volume correlations
   - **macm_rTPJ_[...].nii.gz**: ALE results (see above) from MACM analyses
   - **macm_rTPJ_coordinates.txt**: Sleuth text file with MNI coordinates for MACM ALE
   - **macm_rTPJ_project.work**: Sleuth work project  
 
-
-- **loeo/..**: RSFC results
+- **rsfc/..**: RSFC results
   - **ale_rTPJ_bin_forCONN.nii**: ALE rTPJ cluster as uncompressed volume for CONN toolbox
   - **fwd.csv**: motion estimates (frame-wise displacement) for exclusion of RSFC subjects 
   - **macm_rTPJ_idx_forConn.nii/.csv**: uncompressed MACM volume with associated cluster labels

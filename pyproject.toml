@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "masync"
+version = "0.0.1"
+description = "Meta-Analysis and Quantitative Review of Interpersonal Neural Synchrony fMRI and fNIRS Studies"
+authors = ["Leon Lotter"]
+
+[tool.poetry.dependencies]
+python = ">=3.8.8,<3.9.1"
+numpy = "^1.22.2"
+pandas = "^1.4.0"
+scipy = "^1.8.0"
+nilearn = "^0.8.1"
+atlasreader = "^0.1.2"
+NiMARE = "^0.0.9"
+jupyter = "^1.0.0"
+ipykernel = "^6.8.0"
+ipywidgets = "^7.6.5"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

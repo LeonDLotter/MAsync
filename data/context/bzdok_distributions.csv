@@ -1,0 +1,3 @@
+roiName,nvox_roi,targetNr,targetName,nvox_target,nvox_overlap,relDistr,absDistr
+ale_rTPJ_cluster,357,1,aTPJ,434,89,0.24929971988795518,0.20506912442396313
+ale_rTPJ_cluster,357,2,pTPJ,310,114,0.31932773109243695,0.36774193548387096

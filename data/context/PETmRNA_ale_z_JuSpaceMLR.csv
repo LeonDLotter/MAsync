@@ -1,0 +1,25 @@
+Resh1,Resh2,Resh3,Resh4,Resh5
+File,PET Map,Mean Beta,p-val (Regression analysis),File
+List 1 image,5HT1a,0.0361161061333024,0.66217,/Users/leonlotter/MAsync/project/matlab_temp/ale_z.nii
+List 1 image,5HT1b,0.200637053283436,0.0054274,/Users/leonlotter/MAsync/project/matlab_temp/ale_z.nii
+List 1 image,5HT2a,-0.134257512448593,0.084764,/Users/leonlotter/MAsync/project/matlab_temp/ale_z.nii
+List 1 image,5HT4,0.122588977916008,0.53482,/Users/leonlotter/MAsync/project/matlab_temp/ale_z.nii
+List 1 image,5HT6,-0.294469834330798,0.015808,/Users/leonlotter/MAsync/project/matlab_temp/ale_z.nii
+List 1 image,5HTT,-0.21756961445786,0.080573,/Users/leonlotter/MAsync/project/matlab_temp/ale_z.nii
+List 1 image,a4b2,0.0483167697705589,0.63441,/Users/leonlotter/MAsync/project/matlab_temp/ale_z.nii
+List 1 image,CB1,-0.0666622693688956,0.44786,/Users/leonlotter/MAsync/project/matlab_temp/ale_z.nii
+List 1 image,D1,-0.202756649086874,0.2596,/Users/leonlotter/MAsync/project/matlab_temp/ale_z.nii
+List 1 image,D2,1.11037508117561,<.001,/Users/leonlotter/MAsync/project/matlab_temp/ale_z.nii
+List 1 image,DAT,-0.211653482404487,0.32574,/Users/leonlotter/MAsync/project/matlab_temp/ale_z.nii
+List 1 image,FDOPA,0.104747284049528,0.58044,/Users/leonlotter/MAsync/project/matlab_temp/ale_z.nii
+List 1 image,GABAa,0.0871672979768813,0.27711,/Users/leonlotter/MAsync/project/matlab_temp/ale_z.nii
+List 1 image,H3,0.0310974671926005,0.79637,/Users/leonlotter/MAsync/project/matlab_temp/ale_z.nii
+List 1 image,M1,-0.164507844520779,0.14264,/Users/leonlotter/MAsync/project/matlab_temp/ale_z.nii
+List 1 image,mGluR5,0.334600394154117,<.001,/Users/leonlotter/MAsync/project/matlab_temp/ale_z.nii
+List 1 image,MU,-0.122787506514034,0.2561,/Users/leonlotter/MAsync/project/matlab_temp/ale_z.nii
+List 1 image,NET,-0.0238627741707703,0.73635,/Users/leonlotter/MAsync/project/matlab_temp/ale_z.nii
+List 1 image,NMDA,0.0830835872133792,0.3518,/Users/leonlotter/MAsync/project/matlab_temp/ale_z.nii
+List 1 image,VAChT,-0.53090520276631,0.014305,/Users/leonlotter/MAsync/project/matlab_temp/ale_z.nii
+List 1 image,OXT,0.0546716394241942,0.87591,/Users/leonlotter/MAsync/project/matlab_temp/ale_z.nii
+List 1 image,OXTR,-0.4449477475177,0.31562,/Users/leonlotter/MAsync/project/matlab_temp/ale_z.nii
+List 1 image,CD38,-0.878578839104996,0.031758,/Users/leonlotter/MAsync/project/matlab_temp/ale_z.nii

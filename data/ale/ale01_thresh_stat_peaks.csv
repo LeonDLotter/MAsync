@@ -1,3 +1,6 @@
 cluster_id,peak_x,peak_y,peak_z,peak_value,volume_mm,talairach_gyrus,talairach_ba,aal
-1.0,62.0,-48.0,16.0,0.04170818254351616,8008.0,Superior_Temporal_Gyrus,Background,Temporal_Mid_R
-2.0,38.0,-58.0,4.0,0.010127373971045017,40.0,Sub-Gyral,Background,no_label
+1.0,62.0,-48.0,16.0,0.041428569704294205,7856.0,Superior_Temporal_Gyrus,Background,Temporal_Mid_R
+2.0,50.0,-20.0,-6.0,0.02523420937359333,3368.0,Middle_Temporal_Gyrus,Background,Temporal_Sup_R
+3.0,38.0,20.0,-2.0,0.020775554701685905,3296.0,Extra-Nuclear,Brodmann_area_47,Insula_R
+4.0,38.0,-58.0,4.0,0.010176252573728561,48.0,Sub-Gyral,Background,no_label
+5.0,56.0,-46.0,38.0,0.00968848168849945,16.0,Inferior_Parietal_Lobule,Background,Parietal_Inf_R

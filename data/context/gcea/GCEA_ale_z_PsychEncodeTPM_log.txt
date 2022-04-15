@@ -1,0 +1,71 @@
+
+┌-------------------------------------------------------------------------┐
+┝ 26-Feb-2022 13:59:51 Starting ABAnnotate: ale_z_PsychEncodeTPM          ┤
+└-------------------------------------------------------------------------┘
+
+Setting atlas & ABA data to SchaeferTian-116 parcels.
+Applying parcellation to /Users/leonlotter/MAsync/project/data/ale/ale_z.nii.gz.
+Initialising batch system... done.
+
+
+------------------------------------------------------------------------
+26-Feb-2022 14:00:04 - Running job #1
+------------------------------------------------------------------------
+26-Feb-2022 14:00:04 - Running 'Image Calculator'
+
+SPM12: spm_imcalc (v6961)                          14:00:04 - 26/02/2022
+========================================================================
+ImCalc Image: /Users/leonlotter/projects/ABAnnotate/ABAnnotate_v1/atlas/rmyTempSchaefer100-7_TianS1_atlas.nii
+26-Feb-2022 14:00:06 - Done    'Image Calculator'
+26-Feb-2022 14:00:06 - Done
+
+Extracting data for /Users/leonlotter/projects/ABAnnotate/ABAnnotate_v1/temp/ale_z.nii
+Using provided null maps.
+GCEA dataset: PsychEncode-cellTypesTPM-discrete
+
+┌-------------------------------------------------------------------------┐
+┝ 26-Feb-2022 14:00:07 Running GCEA                                       ┤
+└-------------------------------------------------------------------------┘
+
+GCEA settings: 
+- Using phenotype data from: /Users/leonlotter/MAsync/project/data/ale/ale_z.nii.gz 
+- Using atlas with 116 regions: /Users/leonlotter/projects/ABAnnotate/ABAnnotate_v1/atlas/Schaefer100-7_TianS1_atlas.nii 
+- Using 5000 phenotype null maps: /Users/leonlotter/MAsync/project/data/context/gcea/gcea_nullmaps_ale_z.mat 
+- Using dataset: /Users/leonlotter/projects/ABAnnotate/ABAnnotate_v1/datasets/PsychEncode-cellTypesTPM-discrete.mat 
+- Including categories with between 1 and Inf genes 
+- Removing annotates genes that co-occur in >= 100 percent of categories 
+- Using binarized gene-category-phenotype-associations 
+- Estimating 5000 category null samples 
+- Calculating gene scores based on Spearman correlations 
+- Aggregating gene scores per category by weightedmean 
+- Calculating p-values from right tail at BH-corrected p < 0.0500 
+
+
+Generating category null samples...
+Loaded 24 annotated categories from /Users/leonlotter/projects/ABAnnotate/ABAnnotate_v1/datasets/PsychEncode-cellTypesTPM-discrete.mat.
+Transposed 0 category annotation vectors from row to column vector.
+Matching annotated genes to 15633 ABA-genes.
+512/598 annotated genes are in gene expression dataset.
+0 categories have no annotated genes matching our 15633 genes.
+Using binarized category-gene-annotations.
+Removed 0 genes annotated in >= 100 percent of categories.
+Categories have between 2 and 76 annotated genes.
+Filtered to 24 categories with between 1 and Inf annotated genes.
+Computing category scores for 5000 generated 116-region null-phenotype-maps.
+(Spatial null maps loaded from /Users/leonlotter/MAsync/project/data/context/gcea/gcea_nullmaps_ale_z.mat)
+389 of 512 annotated genes are unique.
+Check again: We should have data for all 389 of 389 unique annotated genes.
+Computing category null distributions corresponding to 5000 null phenotypes for all 389 genes annotated to categories.
+Progress (this might take some time...):
+....................................................................................................
+Starting parallel pool (parpool) using the 'local' profile ...
+Connected to the parallel pool (number of workers: 2).
+.................................................................................................
+Looking in at Category 1/24: Adult-Ex1 (17 genes).
+17/17 genes from this category have matching records in the expression data.
+Looking in at Category 2/24: Adult-Ex2 (9 genes).
+9/9 genes from this category have matching records in the expression data.
+Looking in at Category 3/24: Adult-Ex3 (9 genes).
+9/9 genes from this category have matching records in the expression data.
+Looking in at Category 4/24: Adult-Ex4 (15 genes).
+15/15 genes from this cat

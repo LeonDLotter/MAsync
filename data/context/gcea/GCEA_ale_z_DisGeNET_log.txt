@@ -1,0 +1,381 @@
+(Re-)downloading available ABAnnotate datasets to: /Users/leonlotter/projects/ABAnnotate/ABAnnotate/dataset_sources.csv
+
+┌-------------------------------------------------------------------------┐
+┝ 13-Apr-2022 10:46:32 Starting ABAnnotate: ale_z_DisGeNET                ┤
+└-------------------------------------------------------------------------┘
+
+Setting atlas & ABA data to /Users/leonlotter/projects/ABAnnotate/ABAnnotate/atlas/Schaefer100-7_TianS1/Schaefer100-7_TianS1_atlas.nii - 116 parcels.
+Applying parcellation to /Users/leonlotter/MAsync/project/data/ale/ale_z.nii.gz.
+Initialising batch system... done.
+
+
+------------------------------------------------------------------------
+13-Apr-2022 10:46:51 - Running job #1
+------------------------------------------------------------------------
+13-Apr-2022 10:46:51 - Running 'Image Calculator'
+
+SPM12: spm_imcalc (v6961)                          10:46:52 - 13/04/2022
+========================================================================
+ImCalc Image: /Users/leonlotter/projects/ABAnnotate/ABAnnotate/atlas/Schaefer100-7_TianS1/rmyTempSchaefer100-7_TianS1_atlas.nii
+13-Apr-2022 10:46:55 - Done    'Image Calculator'
+13-Apr-2022 10:46:55 - Done
+
+Extracting data for /Users/leonlotter/projects/ABAnnotate/ABAnnotate/temp/ale_z.nii
+Using provided null maps.
+Dataset not found. Downloading from OSF...
+Saved to: /Users/leonlotter/projects/ABAnnotate/ABAnnotate/datasets/DisGeNET-diseaseCuratedMental-discrete.mat
+GCEA dataset: DisGeNET-diseaseCuratedMental-discrete
+
+┌-------------------------------------------------------------------------┐
+┝ 13-Apr-2022 10:46:59 Running GCEA                                       ┤
+└-------------------------------------------------------------------------┘
+
+GCEA settings: 
+- Using phenotype data from: /Users/leonlotter/MAsync/project/data/ale/ale_z.nii.gz 
+- Using atlas with 116 regions: /Users/leonlotter/projects/ABAnnotate/ABAnnotate/atlas/Schaefer100-7_TianS1/Schaefer100-7_TianS1_atlas.nii 
+- Using 5000 phenotype null maps: /Users/leonlotter/MAsync/project/data/context/gcea/gcea_nullmaps_ale_z.mat 
+- Using dataset: /Users/leonlotter/projects/ABAnnotate/ABAnnotate/datasets/DisGeNET-diseaseCuratedMental-discrete.mat 
+- Including categories with between 5 and Inf genes 
+- Removing annotated genes that co-occur in >= 100 percent of categories 
+- Using binarized gene-category-phenotype-associations 
+- Estimating 5000 category null samples 
+- Calculating gene scores based on Spearman correlations 
+- Aggregating gene scores per category by weightedmean 
+- Calculating p-values from right tail at BH-corrected p < 0.0500 
+
+
+Generating category null samples...
+Loaded 332 annotated categories from /Users/leonlotter/projects/ABAnnotate/ABAnnotate/datasets/DisGeNET-diseaseCuratedMental-discrete.mat.
+Transposed 0 category annotation vectors from row to column vector.
+Using all categories in dataset.
+Matching annotated genes to 15633 ABA-genes.
+7373/9079 annotated genes are in gene expression dataset.
+26 categories have no annotated genes matching our 15633 genes.
+Using binarized category-gene-annotations.
+Removed 0 genes annotated in >= 100 percent of categories.
+Categories have between 0 and 697 annotated genes.
+Filtered to 150 categories with between 5 and Inf annotated genes.
+Computing category scores for 5000 generated 116-region null-phenotype-maps.
+(Spatial null maps loaded from /Users/leonlotter/MAsync/project/data/context/gcea/gcea_nullmaps_ale_z.mat)
+1904 of 7117 annotated genes are unique.
+Check again: We should have data for all 1904 of 1904 unique annotated genes.
+Computing category null distributions corresponding to 5000 null phenotypes for all 1904 genes annotated to categories.
+Progress (this might take some time...):
+....................................................................................................
+Starting parallel pool (parpool) using the 'local' profile ...
+Connected to the parallel pool (number of workers: 2).
+Warning: the font "Times" is not available, so "Lucida Bright" has been substituted, but may have unexpected appearance or behavor. Re-enable the "Times" font to remove this warning.
+Warning: the font "Times" is not available, so "Lucida Bright" has been substituted, but may have unexpected appearance or behavor. Re-enable the "Times" font to remove this warning.
+....................................................................................................
+Looking in at Category 1/150: C0001956 (31 genes).
+31/31 genes from this category have matching records in the expression data.
+Looking in at Category 2/150: C0001969 (23 genes).
+23/23 genes from this category have matching records in the expression data.
+Looking in at Category 3/150: C0001973 (204 genes).
+204/204 genes from this category have matching records in the expression data.
+Looking in at Category 4/150: C0002622 (12 genes).
+12/12 genes from this category have matching records in the expression data.
+Looking in at Category 5/150: C0003469 (32 genes).
+32/32 genes from this category have matching records in the expression data.
+Looking in at Category 6/150: C0004352 (212 genes).
+212/212 genes from this category have matching records in the expression data.
+Looking in at Category 7/150: C0004930 (9 genes).
+9/9 genes from this category have matching records in the expression data.
+Looking in at Category 8/150: C0004936 (9 genes).
+9/9 genes from this category have matching records in the expression data.
+Looking in at Category 9/150: C0005586 (388 genes).
+388/388 genes from this category have matching records in the expression data.
+Looking in at Category 10/150: C0005587 (70 genes).
+70/70 genes from this category have matching records in the expression data.
+Looking in at Category 11/150: C0006868 (10 genes).
+10/10 genes from this category have matching records in the expression data.
+Looking in at Category 12/150: C0006870 (17 genes).
+17/17 genes from this category have matching records in the expression data.
+Looking in at Category 13/150: C0007370 (12 genes).
+12/12 genes from this category have matching records in the expression data.
+Looking in at Category 14/150: C0008073 (29 genes).
+29/29 genes from this category have matching records in the expression data.
+Looking in at Category 15/150: C0009171 (98 genes).
+98/98 genes from this category have matching records in the expression data.
+Looking in at Category 16/150: C0009241 (28 genes).
+28/28 genes from this category have matching records in the expression data.
+Looking in at Category 17/150: C0011206 (6 genes).
+6/6 genes from this category have matching records in the expression data.
+Looking in at Category 18/150: C0011265 (77 genes).
+77/77 genes from this category have matching records in the expression data.
+Looking in at Category 19/150: C0011570 (207 genes).
+207/207 genes from this category have matching records in the expression data.
+Looking in at Category 20/150: C0011573 (36 genes).
+36/36 genes from this category have matching records in the expression data.
+Looking in at Category 21/150: C0011574 (18 genes).
+18/18 genes from this category have matching records in the expression data.
+Looking in at Category 22/150: C0011581 (229 genes).
+229/229 genes from this category have matching records in the expression data.
+Looking in at Category 23/150: C0011757 (7 genes).
+7/7 genes from this category have matching records in the expression data.
+Looking in at Category 24/150: C0013146 (94 genes).
+94/94 genes from this category have matching records in the expression data.
+Looking in at Category 25/150: C0013170 (94 genes).
+94/94 genes from this category have matching records in the expression data.
+Looking in at Category 26/150: C0013222 (94 genes).
+94/94 genes from this category have matching records in the expression data.
+Looking in at Category 27/150: C0019337 (6 genes).
+6/6 genes from this category have matching records in the expression data.
+Looking in at Category 28/150: C0020796 (126 genes).
+126/126 genes from this category have matching records in the expression data.
+Looking in at Category 29/150: C0023014 (11 genes).
+11/11 genes from this category have matching records in the expression data.
+Looking in at Category 30/150: C0023186 (27 genes).
+27/27 genes from this category have matching records in the expression data.
+Looking in at Category 31/150: C0024517 (7 genes).
+7/7 genes from this category have matching records in the expression data.
+Looking in at Category 32/150: C0024713 (65 genes).
+65/65 genes from this category have matching records in the expression data.
+Looking in at Category 33/150: C0024809 (28 genes).
+28/28 genes from this category have matching records in the expression data.
+Looking in at Category 34/150: C0025193 (31 genes).
+31/31 genes from this category have matching records in the expression data.
+Looking in at Category 35/150: C0025261 (37 genes).
+37/37 genes from this category have matching records in the expression data.
+Looking in at Category 36/150: C0025363 (126 genes).
+126/126 genes from this category have matching records in the expression data.
+Looking in at Category 37/150: C0026552 (7 genes).
+7/7 genes from this category have matching records in the expression data.
+Looking in at Category 38/150: C0026613 (7 genes).
+7/7 genes from this category have matching records in the expression data.
+Looking in at Category 39/150: C0027412 (5 genes).
+5/5 genes from this category have matching records in the expression data.
+Looking in at Category 40/150: C0028043 (9 genes).
+9/9 genes from this category have matching records in the expression data.
+Looking in at Category 41/150: C0029095 (5 genes).
+5/5 genes from this category have matching records in the expression data.
+Looking in at Category 42/150: C0029231 (94 genes).
+94/94 genes from this category have matching records in the expression data.
+Looking in at Category 43/150: C0031391 (7 genes).
+7/7 genes from this category have matching records in the expression data.
+Looking in at Category 44/150: C0033922 (7 genes).
+7/7 genes from this category have matching records in the expression data.
+Looking in at Category 45/150: C0033937 (19 genes).
+19/19 genes from this category have matching records in the expression data.
+Looking in at Category 46/150: C0033941 (15 genes).
+15/15 genes from this category have matching records in the expression data.
+Looking in at Category 47/150: C0033958 (11 genes).
+11/11 genes from this category have matching records in the expression data.
+Looking in at Category 48/150: C0033975 (77 genes).
+77/77 genes from this category have matching records in the expression data.
+Looking in at Category 49/150: C0036337 (25 genes).
+25/25 genes from this category have matching records in the expression data.
+Looking in at Category 50/150: C0036341 (697 genes).
+697/697 genes from this category have matching records in the expression data.
+Looking in at Category 51/150: C0036349 (6 genes).
+6/6 genes from this category have matching records in the expression data.
+Looking in at Category 52/150: C0036358 (11 genes).
+11/11 genes from this category have matching records in the expression data.
+Looking in at Category 53/150: C0038580 (94 genes).
+94/94 genes from this category have matching records in the expression data.
+Looking in at Category 54/150: C0038586 (94 genes).
+94/94 genes from this category have matching records in the expression data.
+Looking in at Category 55/150: C0038587 (48 genes).
+48/48 genes from this category have matching records in the expression data.
+Looking in at Category 56/150: C0040332 (9 genes).
+9/9 genes from this category have matching records in the expression data.
+Looking in at Category 57/150: C0041671 (18 genes).
+18/18 genes from this category have matching records in the expression data.
+Looking in at Category 58/150: C0041696 (196 genes).
+196/196 genes from this category have matching records in the expression data.
+Looking in at Category 59/150: C0085159 (14 genes).
+14/14 genes from this category have matching records in the expression data.
+Looking in at Category 60/150: C0085762 (48 genes).
+48/48 genes from this category have matching records in the expression data.
+Looking in at Category 61/150: C0085996 (28 genes).
+28/28 genes from this category have matching records in the expression data.
+Looking in at Category 62/150: C0085997 (28 genes).
+28/28 genes from this category have matching records in the expression data.
+Looking in at Category 63/150: C0086133 (32 genes).
+32/32 genes from this category have matching records in the expression data.
+Looking in at Category 64/150: C0178417 (17 genes).
+17/17 genes from this category have matching records in the expression data.
+Looking in at Category 65/150: C0221074 (6 genes).
+6/6 genes from this category have matching records in the expression data.
+Looking in at Category 66/150: C0221480 (5 genes).
+5/5 genes from this category have matching records in the expression data.
+Looking in at Category 67/150: C0221765 (7 genes).
+7/7 genes from this category have matching records in the expression data.
+Looking in at Category 68/150: C0233477 (5 genes).
+5/5 genes from this category have matching records in the expression data.
+Looking in at Category 69/150: C0233514 (15 genes).
+15/15 genes from this category have matching records in the expression data.
+Looking in at Category 70/150: C0233750 (12 genes).
+12/12 genes from this category have matching records in the expression data.
+Looking in at Category 71/150: C0233794 (37 genes).
+37/37 genes from this category have matching records in the expression data.
+Looking in at Category 72/150: C0233796 (12 genes).
+12/12 genes from this category have matching records in the expression data.
+Looking in at Category 73/150: C0234985 (7 genes).
+7/7 genes from this category have matching records in the expression data.
+Looking in at Category 74/150: C0236733 (56 genes).
+56/56 genes from this category have matching records in the expression data.
+Looking in at Category 75/150: C0236735 (10 genes).
+10/10 genes from this category have matching records in the expression data.
+Looking in at Category 76/150: C0236736 (88 genes).
+88/88 genes from this category have matching records in the expression data.
+Looking in at Category 77/150: C0236742 (7 genes).
+7/7 genes from this category have matching records in the expression data.
+Looking in at Category 78/150: C0236795 (12 genes).
+12/12 genes from this category have matching records in the expression data.
+Looking in at Category 79/150: C0236804 (56 genes).
+56/56 genes from this category have matching records in the expression data.
+Looking in at Category 80/150: C0236807 (56 genes).
+56/56 genes from this category have matching records in the expression data.
+Looking in at Category 81/150: C0236969 (94 genes).
+94/94 genes from this category have matching records in the expression data.
+Looking in at Category 82/150: C0241210 (11 genes).
+11/11 genes from this category have matching records in the expression data.
+Looking in at Category 83/150: C0262497 (12 genes).
+12/12 genes from this category have matching records in the expression data.
+Looking in at Category 84/150: C0270458 (5 genes).
+5/5 genes from this category have matching records in the expression data.
+Looking in at Category 85/150: C0282126 (31 genes).
+31/31 genes from this category have matching records in the expression data.
+Looking in at Category 86/150: C0338462 (7 genes).
+7/7 genes from this category have matching records in the expression data.
+Looking in at Category 87/150: C0338630 (7 genes).
+7/7 genes from this category have matching records in the expression data.
+Looking in at Category 88/150: C0338656 (11 genes).
+11/11 genes from this category have matching records in the expression data.
+Looking in at Category 89/150: C0338715 (6 genes).
+6/6 genes from this category have matching records in the expression data.
+Looking in at Category 90/150: C0338831 (71 genes).
+71/71 genes from this category have matching records in the expression data.
+Looking in at Category 91/150: C0344315 (9 genes).
+9/9 genes from this category have matching records in the expression data.
+Looking in at Category 92/150: C0349204 (55 genes).
+55/55 genes from this category have matching records in the expression data.
+Looking in at Category 93/150: C0376280 (32 genes).
+32/32 genes from this category have matching records in the expression data.
+Looking in at Category 94/150: C0376338 (9 genes).
+9/9 genes from this category have matching records in the expression data.
+Looking in at Category 95/150: C0376384 (9 genes).
+9/9 genes from this category have matching records in the expression data.
+Looking in at Category 96/150: C0424605 (36 genes).
+36/36 genes from this category have matching records in the expression data.
+Looking in at Category 97/150: C0454655 (11 genes).
+11/11 genes from this category have matching records in the expression data.
+Looking in at Category 98/150: C0494410 (5 genes).
+5/5 genes from this category have matching records in the expression data.
+Looking in at Category 99/150: C0494463 (77 genes).
+77/77 genes from this category have matching records in the expression data.
+Looking in at Category 100/150: C0497327 (15 genes).
+15/15 genes from this category have matching records in the expression data.
+Looking in at Category 101/150: C0524661 (5 genes).
+5/5 genes from this category have matching records in the expression data.
+Looking in at Category 102/150: C0524662 (5 genes).
+5/5 genes from this category have matching records in the expression data.
+Looking in at Category 103/150: C0525045 (131 genes).
+131/131 genes from this category have matching records in the expression data.
+Looking in at Category 104/150: C0546126 (77 genes).
+77/77 genes from this category have matching records in the expression data.
+Looking in at Category 105/150: C0557874 (125 genes).
+125/125 genes from this category have matching records in the expression data.
+Looking in at Category 106/150: C0600241 (6 genes).
+6/6 genes from this category have matching records in the expression data.
+Looking in at Category 107/150: C0600272 (7 genes).
+7/7 genes from this category have matching records in the expression data.
+Looking in at Category 108/150: C0600427 (102 genes).
+102/102 genes from this category have matching records in the expression data.
+Looking in at Category 109/150: C0740858 (95 genes).
+95/95 genes from this category have matching records in the expression data.
+Looking in at Category 110/150: C0750900 (77 genes).
+77/77 genes from this category have matching records in the expression data.
+Looking in at Category 111/150: C0750906 (12 genes).
+12/12 genes from this category have matching records in the expression data.
+Looking in at Category 112/150: C0750907 (12 genes).
+12/12 genes from this category have matching records in the expression data.
+Looking in at Category 113/150: C0751071 (7 genes).
+7/7 genes from this category have matching records in the expression data.
+Looking in at Category 114/150: C0751072 (7 genes).
+7/7 genes from this category have matching records in the expression data.
+Looking in at Category 115/150: C0751262 (27 genes).
+27/27 genes from this category have matching records in the expression data.
+Looking in at Category 116/150: C0751263 (27 genes).
+27/27 genes from this category have matching records in the expression data.
+Looking in at Category 117/150: C0751265 (27 genes).
+27/27 genes from this category have matching records in the expression data.
+Looking in at Category 118/150: C0751292 (37 genes).
+37/37 genes from this category have matching records in the expression data.
+Looking in at Category 119/150: C0751293 (37 genes).
+37/37 genes from this category have matching records in the expression data.
+Looking in at Category 120/150: C0751294 (37 genes).
+37/37 genes from this category have matching records in the expression data.
+Looking in at Category 121/150: C0751456 (7 genes).
+7/7 genes from this category have matching records in the expression data.
+Looking in at Category 122/150: C0751706 (8 genes).
+8/8 genes from this category have matching records in the expression data.
+Looking in at Category 123/150: C0751759 (5 genes).
+5/5 genes from this category have matching records in the expression data.
+Looking in at Category 124/150: C0751760 (5 genes).
+5/5 genes from this category have matching records in the expression data.
+Looking in at Category 125/150: C0752208 (6 genes).
+6/6 genes from this category have matching records in the expression data.
+Looking in at Category 126/150: C0851578 (7 genes).
+7/7 genes from this category have matching records in the expression data.
+Looking in at Category 127/150: C0853193 (5 genes).
+5/5 genes from this category have matching records in the expression data.
+Looking in at Category 128/150: C0856975 (7 genes).
+7/7 genes from this category have matching records in the expression data.
+Looking in at Category 129/150: C0917816 (126 genes).
+126/126 genes from this category have matching records in the expression data.
+Looking in at Category 130/150: C1263846 (20 genes).
+20/20 genes from this category have matching records in the expression data.
+Looking in at Category 131/150: C1269683 (185 genes).
+185/185 genes from this category have matching records in the expression data.
+Looking in at Category 132/150: C1270972 (7 genes).
+7/7 genes from this category have matching records in the expression data.
+Looking in at Category 133/150: C1279420 (32 genes).
+32/32 genes from this category have matching records in the expression data.
+Looking in at Category 134/150: C1321905 (18 genes).
+18/18 genes from this category have matching records in the expression data.
+Looking in at Category 135/150: C1456784 (6 genes).
+6/6 genes from this category have matching records in the expression data.
+Looking in at Category 136/150: C1510472 (94 genes).
+94/94 genes from this category have matching records in the expression data.
+Looking in at Category 137/150: C1510586 (71 genes).
+71/71 genes from this category have matching records in the expression data.
+Looking in at Category 138/150: C1527402 (5 genes).
+5/5 genes from this category have matching records in the expression data.
+Looking in at Category 139/150: C1535926 (89 genes).
+89/89 genes from this category have matching records in the expression data.
+Looking in at Category 140/150: C1571983 (18 genes).
+18/18 genes from this category have matching records in the expression data.
+Looking in at Category 141/150: C1571984 (18 genes).
+18/18 genes from this category have matching records in the expression data.
+Looking in at Category 142/150: C1839839 (13 genes).
+13/13 genes from this category have matching records in the expression data.
+Looking in at Category 143/150: C2362914 (5 genes).
+5/5 genes from this category have matching records in the expression data.
+Looking in at Category 144/150: C3160814 (5 genes).
+5/5 genes from this category have matching records in the expression data.
+Looking in at Category 145/150: C3496069 (10 genes).
+10/10 genes from this category have matching records in the expression data.
+Looking in at Category 146/150: C3714756 (416 genes).
+416/416 genes from this category have matching records in the expression data.
+Looking in at Category 147/150: C4042891 (7 genes).
+7/7 genes from this category have matching records in the expression data.
+Looking in at Category 148/150: C4046029 (9 genes).
+9/9 genes from this category have matching records in the expression data.
+Looking in at Category 149/150: C4505390 (6 genes).
+6/6 genes from this category have matching records in the expression data.
+Looking in at Category 150/150: C4551628 (5 genes).
+5/5 genes from this category have matching records in the expression data.
+Saving nulls from 5000 iterations to '/Users/leonlotter/projects/ABAnnotate/ABAnnotate/nulls/categonulls_DisGeNET-diseaseCuratedMental-discrete_ale_z_DisGeNET.mat'
+Loaded 332 annotated categories from /Users/leonlotter/projects/ABAnnotate/ABAnnotate/datasets/DisGeNET-diseaseCuratedMental-discrete.mat.
+Transposed 0 category annotation vectors from row to column vector.
+Using all categories in dataset.
+Matching annotated genes to 15633 ABA-genes.
+7373/9079 annotated genes are in gene expression dataset.
+26 categories have no annotated genes matching our 15633 genes.
+Using binarized category-gene-annotations.
+Removed 0 genes annotated in >= 100 percent of categories.
+Categories have between 0 and 697 annotated genes.
+Filtered to 150 categories with between 5 and Inf annotated genes.
+Computing category scores for the spa

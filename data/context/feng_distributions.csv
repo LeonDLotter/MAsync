@@ -1,0 +1,3 @@
+roiName,nvox_roi,targetNr,targetName,nvox_target,nvox_overlap,relDistr,absDistr
+ale_rTPJ_cluster,357,1,Feng_socialNonsocial,2768,113,0.3165266106442577,0.040823699421965315
+macm_rTPJ_network,16085,1,Feng_socialNonsocial,2768,1387,0.08622940627914205,0.5010838150289018

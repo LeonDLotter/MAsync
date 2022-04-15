@@ -1,0 +1,461 @@
+Cluster representative	Cluster member	Cluster member description	Member P-value	Member user defined value	Member IC	Member frequency
+GO:1901386	GO:1901386	negative regulation of voltage-gated calcium channel activity	2.120e-06	2.347e-01	5.135e+00	7.324e-06
+GO:1901386	GO:1901385	regulation of voltage-gated calcium channel activity	3.042e-03	1.305e-01	4.943e+00	1.141e-05
+GO:1901386	GO:0031339	negative regulation of vesicle fusion	1.511e-03	2.080e-01	6.094e+00	8.049e-07
+GO:1901386	GO:0043497	regulation of protein heterodimerization activity	2.479e-03	1.078e-01	7.816e+00	1.526e-08
+GO:1901386	GO:1902261	positive regulation of delayed rectifier potassium channel activity	4.520e-04	1.439e-01	6.163e+00	6.866e-07
+GO:1901386	GO:1903818	positive regulation of voltage-gated potassium channel activity	4.520e-04	1.439e-01	4.909e+00	1.232e-05
+GO:1901386	GO:0042996	regulation of Golgi to plasma membrane protein transport	1.500e-05	3.685e-01	5.138e+00	7.274e-06
+GO:1901386	GO:2000300	regulation of synaptic vesicle exocytosis	7.958e-04	1.791e-01	5.035e+00	9.231e-06
+GO:1901386	GO:1903748	negative regulation of establishment of protein localization to mitochondrion	9.507e-04	1.984e-01	5.940e+00	1.148e-06
+GO:1901386	GO:1902803	regulation of synaptic vesicle transport	3.103e-03	1.560e-01	6.240e+00	5.760e-07
+GO:1901386	GO:2000465	regulation of glycogen (starch) synthase activity	3.823e-04	1.947e-01	5.848e+00	1.419e-06
+GO:1901386	GO:0007176	regulation of epidermal growth factor-activated receptor activity	3.876e-04	1.327e-01	5.177e+00	6.656e-06
+GO:1901386	GO:0045741	positive regulation of epidermal growth factor-activated receptor activity	3.710e-03	2.207e-01	5.652e+00	2.228e-06
+GO:1901386	GO:0033131	regulation of glucokinase activity	7.446e-04	1.936e-01	5.896e+00	1.270e-06
+GO:1901386	GO:1903299	regulation of hexokinase activity	4.885e-04	2.236e-01	5.829e+00	1.484e-06
+GO:1901386	GO:0005979	regulation of glycogen biosynthetic process	2.025e-03	6.454e-02	5.198e+00	6.336e-06
+GO:2001016	GO:2001016	positive regulation of skeletal muscle cell differentiation	2.370e-06	4.175e-01	5.881e+00	1.316e-06
+GO:2001016	GO:2001014	regulation of skeletal muscle cell differentiation	5.370e-05	1.498e-01	5.352e+00	4.444e-06
+GO:2001016	GO:0061003	positive regulation of dendritic spine morphogenesis	3.057e-04	1.812e-01	5.733e+00	1.850e-06
+GO:2001016	GO:0050775	positive regulation of dendrite morphogenesis	2.410e-04	1.583e-01	5.305e+00	4.951e-06
+GO:2001016	GO:0032736	positive regulation of interleukin-13 production	8.019e-04	9.546e-02	5.677e+00	2.106e-06
+GO:2001016	GO:0061001	regulation of dendritic spine morphogenesis	1.690e-03	1.202e-01	5.039e+00	9.136e-06
+GO:2001016	GO:1900006	positive regulation of dendrite development	1.851e-03	8.396e-02	5.746e+00	1.793e-06
+GO:2001016	GO:0090129	positive regulation of synapse maturation	2.579e-03	1.867e-01	5.870e+00	1.350e-06
+GO:2001016	GO:0060999	positive regulation of dendritic spine development	2.962e-04	1.288e-01	5.299e+00	5.028e-06
+GO:2001016	GO:0060998	regulation of dendritic spine development	3.698e-04	1.203e-01	5.108e+00	7.793e-06
+GO:2001016	GO:0072216	positive regulation of metanephros development	2.505e-03	1.106e-01	6.505e+00	3.128e-07
+GO:2001016	GO:0048643	positive regulation of skeletal muscle tissue development	6.914e-04	9.056e-02	5.460e+00	3.467e-06
+GO:2001016	GO:0048641	regulation of skeletal muscle tissue development	2.004e-03	7.139e-02	5.308e+00	4.925e-06
+GO:2001016	GO:0043415	positive regulation of skeletal muscle tissue regeneration	4.757e-04	1.188e-01	5.962e+00	1.091e-06
+GO:2001016	GO:0043416	regulation of skeletal muscle tissue regeneration	4.757e-04	1.188e-01	5.742e+00	1.812e-06
+GO:2001016	GO:2000074	regulation of type B pancreatic cell development	1.014e-04	3.900e-01	5.897e+00	1.266e-06
+GO:2001016	GO:0048672	positive regulation of collateral sprouting	7.160e-04	1.368e-01	5.646e+00	2.258e-06
+GO:2001016	GO:0048670	regulation of collateral sprouting	4.377e-03	9.411e-02	5.264e+00	5.451e-06
+GO:2001016	GO:0045630	positive regulation of T-helper 2 cell differentiation	4.762e-04	1.447e-01	6.103e+00	7.896e-07
+GO:2001016	GO:0045628	regulation of T-helper 2 cell differentiation	1.172e-03	1.201e-01	5.708e+00	1.961e-06
+GO:2001016	GO:0045646	regulation of erythrocyte differentiation	2.400e-04	8.631e-02	4.959e+00	1.098e-05
+GO:2001016	GO:0045648	positive regulation of erythrocyte differentiation	1.479e-03	8.051e-02	5.222e+00	5.996e-06
+GO:2001016	GO:0051153	regulation of striated muscle cell differentiation	1.517e-03	6.248e-02	4.737e+00	1.832e-05
+GO:2001016	GO:1900221	regulation of amyloid-beta clearance	3.121e-03	1.230e-01	5.567e+00	2.712e-06
+GO:2001016	GO:0045652	regulation of megakaryocyte differentiation	8.614e-04	1.499e-01	5.332e+00	4.658e-06
+GO:2001016	GO:0045653	negative regulation of megakaryocyte differentiation	2.854e-03	1.896e-01	6.009e+00	9.803e-07
+GO:2001016	GO:1903242	regulation of cardiac muscle hypertrophy in response to stress	1.915e-03	1.453e-01	5.820e+00	1.514e-06
+GO:2001016	GO:1901897	regulation of relaxation of cardiac muscle	2.570e-03	1.363e-01	6.220e+00	6.027e-07
+GO:2001016	GO:0010612	regulation of cardiac muscle adaptation	1.915e-03	1.453e-01	5.816e+00	1.526e-06
+GO:2001016	GO:0042753	positive regulation of circadian rhythm	7.120e-05	1.385e-01	5.135e+00	7.332e-06
+GO:2001016	GO:0042752	regulation of circadian rhythm	1.001e-04	1.004e-01	4.329e+00	4.685e-05
+GO:2001016	GO:0009649	entrainment of circadian clock	7.849e-04	1.201e-01	5.040e+00	9.113e-06
+GO:2001016	GO:0045070	positive regulation of viral genome replication	9.744e-04	8.096e-02	5.135e+00	7.332e-06
+GO:2001016	GO:2000144	positive regulation of DNA-templated transcription, initiation	2.478e-03	9.189e-02	4.762e+00	1.728e-05
+GO:2001016	GO:1901857	positive regulation of cellular respiration	3.387e-04	3.695e-01	5.888e+00	1.293e-06
+GO:2001016	GO:0070873	regulation of glycogen metabolic process	1.042e-03	7.726e-02	5.008e+00	9.807e-06
+GO:2001016	GO:0010694	positive regulation of alkaline phosphatase activity	5.267e-04	1.930e-01	6.138e+00	7.286e-07
+GO:2001016	GO:0010692	regulation of alkaline phosphatase activity	1.641e-03	1.202e-01	5.696e+00	2.014e-06
+GO:2001016	GO:2000273	positive regulation of signaling receptor activity	2.869e-03	1.164e-01	5.278e+00	5.272e-06
+GO:2001016	GO:2001171	positive regulation of ATP biosynthetic process	7.938e-04	1.870e-01	5.961e+00	1.095e-06
+GO:2001016	GO:2001169	regulation of ATP biosynthetic process	1.008e-03	1.366e-01	5.503e+00	3.139e-06
+GO:2001016	GO:0010510	regulation of acetyl-CoA biosynthetic process from pyruvate	3.162e-03	1.533e-01	5.916e+00	1.213e-06
+GO:2001016	GO:0050812	regulation of acyl-CoA biosynthetic process	3.031e-03	1.553e-01	5.852e+00	1.408e-06
+GO:2001016	GO:0045725	positive regulation of glycogen biosynthetic process	3.063e-03	8.733e-02	5.520e+00	3.017e-06
+GO:2001016	GO:0010962	regulation of glucan biosynthetic process	2.025e-03	6.454e-02	5.025e+00	9.433e-06
+GO:2001016	GO:0032885	regulation of polysaccharide biosynthetic process	2.027e-03	7.083e-02	4.944e+00	1.138e-05
+GO:2001016	GO:0032881	regulation of polysaccharide metabolic process	1.273e-03	8.125e-02	4.815e+00	1.533e-05
+GO:2001016	GO:0043471	regulation of cellular carbohydrate catabolic process	2.941e-03	1.364e-01	5.347e+00	4.497e-06
+GO:2001016	GO:0070875	positive regulation of glycogen metabolic process	1.819e-03	1.037e-01	5.425e+00	3.757e-06
+GO:0000290	GO:0000290	deadenylation-dependent decapping of nuclear-transcribed mRNA	1.180e-05	2.786e-01	4.392e+00	4.059e-05
+GO:0000290	GO:0071028	nuclear mRNA surveillance	2.436e-03	1.143e-01	5.138e+00	7.271e-06
+GO:0000290	GO:0043928	exonucleolytic catabolism of deadenylated mRNA	2.234e-03	1.111e-01	5.219e+00	6.035e-06
+GO:0000290	GO:0034661	ncRNA catabolic process	7.572e-04	1.036e-01	3.586e+00	2.595e-04
+GO:0000290	GO:0071025	RNA surveillance	8.575e-04	1.393e-01	4.318e+00	4.807e-05
+GO:0000290	GO:0071027	nuclear RNA surveillance	2.436e-03	1.143e-01	4.527e+00	2.973e-05
+GO:0000290	GO:0000380	alternative mRNA splicing, via spliceosome	2.018e-04	1.487e-01	5.116e+00	7.663e-06
+GO:0000290	GO:0006388	tRNA splicing, via endonucleolytic cleavage and ligation	8.613e-04	1.571e-01	4.106e+00	7.829e-05
+GO:0000290	GO:0010501	RNA secondary structure unwinding	3.387e-04	1.281e-01	4.897e+00	1.266e-05
+GO:0000290	GO:0034470	ncRNA processing	3.137e-03	8.370e-02	1.689e+00	2.046e-02
+GO:0000290	GO:0006244	pyrimidine nucleotide catabolic process	6.160e-05	1.521e-01	3.832e+00	1.474e-04
+GO:0000290	GO:0009223	pyrimidine deoxyribonucleotide catabolic process	2.817e-04	1.334e-01	3.833e+00	1.468e-04
+GO:0000290	GO:0009219	pyrimidine deoxyribonucleotide metabolic process	7.417e-04	8.363e-02	2.873e+00	1.340e-03
+GO:0000290	GO:0045008	depyrimidination	1.223e-03	1.849e-01	7.057e+00	8.773e-08
+GO:0000290	GO:0009134	nucleoside diphosphate catabolic process	3.198e-03	1.443e-01	5.621e+00	2.392e-06
+GO:0000290	GO:0051573	negative regulation of histone H3-K9 methylation	7.820e-05	2.128e-01	5.515e+00	3.055e-06
+GO:0000290	GO:0031061	negative regulation of histone methylation	2.839e-04	1.543e-01	5.128e+00	7.454e-06
+GO:0000290	GO:1900113	negative regulation of histone H3-K9 trimethylation	4.225e-04	2.061e-01	6.022e+00	9.498e-07
+GO:0000290	GO:2000615	regulation of histone H3-K9 acetylation	4.818e-04	1.249e-01	5.417e+00	3.826e-06
+GO:0000290	GO:2000617	positive regulation of histone H3-K9 acetylation	9.865e-04	1.891e-01	5.588e+00	2.582e-06
+GO:0000290	GO:0033184	positive regulation of histone ubiquitination	1.536e-03	1.799e-01	5.723e+00	1.892e-06
+GO:0000290	GO:1901985	positive regulation of protein acetylation	1.776e-03	7.878e-02	4.832e+00	1.472e-05
+GO:0000290	GO:0090308	regulation of DNA methylation-dependent heterochromatin assembly	3.101e-03	1.636e-01	5.530e+00	2.949e-06
+GO:0000290	GO:0033127	regulation of histone phosphorylation	3.853e-03	1.168e-01	5.618e+00	2.411e-06
+GO:0000290	GO:0007026	negative regulation of microtubule depolymerization	2.916e-04	1.197e-01	5.087e+00	8.190e-06
+GO:0000290	GO:0031111	negative regulation of microtubule polymerization or depolymerization	1.763e-03	8.470e-02	4.949e+00	1.124e-05
+GO:0000290	GO:0031114	regulation of microtubule depolymerization	4.745e-04	9.974e-02	4.941e+00	1.146e-05
+GO:0000290	GO:0032055	negative regulation of translation in response to stress	4.558e-04	1.106e-01	5.556e+00	2.781e-06
+GO:0000290	GO:0032057	negative regulation of translational initiation in response to stress	1.617e-03	1.406e-01	5.740e+00	1.820e-06
+GO:0000290	GO:0032785	negative regulation of DNA-templated transcription, elongation	2.151e-03	1.131e-01	5.105e+00	7.854e-06
+GO:0000290	GO:0032966	negative regulation of collagen biosynthetic process	3.310e-03	1.933e-01	6.209e+00	6.180e-07
+GO:0000290	GO:0044804	autophagy of nucleus	1.377e-04	2.111e-01	4.823e+00	1.504e-05
+GO:0000290	GO:0000423	mitophagy	7.760e-05	2.626e-01	5.522e+00	3.006e-06
+GO:0000290	GO:0061726	mitochondrion disassembly	2.987e-04	1.885e-01	4.459e+00	3.479e-05
+GO:0000290	GO:0019563	glycerol catabolic process	1.965e-04	1.890e-01	3.763e+00	1.725e-04
+GO:0000290	GO:0019405	alditol catabolic process	1.965e-04	1.890e-01	3.736e+00	1.837e-04
+GO:0000290	GO:0006071	glycerol metabolic process	4.580e-04	1.575e-01	3.175e+00	6.681e-04
+GO:0000290	GO:0019400	alditol metabolic process	9.118e-04	1.571e-01	3.120e+00	7.592e-04
+GO:0000290	GO:0006089	lactate metabolic process	4.076e-04	2.403e-01	3.656e+00	2.209e-04
+GO:0000290	GO:0006569	tryptophan catabolic process	4.325e-03	1.173e-01	3.306e+00	4.946e-04
+GO:0000290	GO:0046218	indolalkylamine catabolic process	4.325e-03	1.173e-01	3.306e+00	4.946e-04
+GO:0000290	GO:0042436	indole-containing compound catabolic process	4.325e-03	1.173e-01	3.306e+00	4.947e-04
+GO:0000290	GO:0009304	tRNA transcription	5.384e-04	1.946e-01	5.240e+00	5.760e-06
+GO:0000290	GO:0042797	tRNA transcription by RNA polymerase III	1.375e-03	1.967e-01	5.254e+00	5.577e-06
+GO:0000290	GO:0042791	5S class rRNA transcription by RNA polymerase III	1.375e-03	1.967e-01	5.913e+00	1.221e-06
+GO:0000290	GO:0009303	rRNA transcription	2.359e-03	1.024e-01	4.886e+00	1.301e-05
+GO:0000290	GO:0051988	regulation of attachment of spindle microtubules to kinetochore	7.927e-04	1.534e-01	5.030e+00	9.338e-06
+GO:0000290	GO:0032465	regulation of cytokinesis	2.814e-03	6.036e-02	4.116e+00	7.657e-05
+GO:0000290	GO:0070316	regulation of G0 to G1 transition	7.733e-04	1.729e-01	5.597e+00	2.529e-06
+GO:0000290	GO:0007096	regulation of exit from mitosis	4.087e-03	1.099e-01	4.579e+00	2.636e-05
+GO:0000290	GO:1901858	regulation of mitochondrial DNA metabolic process	1.846e-04	2.338e-01	6.002e+00	9.956e-07
+GO:0000290	GO:0006282	regulation of DNA repair	2.353e-04	1.120e-01	3.601e+00	2.508e-04
+GO:0000290	GO:0045739	positive regulation of DNA repair	3.846e-03	6.827e-02	4.587e+00	2.589e-05
+GO:0000290	GO:2000001	regulation of DNA damage checkpoint	7.613e-04	1.329e-01	5.306e+00	4.944e-06
+GO:0000290	GO:1901976	regulation of cell cycle checkpoint	6.592e-04	1.141e-01	4.872e+00	1.342e-05
+GO:0000290	GO:2000774	positive regulation of cellular senescence	5.682e-04	1.381e-01	5.806e+00	1.564e-06
+GO:0000290	GO:0010569	regulation of double-strand break repair via homologous recombination	1.493e-04	1.884e-01	4.750e+00	1.777e-05
+GO:0000290	GO:2000779	regulation of double-strand break repair	1.237e-03	8.336e-02	4.470e+00	3.391e-05
+GO:0000290	GO:0045911	positive regulation of DNA recombination	1.165e-03	7.827e-02	4.916e+00	1.213e-05
+GO:0000290	GO:2001032	regulation of double-strand break repair via nonhomologous end joining	2.167e-03	1.705e-01	5.047e+00	8.979e-06
+GO:0000290	GO:1900103	positive regulation of endoplasmic reticulum unfolded protein response	2.763e-04	1.352e-01	5.583e+00	2.609e-06
+GO:0000290	GO:1903898	negative regulation of PERK-mediated unfolded protein response	3.032e-03	1.267e-01	5.986e+00	1.034e-06
+GO:0000290	GO:0045743	positive regulation of fibroblast growth factor receptor signaling pathway	2.013e-03	1.735e-01	5.616e+00	2.418e-06
+GO:0000290	GO:1902510	regulation of apoptotic DNA fragmentation	9.548e-04	2.060e-01	5.896e+00	1.270e-06
+GO:0000290	GO:1903624	regulation of DNA catabolic process	2.861e-03	1.826e-01	5.882e+00	1.312e-06
+GO:0000290	GO:0035196	production of miRNAs involved in gene silencing by miRNA	1.532e-03	9.458e-02	5.134e+00	7.347e-06
+GO:0000290	GO:0070918	primary sncRNA processing	3.137e-03	8.370e-02	4.659e+00	2.191e-05
+GO:0000290	GO:0031054	pre-miRNA processing	2.591e-03	1.319e-01	5.089e+00	8.152e-06
+GO:0000290	GO:0031119	tRNA pseudouridine synthesis	1.308e-03	2.454e-01	3.500e+00	3.160e-04
+GO:0000290	GO:0008033	tRNA processing	4.755e-03	7.500e-02	1.872e+00	1.343e-02
+GO:0000290	GO:0070127	tRNA aminoacylation for mitochondrial protein translation	9.222e-04	1.924e-01	4.942e+00	1.143e-05
+GO:0000290	GO:0000959	mitochondrial RNA metabolic process	7.697e-04	1.149e-01	4.339e+00	4.580e-05
+GO:0000290	GO:1900864	mitochondrial RNA modification	3.799e-03	1.287e-01	5.124e+00	7.522e-06
+GO:0000290	GO:0070900	mitochondrial tRNA modification	3.799e-03	1.287e-01	5.392e+00	4.055e-06
+GO:0000290	GO:0070525	tRNA threonylcarbamoyladenosine metabolic process	2.061e-03	1.403e-01	3.193e+00	6.415e-04
+GO:0000290	GO:0010586	miRNA metabolic process	2.857e-03	1.433e-01	5.233e+00	5.844e-06
+GO:0000290	GO:0034227	tRNA thio-modification	3.580e-03	2.462e-01	3.525e+00	2.987e-04
+GO:0000290	GO:0006531	aspartate metabolic process	2.258e-03	1.749e-01	4.472e+00	3.376e-05
+GO:0000290	GO:0006541	glutamine metabolic process	1.505e-03	8.455e-02	2.424e+00	3.764e-03
+GO:0000290	GO:0006418	tRNA aminoacylation for protein translation	4.358e-03	1.095e-01	2.038e+00	9.164e-03
+GO:0021702	GO:0021702	cerebellar Purkinje cell differentiation	1.330e-05	2.318e-01	5.527e+00	2.972e-06
+GO:0021702	GO:0021533	cell differentiation in hindbrain	3.350e-05	1.724e-01	5.233e+00	5.844e-06
+GO:0021702	GO:0048668	collateral sprouting	4.318e-03	7.378e-02	5.743e+00	1.808e-06
+GO:0021702	GO:0021892	cerebral cortex GABAergic interneuron differentiation	2.260e-03	1.477e-01	6.092e+00	8.087e-07
+GO:0021702	GO:0021707	cerebellar granule cell differentiation	3.330e-03	1.324e-01	5.681e+00	2.087e-06
+GO:0021702	GO:0001829	trophectodermal cell differentiation	5.759e-04	1.869e-01	5.576e+00	2.655e-06
+GO:0021702	GO:0021895	cerebral cortex neuron differentiation	5.399e-04	1.489e-01	5.457e+00	3.490e-06
+GO:0021702	GO:0021694	cerebellar Purkinje cell layer formation	5.230e-05	1.885e-01	6.711e+00	1.945e-07
+GO:0021702	GO:0021697	cerebellar cortex formation	3.229e-04	1.123e-01	6.301e+00	4.997e-07
+GO:0021702	GO:0021684	cerebellar granular layer formation	3.330e-03	1.324e-01	8.419e+00	3.815e-09
+GO:0021702	GO:0036035	osteoclast development	2.167e-04	2.127e-01	5.899e+00	1.263e-06
+GO:0021702	GO:0021955	central nervous system neuron axonogenesis	3.792e-03	1.168e-01	4.973e+00	1.064e-05
+GO:0021702	GO:0021957	corticospinal tract morphogenesis	2.921e-04	2.369e-01	6.028e+00	9.384e-07
+GO:0021702	GO:0021952	central nervous system projection neuron axonogenesis	3.329e-03	1.287e-01	5.102e+00	7.911e-06
+GO:0021702	GO:0021877	forebrain neuron fate commitment	6.429e-04	2.118e-01	5.745e+00	1.800e-06
+GO:0021702	GO:0042551	neuron maturation	2.651e-03	5.342e-02	5.231e+00	5.871e-06
+GO:0021702	GO:0072176	nephric duct development	4.670e-05	1.863e-01	5.638e+00	2.300e-06
+GO:0021702	GO:0060996	dendritic spine development	1.216e-03	9.706e-02	5.529e+00	2.956e-06
+GO:0021702	GO:0021548	pons development	2.686e-03	1.029e-01	6.640e+00	2.289e-07
+GO:0021702	GO:0022038	corpus callosum development	3.370e-03	1.636e-01	5.743e+00	1.808e-06
+GO:0021702	GO:0048733	sebaceous gland development	2.131e-03	1.503e-01	5.814e+00	1.533e-06
+GO:0021702	GO:0021680	cerebellar Purkinje cell layer development	5.598e-03	6.672e-02	5.630e+00	2.346e-06
+GO:0021702	GO:0021692	cerebellar Purkinje cell layer morphogenesis	8.290e-05	1.776e-01	6.362e+00	4.349e-07
+GO:0021702	GO:0048813	dendrite morphogenesis	2.300e-03	9.020e-02	4.933e+00	1.167e-05
+GO:0021702	GO:0072178	nephric duct morphogenesis	2.209e-03	1.720e-01	5.581e+00	2.624e-06
+GO:0021702	GO:0035136	forelimb morphogenesis	3.007e-03	9.352e-02	5.033e+00	9.269e-06
+GO:0033233	GO:0033233	regulation of protein sumoylation	2.470e-05	1.425e-01	5.130e+00	7.408e-06
+GO:0033233	GO:0033235	positive regulation of protein sumoylation	1.292e-04	1.593e-01	5.403e+00	3.952e-06
+GO:0033233	GO:0033234	negative regulation of protein sumoylation	4.545e-03	7.181e-02	5.547e+00	2.838e-06
+GO:0033233	GO:0050732	negative regulation of peptidyl-tyrosine phosphorylation	7.030e-05	1.329e-01	4.886e+00	1.301e-05
+GO:0033233	GO:0061099	negative regulation of protein tyrosine kinase activity	3.604e-04	1.401e-01	5.169e+00	6.775e-06
+GO:0033233	GO:0033137	negative regulation of peptidyl-serine phosphorylation	1.638e-03	1.132e-01	5.224e+00	5.974e-06
+GO:0033233	GO:0048024	regulation of mRNA splicing, via spliceosome	1.940e-05	1.373e-01	4.225e+00	5.956e-05
+GO:0033233	GO:0000381	regulation of alternative mRNA splicing, via spliceosome	5.620e-05	1.258e-01	4.343e+00	4.539e-05
+GO:0033233	GO:0048026	positive regulation of mRNA splicing, via spliceosome	2.738e-04	1.076e-01	5.249e+00	5.630e-06
+GO:0033233	GO:0050684	regulation of mRNA processing	1.206e-03	6.821e-02	3.289e+00	5.136e-04
+GO:0033233	GO:0048025	negative regulation of mRNA splicing, via spliceosome	1.160e-03	1.182e-01	5.387e+00	4.104e-06
+GO:0033233	GO:0006356	regulation of transcription by RNA polymerase I	1.960e-03	9.504e-02	4.838e+00	1.452e-05
+GO:0033233	GO:0000160	phosphorelay signal transduction system	1.960e-05	2.557e-01	1.956e+00	1.107e-02
+GO:0033233	GO:0070059	intrinsic apoptotic signaling pathway in response to endoplasmic reticulum stress	4.023e-03	5.634e-02	5.153e+00	7.030e-06
+GO:0033233	GO:0023041	neuronal signal transduction	1.280e-04	3.190e-01	5.145e+00	7.164e-06
+GO:0033233	GO:0038180	nerve growth factor signaling pathway	7.593e-04	2.214e-01	5.739e+00	1.823e-06
+GO:0033233	GO:0035357	peroxisome proliferator activated receptor signaling pathway	3.328e-03	9.638e-02	5.818e+00	1.522e-06
+GO:0033233	GO:0061469	regulation of type B pancreatic cell proliferation	3.928e-03	1.421e-01	5.717e+00	1.919e-06
+GO:0033233	GO:0071880	adenylate cyclase-activating adrenergic receptor signaling pathway	2.264e-03	1.141e-01	5.493e+00	3.216e-06
+GO:0033233	GO:0071875	adrenergic receptor signaling pathway	1.759e-03	8.844e-02	4.552e+00	2.804e-05
+GO:0033233	GO:0007214	gamma-aminobutyric acid signaling pathway	2.274e-03	1.176e-01	4.757e+00	1.751e-05
+GO:0033233	GO:1903798	regulation of production of miRNAs involved in gene silencing by miRNA	5.630e-05	1.502e-01	5.109e+00	7.786e-06
+GO:0033233	GO:0070920	regulation of production of small RNA involved in gene silencing by RNA	5.512e-04	1.120e-01	4.981e+00	1.044e-05
+GO:0033233	GO:1903799	negative regulation of production of miRNAs involved in gene silencing by miRNA	1.937e-04	2.198e-01	5.502e+00	3.147e-06
+GO:0033233	GO:0060263	regulation of respiratory burst	4.198e-04	1.488e-01	5.543e+00	2.865e-06
+GO:0033233	GO:0010507	negative regulation of autophagy	1.042e-03	9.893e-02	3.235e+00	5.822e-04
+GO:0033233	GO:2000671	regulation of motor neuron apoptotic process	2.935e-04	2.424e-01	6.063e+00	8.659e-07
+GO:0033233	GO:0010665	regulation of cardiac muscle cell apoptotic process	3.515e-03	6.040e-02	5.399e+00	3.994e-06
+GO:0033233	GO:0010310	regulation of hydrogen peroxide metabolic process	1.438e-03	1.423e-01	5.576e+00	2.655e-06
+GO:0033233	GO:0043484	regulation of RNA splicing	1.971e-03	6.933e-02	3.986e+00	1.033e-04
+GO:0033561	GO:0033561	regulation of water loss via skin	8.690e-06	2.099e-01	5.278e+00	5.276e-06
+GO:0033561	GO:0061436	establishment of skin barrier	9.090e-05	1.848e-01	5.307e+00	4.928e-06
+GO:0033561	GO:0070255	regulation of mucus secretion	3.758e-03	1.113e-01	5.563e+00	2.735e-06
+GO:0033561	GO:0071333	cellular response to glucose stimulus	9.139e-04	8.853e-02	5.059e+00	8.735e-06
+GO:0033561	GO:0071331	cellular response to hexose stimulus	1.320e-03	8.382e-02	5.043e+00	9.048e-06
+GO:0033561	GO:0035729	cellular response to hepatocyte growth factor stimulus	2.111e-03	1.638e-01	5.525e+00	2.983e-06
+GO:0033561	GO:0035728	response to hepatocyte growth factor	2.111e-03	1.638e-01	5.519e+00	3.025e-06
+GO:0033561	GO:1904322	cellular response to forskolin	2.525e-03	1.584e-01	5.739e+00	1.823e-06
+GO:0033561	GO:0045053	protein retention in Golgi apparatus	1.288e-04	2.413e-01	5.048e+00	8.957e-06
+GO:0033561	GO:0001678	cellular glucose homeostasis	1.493e-03	6.992e-02	4.213e+00	6.124e-05
+GO:0033561	GO:0061635	regulation of protein complex stability	3.374e-03	1.766e-01	5.596e+00	2.533e-06
+GO:0033561	GO:0001958	endochondral ossification	4.246e-04	1.196e-01	5.228e+00	5.913e-06
+GO:0033561	GO:0036075	replacement ossification	4.246e-04	1.196e-01	5.228e+00	5.913e-06
+GO:0033561	GO:0086016	AV node cell action potential	1.835e-04	2.983e-01	6.086e+00	8.201e-07
+GO:0033561	GO:0086002	cardiac muscle cell action potential involved in contraction	1.205e-03	1.015e-01	5.142e+00	7.206e-06
+GO:0033561	GO:0060371	regulation of atrial cardiac muscle cell membrane depolarization	1.202e-03	1.572e-01	5.683e+00	2.075e-06
+GO:0033561	GO:0070986	left/right axis specification	3.530e-04	1.573e-01	5.566e+00	2.716e-06
+GO:0033561	GO:0060972	left/right pattern formation	3.946e-04	1.825e-01	5.343e+00	4.539e-06
+GO:0033561	GO:0014898	cardiac muscle hypertrophy in response to stress	2.300e-05	1.864e-01	5.576e+00	2.655e-06
+GO:0033561	GO:0003299	muscle hypertrophy in response to stress	2.300e-05	1.864e-01	5.576e+00	2.655e-06
+GO:0033561	GO:0014887	cardiac muscle adaptation	2.230e-05	1.626e-01	5.559e+00	2.758e-06
+GO:0033561	GO:0014848	urinary tract smooth muscle contraction	8.720e-04	1.030e-01	5.788e+00	1.629e-06
+GO:0033561	GO:0014832	urinary bladder smooth muscle contraction	8.720e-04	1.030e-01	5.905e+00	1.244e-06
+GO:0033561	GO:0001964	startle response	6.760e-05	1.378e-01	5.373e+00	4.234e-06
+GO:0033561	GO:0050905	neuromuscular process	1.265e-04	9.092e-02	4.659e+00	2.190e-05
+GO:0033561	GO:0042297	vocal learning	7.833e-04	2.167e-01	5.967e+00	1.080e-06
+GO:0033561	GO:0007638	mechanosensory behavior	6.775e-04	1.132e-01	5.419e+00	3.815e-06
+GO:0033561	GO:0098596	imitative learning	7.833e-04	2.167e-01	5.967e+00	1.080e-06
+GO:0033561	GO:0098598	learned vocalization behavior or vocal learning	7.833e-04	2.167e-01	5.831e+00	1.476e-06
+GO:0033561	GO:0098597	observational learning	2.198e-03	1.772e-01	5.919e+00	1.205e-06
+GO:0033561	GO:0010992	ubiquitin recycling	5.012e-04	1.819e-01	5.876e+00	1.331e-06
+GO:0033561	GO:0030007	cellular potassium ion homeostasis	3.469e-03	1.438e-01	4.699e+00	2.001e-05
+GO:0033561	GO:0007042	lysosomal lumen acidification	3.590e-04	2.676e-01	5.788e+00	1.629e-06
+GO:0033561	GO:0035751	regulation of lysosomal lumen pH	9.158e-04	1.771e-01	5.565e+00	2.724e-06
+GO:0033561	GO:0055064	chloride ion homeostasis	2.085e-03	1.392e-01	5.471e+00	3.384e-06
+GO:0033561	GO:0055083	monovalent inorganic anion homeostasis	2.085e-03	1.392e-01	5.464e+00	3.433e-06
+GO:0071107	GO:0071107	response to parathyroid hormone	2.450e-05	2.383e-01	5.710e+00	1.949e-06
+GO:0071107	GO:0072396	response to cell cycle checkpoint signaling	2.601e-04	2.092e-01	5.302e+00	4.989e-06
+GO:0071107	GO:0072402	response to DNA integrity checkpoint signaling	2.601e-04	2.092e-01	5.473e+00	3.364e-06
+GO:0071107	GO:0043201	response to leucine	2.157e-04	1.926e-01	5.667e+00	2.155e-06
+GO:0071107	GO:0009746	response to hexose	4.286e-03	5.492e-02	4.397e+00	4.006e-05
+GO:0071107	GO:1902170	cellular response to reactive nitrogen species	3.061e-03	1.062e-01	5.591e+00	2.567e-06
+GO:0071107	GO:0045472	response to ether	8.654e-04	1.546e-01	5.755e+00	1.759e-06
+GO:0071107	GO:0009750	response to fructose	6.592e-04	2.294e-01	4.822e+00	1.508e-05
+GO:0071107	GO:0009749	response to glucose	3.942e-03	5.516e-02	4.605e+00	2.486e-05
+GO:0071107	GO:0071871	response to epinephrine	2.473e-03	7.579e-02	5.874e+00	1.335e-06
+GO:0071107	GO:1904321	response to forskolin	2.525e-03	1.584e-01	5.739e+00	1.823e-06
+GO:0071107	GO:0071236	cellular response to antibiotic	1.080e-04	1.666e-01	5.669e+00	2.144e-06
+GO:0071107	GO:0071322	cellular response to carbohydrate stimulus	2.641e-03	7.475e-02	4.951e+00	1.121e-05
+GO:0071107	GO:0060992	response to fungicide	5.138e-03	1.188e-01	6.816e+00	1.526e-07
+GO:0071107	GO:0071316	cellular response to nicotine	6.251e-04	1.892e-01	5.927e+00	1.183e-06
+GO:0071107	GO:0071326	cellular response to monosaccharide stimulus	1.320e-03	8.382e-02	5.040e+00	9.113e-06
+GO:0071107	GO:0061734	parkin-mediated stimulation of mitophagy in response to mitochondrial depolarization	4.386e-04	2.233e-01	6.037e+00	9.193e-07
+GO:0071107	GO:0098779	positive regulation of mitophagy in response to mitochondrial depolarization	3.009e-04	2.191e-01	5.752e+00	1.770e-06
+GO:0071107	GO:0098780	response to mitochondrial depolarisation	3.009e-04	2.191e-01	5.401e+00	3.971e-06
+GO:0085020	GO:0085020	protein K6-linked ubiquitination	1.210e-05	2.624e-01	5.600e+00	2.510e-06
+GO:0085020	GO:0070936	protein K48-linked ubiquitination	1.351e-03	7.227e-02	4.813e+00	1.538e-05
+GO:0085020	GO:0035518	histone H2A monoubiquitination	4.500e-05	2.079e-01	4.889e+00	1.291e-05
+GO:0085020	GO:0033522	histone H2A ubiquitination	3.323e-03	8.464e-02	4.767e+00	1.710e-05
+GO:0085020	GO:0033523	histone H2B ubiquitination	4.070e-03	1.460e-01	5.277e+00	5.283e-06
+GO:0085020	GO:0016926	protein desumoylation	1.016e-04	2.016e-01	5.110e+00	7.763e-06
+GO:0085020	GO:0070646	protein modification by small protein removal	7.918e-04	8.342e-02	3.246e+00	5.672e-04
+GO:0085020	GO:0016578	histone deubiquitination	6.880e-05	1.614e-01	4.604e+00	2.487e-05
+GO:0085020	GO:0010390	histone monoubiquitination	1.232e-03	1.106e-01	3.755e+00	1.757e-04
+GO:0085020	GO:0070536	protein K63-linked deubiquitination	3.424e-04	1.239e-01	4.638e+00	2.300e-05
+GO:0085020	GO:0016579	protein deubiquitination	1.113e-03	7.133e-02	3.279e+00	5.261e-04
+GO:0085020	GO:0035520	monoubiquitinated protein deubiquitination	7.161e-04	1.784e-01	5.262e+00	5.474e-06
+GO:0085020	GO:0071108	protein K48-linked deubiquitination	3.240e-03	1.014e-01	4.507e+00	3.111e-05
+GO:1901524	GO:1901524	regulation of mitophagy	1.280e-05	2.786e-01	5.380e+00	4.173e-06
+GO:1901524	GO:1903146	regulation of autophagy of mitochondrion	4.449e-04	1.435e-01	5.082e+00	8.274e-06
+GO:1901524	GO:1903147	negative regulation of autophagy of mitochondrion	5.430e-05	3.088e-01	5.734e+00	1.846e-06
+GO:1901524	GO:0016242	negative regulation of macroautophagy	7.764e-04	1.448e-01	4.985e+00	1.035e-05
+GO:1901524	GO:0060236	regulation of mitotic spindle organization	9.190e-04	1.921e-01	4.694e+00	2.022e-05
+GO:1901524	GO:0031112	positive regulation of microtubule polymerization or depolymerization	4.799e-04	1.006e-01	4.950e+00	1.123e-05
+GO:1901524	GO:0031110	regulation of microtubule polymerization or depolymerization	7.227e-04	6.857e-02	4.378e+00	4.186e-05
+GO:1901524	GO:1902857	positive regulation of non-motile cilium assembly	1.060e-05	2.351e-01	5.885e+00	1.305e-06
+GO:1901524	GO:0045724	positive regulation of cilium assembly	3.204e-03	9.386e-02	5.285e+00	5.192e-06
+GO:1901524	GO:0010603	regulation of cytoplasmic mRNA processing body assembly	1.278e-03	1.944e-01	5.057e+00	8.770e-06
+GO:1901524	GO:0035542	regulation of SNARE complex assembly	1.135e-04	2.433e-01	5.053e+00	8.854e-06
+GO:1901524	GO:0031116	positive regulation of microtubule polymerization	3.502e-03	8.834e-02	5.070e+00	8.514e-06
+GO:1901524	GO:0010807	regulation of synaptic vesicle priming	1.510e-03	2.831e-01	5.848e+00	1.419e-06
+GO:1901524	GO:0032462	regulation of protein homooligomerization	5.120e-04	1.772e-01	6.987e+00	1.030e-07
+GO:1901524	GO:0032463	negative regulation of protein homooligomerization	1.306e-03	2.244e-01	7.057e+00	8.773e-08
+GO:1901524	GO:0032459	regulation of protein oligomerization	1.950e-03	1.083e-01	6.526e+00	2.975e-07
+GO:1901524	GO:0032464	positive regulation of protein homooligomerization	1.446e-03	1.359e-01	7.941e+00	1.144e-08
+GO:1901524	GO:0032460	negative regulation of protein oligomerization	2.317e-03	1.564e-01	7.057e+00	8.773e-08
+GO:0006498	GO:0006498	N-terminal protein lipidation	4.560e-05	2.970e-01	4.804e+00	1.570e-05
+GO:0006498	GO:0031365	N-terminal protein amino acid modification	1.257e-03	8.469e-02	3.647e+00	2.255e-04
+GO:0006498	GO:0018230	peptidyl-L-cysteine S-palmitoylation	3.170e-03	1.191e-01	4.894e+00	1.277e-05
+GO:0006498	GO:0018231	peptidyl-S-diacylglycerol-L-cysteine biosynthetic process from peptidyl-cysteine	3.170e-03	1.191e-01	4.894e+00	1.277e-05
+GO:0006498	GO:0006501	C-terminal protein lipidation	7.168e-04	1.373e-01	5.507e+00	3.109e-06
+GO:0006498	GO:0018410	C-terminal protein amino acid modification	1.066e-03	1.451e-01	4.248e+00	5.650e-05
+GO:0006498	GO:0018158	protein oxidation	3.724e-03	1.484e-01	4.867e+00	1.359e-05
+GO:0006498	GO:0035601	protein deacylation	4.116e-03	5.673e-02	3.352e+00	4.450e-04
+GO:0006498	GO:0033169	histone H3-K9 demethylation	4.588e-04	2.095e-01	4.851e+00	1.409e-05
+GO:0006498	GO:0070076	histone lysine demethylation	4.912e-03	1.049e-01	4.307e+00	4.935e-05
+GO:0006498	GO:0016572	histone phosphorylation	2.221e-03	6.602e-02	4.660e+00	2.187e-05
+GO:0006498	GO:0016577	histone demethylation	4.712e-03	1.080e-01	4.268e+00	5.390e-05
+GO:0006498	GO:0035970	peptidyl-threonine dephosphorylation	1.196e-04	1.962e-01	5.295e+00	5.066e-06
+GO:0006498	GO:0070940	dephosphorylation of RNA polymerase II C-terminal domain	2.681e-04	1.736e-01	4.320e+00	4.785e-05
+GO:0006498	GO:0070262	peptidyl-serine dephosphorylation	5.294e-04	1.359e-01	5.289e+00	5.142e-06
+GO:0006498	GO:0006482	protein demethylation	8.067e-04	1.294e-01	3.850e+00	1.413e-04
+GO:0006498	GO:0008214	protein dealkylation	8.067e-04	1.294e-01	3.850e+00	1.413e-04
+GO:0006498	GO:0097503	sialylation	2.159e-04	1.221e-01	4.276e+00	5.301e-05
+GO:0006498	GO:0018298	protein-chromophore linkage	2.002e-03	1.207e-01	3.101e+00	7.932e-04
+GO:0006498	GO:0018107	peptidyl-threonine phosphorylation	5.942e-04	8.991e-02	4.659e+00	2.192e-05
+GO:0006498	GO:0018210	peptidyl-threonine modification	1.580e-03	7.863e-02	4.623e+00	2.382e-05
+GO:0031987	GO:0031987	locomotion involved in locomotory behavior	7.250e-05	1.532e-01	5.804e+00	1.572e-06
+GO:0031987	GO:0021535	cell migration in hindbrain	2.023e-03	1.273e-01	5.577e+00	2.651e-06
+GO:0031987	GO:0021942	radial glia guided migration of Purkinje cell	1.746e-03	2.311e-01	6.135e+00	7.324e-07
+GO:0031987	GO:0030050	vesicle transport along actin filament	1.307e-03	1.044e-01	5.160e+00	6.920e-06
+GO:0031987	GO:0099515	actin filament-based transport	3.412e-03	1.043e-01	5.119e+00	7.599e-06
+GO:0042501	GO:0042501	serine phosphorylation of STAT protein	7.190e-05	2.341e-01	6.214e+00	6.103e-07
+GO:0042501	GO:0018394	peptidyl-lysine acetylation	2.098e-03	6.926e-02	3.578e+00	2.640e-04
+GO:0042501	GO:0018393	internal peptidyl-lysine acetylation	5.450e-04	8.529e-02	3.583e+00	2.614e-04
+GO:0042501	GO:0006475	internal protein amino acid acetylation	4.360e-04	8.888e-02	3.582e+00	2.617e-04
+GO:0042501	GO:0006473	protein acetylation	3.429e-03	6.053e-02	3.336e+00	4.618e-04
+GO:0042501	GO:0043543	protein acylation	1.666e-03	6.364e-02	3.292e+00	5.107e-04
+GO:0042501	GO:0044154	histone H3-K14 acetylation	1.586e-03	1.834e-01	5.533e+00	2.930e-06
+GO:0042501	GO:0043982	histone H4-K8 acetylation	5.000e-05	1.709e-01	5.272e+00	5.340e-06
+GO:0042501	GO:0043984	histone H4-K16 acetylation	4.210e-04	1.122e-01	5.137e+00	7.290e-06
+GO:0042501	GO:0043983	histone H4-K12 acetylation	7.750e-05	2.224e-01	5.695e+00	2.018e-06
+GO:0042501	GO:0043981	histone H4-K5 acetylation	5.000e-05	1.709e-01	5.263e+00	5.462e-06
+GO:0042501	GO:0043967	histone H4 acetylation	3.325e-04	1.030e-01	4.307e+00	4.927e-05
+GO:0042501	GO:0043968	histone H2A acetylation	1.506e-04	1.915e-01	4.627e+00	2.362e-05
+GO:0042501	GO:0016573	histone acetylation	4.741e-04	8.636e-02	3.601e+00	2.505e-04
+GO:0042501	GO:0034983	peptidyl-lysine deacetylation	1.506e-04	1.840e-01	5.703e+00	1.984e-06
+GO:0042501	GO:0006476	protein deacetylation	3.193e-03	5.928e-02	3.616e+00	2.418e-04
+GO:0042501	GO:0098732	macromolecule deacylation	3.445e-03	5.940e-02	3.345e+00	4.523e-04
+GO:0042501	GO:0018027	peptidyl-lysine dimethylation	8.445e-04	1.384e-01	5.090e+00	8.133e-06
+GO:0042501	GO:0036123	histone H3-K9 dimethylation	2.222e-03	2.136e-01	6.499e+00	3.166e-07
+GO:0042501	GO:0036124	histone H3-K9 trimethylation	9.233e-04	1.263e-01	6.225e+00	5.951e-07
+GO:0042501	GO:0018023	peptidyl-lysine trimethylation	2.737e-03	1.080e-01	4.733e+00	1.848e-05
+GO:0051295	GO:0051295	establishment of meiotic spindle localization	7.030e-05	1.937e-01	5.823e+00	1.503e-06
+GO:0051295	GO:0051654	establishment of mitochondrion localization	1.868e-03	1.013e-01	5.104e+00	7.862e-06
+GO:0051295	GO:0007143	female meiotic nuclear division	1.679e-04	1.806e-01	5.032e+00	9.292e-06
+GO:0051295	GO:0000712	resolution of meiotic recombination intermediates	2.323e-03	1.114e-01	4.942e+00	1.143e-05
+GO:0051295	GO:0033206	meiotic cytokinesis	1.749e-03	2.155e-01	5.343e+00	4.536e-06
+GO:0051295	GO:0051306	mitotic sister chromatid separation	4.840e-03	8.280e-02	5.370e+00	4.268e-06
+GO:0051295	GO:0051304	chromosome separation	4.784e-03	7.214e-02	3.884e+00	1.306e-04
+GO:0051295	GO:0016081	synaptic vesicle docking	1.350e-04	3.140e-01	5.501e+00	3.155e-06
+GO:0051295	GO:0016082	synaptic vesicle priming	4.045e-03	1.270e-01	5.221e+00	6.008e-06
+GO:0051295	GO:0031629	synaptic vesicle fusion to presynaptic active zone membrane	1.480e-03	1.508e-01	5.753e+00	1.766e-06
+GO:0051295	GO:0099500	vesicle fusion to plasma membrane	1.480e-03	1.508e-01	5.727e+00	1.873e-06
+GO:0051295	GO:0045023	G0 to G1 transition	8.101e-04	1.518e-01	7.720e+00	1.907e-08
+GO:0051295	GO:0000910	cytokinesis	3.410e-03	4.150e-02	3.178e+00	6.632e-04
+GO:0051295	GO:0051315	attachment of mitotic spindle microtubules to kinetochore	9.733e-04	1.849e-01	4.819e+00	1.516e-05
+GO:0051295	GO:0000083	regulation of transcription involved in G1/S transition of mitotic cell cycle	2.030e-03	9.224e-02	4.804e+00	1.570e-05
+GO:0014894	GO:0014877	response to muscle inactivity involved in regulation of muscle adaptation	1.003e-04	2.282e-01	6.021e+00	9.536e-07
+GO:0014894	GO:0014894	response to denervation involved in regulation of muscle adaptation	1.003e-04	2.282e-01	6.021e+00	9.536e-07
+GO:0014894	GO:0014870	response to muscle inactivity	7.818e-04	2.058e-01	6.009e+00	9.803e-07
+GO:0014894	GO:0014874	response to stimulus involved in regulation of muscle adaptation	2.086e-04	1.508e-01	5.771e+00	1.694e-06
+GO:0014894	GO:0009648	photoperiodism	1.568e-04	1.477e-01	4.915e+00	1.215e-05
+GO:0014894	GO:0043153	entrainment of circadian clock by photoperiod	1.856e-03	1.150e-01	5.199e+00	6.317e-06
+GO:0014894	GO:0050965	detection of temperature stimulus involved in sensory perception of pain	2.407e-03	8.289e-02	5.750e+00	1.778e-06
+GO:0014894	GO:0050961	detection of temperature stimulus involved in sensory perception	2.407e-03	8.289e-02	5.609e+00	2.460e-06
+GO:0014894	GO:0002931	response to ischemia	1.640e-04	1.281e-01	5.270e+00	5.375e-06
+GO:0014894	GO:0006303	double-strand break repair via nonhomologous end joining	2.980e-04	1.277e-01	3.801e+00	1.581e-04
+GO:0014894	GO:0006995	cellular response to nitrogen starvation	1.946e-04	2.764e-01	5.077e+00	8.384e-06
+GO:0014894	GO:0043562	cellular response to nitrogen levels	1.946e-04	2.764e-01	4.998e+00	1.005e-05
+GO:0014894	GO:0045003	double-strand break repair via synthesis-dependent strand annealing	1.148e-03	1.388e-01	5.710e+00	1.949e-06
+GO:0030213	GO:0030213	hyaluronan biosynthetic process	1.069e-04	1.908e-01	5.205e+00	6.244e-06
+GO:0030213	GO:0018146	keratan sulfate biosynthetic process	3.594e-03	9.840e-02	6.499e+00	3.166e-07
+GO:0030213	GO:0006189	'de novo' IMP biosynthetic process	2.241e-04	1.807e-01	2.449e+00	3.558e-03
+GO:0030213	GO:0006188	IMP biosynthetic process	2.581e-04	1.403e-01	2.424e+00	3.770e-03
+GO:0030213	GO:0006678	glucosylceramide metabolic process	1.489e-03	1.163e-01	5.023e+00	9.487e-06
+GO:0030213	GO:0015012	heparan sulfate proteoglycan biosynthetic process	1.115e-03	1.067e-01	4.586e+00	2.595e-05
+GO:0030213	GO:0006167	AMP biosynthetic process	4.254e-03	1.183e-01	3.220e+00	6.022e-04
+GO:0030213	GO:0006011	UDP-glucose metabolic process	1.713e-04	1.581e-01	3.617e+00	2.417e-04
+GO:0030213	GO:0009225	nucleotide-sugar metabolic process	2.424e-03	9.357e-02	2.694e+00	2.023e-03
+GO:0030213	GO:0006047	UDP-N-acetylglucosamine metabolic process	1.225e-03	1.253e-01	3.369e+00	4.272e-04
+GO:0030213	GO:0006002	fructose 6-phosphate metabolic process	4.375e-04	2.286e-01	3.736e+00	1.835e-04
+GO:0030213	GO:0046040	IMP metabolic process	2.130e-03	1.046e-01	2.424e+00	3.771e-03
+GO:0030213	GO:0006744	ubiquinone biosynthetic process	3.634e-04	2.180e-01	2.797e+00	1.597e-03
+GO:0030213	GO:0006743	ubiquinone metabolic process	4.281e-04	2.040e-01	2.797e+00	1.598e-03
+GO:0030213	GO:1901663	quinone biosynthetic process	3.634e-04	2.180e-01	2.446e+00	3.583e-03
+GO:0030213	GO:0042182	ketone catabolic process	4.020e-03	1.978e-01	3.739e+00	1.822e-04
+GO:0032042	GO:0032042	mitochondrial DNA metabolic process	1.802e-04	1.608e-01	5.119e+00	7.595e-06
+GO:0032042	GO:0006285	base-excision repair, AP site formation	1.588e-04	1.958e-01	4.626e+00	2.366e-05
+GO:0032042	GO:0010216	maintenance of DNA methylation	4.632e-03	1.559e-01	5.518e+00	3.033e-06
+GO:0032042	GO:0031848	protection from non-homologous end joining at telomere	8.050e-04	1.808e-01	5.372e+00	4.242e-06
+GO:0032042	GO:0043247	telomere maintenance in response to DNA damage	4.921e-04	2.036e-01	5.311e+00	4.883e-06
+GO:0032042	GO:0042632	cholesterol homeostasis	2.604e-03	1.112e-01	4.589e+00	2.579e-05
+GO:0000301	GO:0000301	retrograde transport, vesicle recycling within Golgi	2.339e-04	1.258e-01	5.834e+00	1.465e-06
+GO:0000301	GO:0071985	multivesicular body sorting pathway	1.440e-03	1.839e-01	4.068e+00	8.548e-05
+GO:0000301	GO:0032456	endocytic recycling	7.353e-04	1.273e-01	4.405e+00	3.931e-05
+GO:0000301	GO:0045324	late endosome to vacuole transport	4.892e-04	1.191e-01	4.436e+00	3.661e-05
+GO:0000301	GO:1902774	late endosome to lysosome transport	6.371e-04	1.255e-01	6.178e+00	6.637e-07
+GO:0000301	GO:0016079	synaptic vesicle exocytosis	1.742e-03	1.116e-01	4.524e+00	2.994e-05
+GO:2000323	GO:2000323	negative regulation of glucocorticoid receptor signaling pathway	4.700e-05	3.379e-01	5.874e+00	1.335e-06
+GO:2000323	GO:2000322	regulation of glucocorticoid receptor signaling pathway	1.900e-04	2.702e-01	5.805e+00	1.568e-06
+GO:2000323	GO:0060292	long-term synaptic depression	1.179e-03	1.582e-01	5.657e+00	2.201e-06
+GO:2000323	GO:0051967	negative regulation of synaptic transmission, glutamatergic	1.366e-03	9.698e-02	6.010e+00	9.765e-07
+GO:2000323	GO:0046928	regulation of neurotransmitter secretion	2.686e-03	9.622e-02	4.700e+00	1.994e-05
+GO:2000323	GO:0035020	regulation of Rac protein signal transduction	3.390e-05	2.142e-01	5.525e+00	2.983e-06
+GO:2000323	GO:0070886	positive regulation of calcineurin-NFAT signaling cascade	1.085e-03	1.614e-01	5.447e+00	3.574e-06
+GO:2000323	GO:1900452	regulation of long-term synaptic depression	4.949e-04	2.150e-01	5.689e+00	2.048e-06
+GO:2000323	GO:1900273	positive regulation of long-term synaptic potentiation	6.698e-04	1.459e-01	5.606e+00	2.479e-06
+GO:0086027	GO:0086027	AV node cell to bundle of His cell signaling	1.835e-04	2.983e-01	6.737e+00	1.831e-07
+GO:0086027	GO:0086067	AV node cell to bundle of His cell communication	1.550e-03	1.830e-01	5.810e+00	1.549e-06
+GO:0015851	GO:0015851	nucleobase transport	2.574e-04	3.409e-01	3.501e+00	3.152e-04
+GO:0015851	GO:0006817	phosphate ion transport	1.974e-03	1.103e-01	2.778e+00	1.668e-03
+GO:0015851	GO:0035435	phosphate ion transmembrane transport	1.043e-03	1.387e-01	3.460e+00	3.469e-04
+GO:0015851	GO:1901642	nucleoside transmembrane transport	3.653e-03	1.678e-01	3.751e+00	1.775e-04
+GO:0015851	GO:0071805	potassium ion transmembrane transport	3.787e-03	6.233e-02	2.932e+00	1.169e-03
+GO:0015851	GO:0006813	potassium ion transport	3.787e-03	6.233e-02	2.483e+00	3.289e-03
+GO:0015851	GO:0010248	establishment or maintenance of transmembrane electrochemical gradient	3.403e-03	1.812e-01	5.371e+00	4.253e-06
+GO:0015851	GO:1902414	protein localization to cell junction	1.774e-04	2.234e-01	4.661e+00	2.182e-05
+GO:0015851	GO:0045048	protein insertion into ER membrane	2.343e-03	2.081e-01	4.502e+00	3.145e-05
+GO:0015851	GO:0045176	apical protein localization	1.511e-03	1.011e-01	5.255e+00	5.562e-06
+GO:0015851	GO:0071169	establishment of protein localization to chromatin	4.455e-04	2.500e-01	5.653e+00	2.224e-06
+GO:0015851	GO:0071168	protein localization to chromatin	4.359e-04	1.462e-01	5.153e+00	7.034e-06
+GO:0015851	GO:0034067	protein localization to Golgi apparatus	3.441e-03	8.117e-02	5.033e+00	9.273e-06
+GO:0015851	GO:0044380	protein localization to cytoskeleton	3.209e-03	8.534e-02	4.653e+00	2.224e-05
+GO:0015851	GO:0032596	protein transport into membrane raft	5.560e-04	1.704e-01	6.257e+00	5.531e-07
+GO:0015851	GO:1903044	protein localization to membrane raft	1.278e-03	1.588e-01	5.831e+00	1.476e-06
+GO:0015851	GO:0045026	plasma membrane fusion	9.877e-04	1.071e-01	4.638e+00	2.302e-05
+GO:0015851	GO:0045161	neuronal ion channel clustering	7.935e-04	1.464e-01	5.180e+00	6.611e-06
+GO:0015851	GO:0045162	clustering of voltage-gated sodium channels	3.205e-03	9.154e-02	5.230e+00	5.894e-06
+GO:0042118	GO:0042118	endothelial cell activation	3.987e-04	1.736e-01	5.693e+00	2.026e-06
+GO:0042118	GO:0045064	T-helper 2 cell differentiation	4.813e-04	1.417e-01	6.295e+00	5.073e-07
+GO:0000389	GO:0000389	mRNA 3'-splice site recognition	9.360e-05	2.622e-01	5.940e+00	1.148e-06
+GO:0000389	GO:0070922	small RNA loading onto RISC	8.017e-04	2.242e-01	5.249e+00	5.638e-06
+GO:0000389	GO:0035280	miRNA loading onto RISC	2.774e-03	2.018e-01	5.600e+00	2.514e-06
+GO:0000389	GO:0000393	spliceosomal conformational changes to generate catalytic conformation	5.496e-04	2.142e-01	6.176e+00	6.675e-07
+GO:0000389	GO:0000244	spliceosomal tri-snRNP complex assembly	7.204e-04	2.326e-01	3.284e+00	5.202e-04
+GO:0000389	GO:0007019	microtubule depolymerization	1.197e-04	1.125e-01	5.295e+00	5.066e-06
+GO:0000389	GO:0031109	microtubule polymerization or depolymerization	2.935e-04	9.258e-02	4.992e+00	1.019e-05
+GO:0000389	GO:0046785	microtubule polymerization	2.435e-04	1.035e-01	5.308e+00	4.917e-06
+GO:0000389	GO:1903008	organelle disassembly	3.024e-04	1.613e-01	4.191e+00	6.439e-05
+GO:0000389	GO:0051415	microtubule nucleation by interphase microtubule organizing center	2.054e-04	2.531e-01	5.541e+00	2.880e-06
+GO:0000389	GO:0051418	microtubule nucleation by microtubule organizing center	2.054e-04	2.531e-01	5.147e+00	7.126e-06
+GO:0000389	GO:0007020	microtubule nucleation	2.053e-04	1.371e-01	4.158e+00	6.956e-05
+GO:0000389	GO:0070208	protein heterotrimerization	1.999e-03	1.190e-01	6.004e+00	9.918e-07
+GO:0000389	GO:0035493	SNARE complex assembly	1.069e-03	1.620e-01	5.460e+00	3.471e-06
+GO:0000389	GO:0000730	DNA recombinase assembly	1.148e-03	1.388e-01	5.137e+00	7.293e-06
+GO:0000389	GO:1904885	beta-catenin destruction complex assembly	2.184e-03	1.985e-01	7.720e+00	1.907e-08
+GO:0000389	GO:0000002	mitochondrial genome maintenance	1.236e-04	1.870e-01	4.372e+00	4.243e-05
+GO:0000389	GO:0000422	autophagy of mitochondrion	2.987e-04	1.885e-01	4.459e+00	3.479e-05
+GO:0000389	GO:0048312	intracellular distribution of mitochondria	1.554e-03	1.514e-01	5.028e+00	9.372e-06
+GO:0000389	GO:0034643	establishment of mitochondrion localization, microtubule-mediated	2.584e-03	9.885e-02	5.260e+00	5.489e-06
+GO:0000389	GO:0097061	dendritic spine organization	3.354e-04	1.214e-01	5.324e+00	4.742e-06
+GO:0000389	GO:0060997	dendritic spine morphogenesis	7.657e-04	1.410e-01	5.481e+00	3.303e-06
+GO:0000389	GO:0090161	Golgi ribbon formation	6.340e-05	1.526e-01	5.282e+00	5.226e-06
+GO:0000389	GO:0090166	Golgi disassembly	4.156e-04	2.173e-01	5.950e+00	1.121e-06
+GO:0000389	GO:0006268	DNA unwinding involved in DNA replication	1.438e-04	2.576e-01	3.602e+00	2.498e-04
+GO:0000389	GO:0006265	DNA topological change	1.339e-03	1.594e-01	2.782e+00	1.654e-03
+GO:0000389	GO:0034389	lipid droplet organization	9.489e-04	1.061e-01	4.979e+00	1.049e-05
+GO:0000389	GO:0000045	autophagosome assembly	6.460e-04	1.270e-01	4.201e+00	6.298e-05
+GO:0000389	GO:1905037	autophagosome organization	8.644e-04	1.245e-01	4.192e+00	6.426e-05
+GO:0000389	GO:0033962	P-body assembly	2.476e-03	1.033e-01	5.187e+00	6.496e-06
+GO:0000389	GO:0034063	stress granule assembly	2.338e-03	1.399e-01	5.007e+00	9.830e-06
+GO:0010659	GO:0010659	cardiac muscle cell apoptotic process	6.881e-04	7.844e-02	6.543e+00	2.861e-07
+GO:0008228	GO:0008228	opsonization	1.870e-03	2.075e-01	6.228e+00	5.913e-07
+GO:0039694	GO:0039694	viral RNA genome replication	1.968e-03	8.243e-02	2.830e+00	1.481e-03
+GO:0039703	GO:0039703	RNA replication	1.968e-03	8.243e-02	8.118e+00	7.629e-09
+GO:0039703	GO:0090503	RNA phosphodiester bond hydrolysis, exonucleolytic	3.715e-03	1.019e-01	3.017e+00	9.617e-04
+GO:0086003	GO:0086003	cardiac muscle cell contraction	3.916e-03	6.674e-02	6.816e+00	1.526e-07
+GO:0086003	GO:0047497	mitochondrion transport along microtubule	2.584e-03	9.885e-02	5.359e+00	4.375e-06

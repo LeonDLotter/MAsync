@@ -1,0 +1,2105 @@
+TY  - JOUR
+TI  - Flow of affective information between communicating brains
+AU  - Anders, Silke
+AU  - Heinzle, Jakob
+AU  - Weiskopf, Nikolaus
+AU  - Ethofer, Thomas
+AU  - Haynes, John-Dylan
+T2  - NeuroImage
+AB  - When people interact, affective information is transmitted between their brains. Modern imaging techniques permit to investigate the dynamics of this brain-to-brain transfer of information. Here, we used informationbased functional magnetic resonance imaging (fMRI) to investigate the ﬂow of affective information between the brains of senders and perceivers engaged in ongoing facial communication of affect. We found that the level of neural activity within a distributed network of the perceiver's brain can be successfully predicted from the neural activity in the same network in the sender's brain, depending on the affect that is currently being communicated. Furthermore, there was a temporal succession in the ﬂow of affective information from the sender's brain to the perceiver's brain, with information in the perceiver's brain being signiﬁcantly delayed relative to information in the sender's brain. This delay decreased over time, possibly reﬂecting some ‘tuning in’ of the perceiver with the sender. Our data support current theories of intersubjectivity by providing direct evidence that during ongoing facial communication a ‘shared space’ of affect is successively built up between senders and perceivers of affective facial signals.
+DA  - 2011/01//
+PY  - 2011
+DO  - 10.1016/j.neuroimage.2010.07.004
+DP  - DOI.org (Crossref)
+VL  - 54
+IS  - 1
+SP  - 439
+EP  - 446
+J2  - NeuroImage
+LA  - en
+SN  - 10538119
+UR  - https://linkinghub.elsevier.com/retrieve/pii/S1053811910009559
+Y2  - 2020/12/09/05:17:50
+KW  - Brain
+ER  - 
+
+TY  - JOUR
+TI  - Information flow between interacting human brains: Identification, validation, and relationship to social expertise
+AU  - Bilek, Edda
+AU  - Ruf, Matthias
+AU  - Schäfer, Axel
+AU  - Akdeniz, Ceren
+AU  - Calhoun, Vince D.
+AU  - Schmahl, Christian
+AU  - Demanuele, Charmaine
+AU  - Tost, Heike
+AU  - Kirsch, Peter
+AU  - Meyer-Lindenberg, Andreas
+T2  - Proceedings of the National Academy of Sciences
+AB  - Social interactions are fundamental for human behavior, but the quantification of their neural underpinnings remains challenging. Here, we used hyperscanning functional MRI (fMRI) to study information flow between brains of human dyads during real-time social interaction in a joint attention paradigm. In a hardware setup enabling immersive audiovisual interaction of subjects in linked fMRI scanners, we characterize cross-brain connectivity components that are unique to interacting individuals, identifying information flow between the sender’s and receiver’s temporoparietal junction. We replicate these findings in an independent sample and validate our methods by demonstrating that cross-brain connectivity relates to a key real-world measure of social behavior. Together, our findings support a central role of human-specific cortical areas in the brain dynamics of dyadic interactions and provide an approach for the noninvasive examination of the neural basis of healthy and disturbed human social behavior with minimal a priori assumptions.
+DA  - 2015/04/21/
+PY  - 2015
+DO  - 10.1073/pnas.1421831112
+DP  - DOI.org (Crossref)
+VL  - 112
+IS  - 16
+SP  - 5207
+EP  - 5212
+J2  - Proc Natl Acad Sci USA
+LA  - en
+SN  - 0027-8424, 1091-6490
+ST  - Information flow between interacting human brains
+UR  - http://www.pnas.org/lookup/doi/10.1073/pnas.1421831112
+Y2  - 2020/12/09/05:19:40
+KW  - brain
+KW  - Brain
+KW  - female
+KW  - Female
+KW  - fMRI
+KW  - human
+KW  - human relation
+KW  - Humanism
+KW  - Humanities
+KW  - Humans
+KW  - Hyperscanning
+KW  - Interpersonal Relations
+KW  - Joint attention
+KW  - Magnetic Resonance Imaging
+KW  - male
+KW  - Male
+KW  - nuclear magnetic resonance imaging
+KW  - parietal lobe
+KW  - Parietal Lobe
+KW  - physiology
+KW  - principal component analysis
+KW  - Principal Component Analysis
+KW  - reproducibility
+KW  - Reproducibility of Results
+KW  - temporal lobe
+KW  - Temporal Lobe
+KW  - young adult
+KW  - Young Adult
+ER  - 
+
+TY  - JOUR
+TI  - You are in sync with me: Neural correlates of interpersonal synchrony with a partner
+AU  - Cacioppo, S.
+AU  - Zhou, H.
+AU  - Monteleone, G.
+AU  - Majka, E.A.
+AU  - Quinn, K.A.
+AU  - Ball, A.B.
+AU  - Norman, G.J.
+AU  - Semin, G.R.
+AU  - Cacioppo, J.T.
+T2  - Neuroscience
+DA  - 2014/09//
+PY  - 2014
+DO  - 10.1016/j.neuroscience.2014.07.051
+DP  - DOI.org (Crossref)
+VL  - 277
+SP  - 842
+EP  - 858
+J2  - Neuroscience
+LA  - en
+SN  - 03064522
+ST  - You are in sync with me
+UR  - https://linkinghub.elsevier.com/retrieve/pii/S0306452214006241
+Y2  - 2020/12/09/05:19:50
+ER  - 
+
+TY  - JOUR
+TI  - Bidirectional signal exchanges and their mechanisms during joint attention interaction – A hyperscanning fMRI study
+AU  - Goelman, Gadi
+AU  - Dan, Rotem
+AU  - Stößel, Gabriela
+AU  - Tost, Heike
+AU  - Meyer-Lindenberg, Andreas
+AU  - Bilek, Edda
+T2  - NeuroImage
+AB  - Social interactions are essential to our daily life. We tested the hypothesis that social interactions during joint attention (JA) require bidirectional communication, each with a different mechanism. We used a novel multivariate functional connectivity analysis, which enables obtaining directed pathways between four regions at each time-frequency point, with hyper-scanning MRI data of real-time JA interaction. Constructing multiple “4regional directed pathways” and counting the number of times, regions engaged in feedforward or feedback processes in the ‘sender’ or the ‘receiver brains, we obtained the following. (1) There were more regions in feedforward than in feedback processes (125 versus 99). (2) The right hemisphere was more involved in feedforward (74 versus 33), while the left hemisphere in feedback (66 versus 51). (3) The dmPFC was more engaged in feedforward (73 versus 44) while the TPJ in both (49 versus 45). (4) The dmPFC was more involved in the sending processes (i.e. initiation of feedforward and feedback) while the TPJ in the receiving processes. (5) JA interaction was involved with high MRI frequencies (0.04–0.1 Hz), while continues interactions by low MRI frequencies (0.01–0.04 Hz). (6) Initiation and responding to JA (i.e. IJA and RJA) evolved with composite neural systems: similar systems for pathways that included the dmPFC, vmPFC and the STS, and different systems for pathways that included the TPJ, vmPFC, PCC and the STS. These ﬁndings have important consequences in the basic understanding of social interaction and could help in diagnose and follow-up of social impairments.
+DA  - 2019/09//
+PY  - 2019
+DO  - 10.1016/j.neuroimage.2019.05.028
+DP  - DOI.org (Crossref)
+VL  - 198
+SP  - 242
+EP  - 254
+J2  - NeuroImage
+LA  - en
+SN  - 10538119
+UR  - https://linkinghub.elsevier.com/retrieve/pii/S1053811919304203
+Y2  - 2020/12/09/05:20:07
+KW  - Magnetic Resonance Imaging
+ER  - 
+
+TY  - JOUR
+TI  - “Stay Tuned”: Inter-Individual Neural Synchronization During Mutual Gaze and Joint Attention
+AU  - Saito, Daisuke N.
+AU  - Tanabe, Hiroki C.
+AU  - Izuma, Keise
+AU  - Hayashi, Masamichi J.
+AU  - Morito, Yusuke
+AU  - Komeda, Hidetsugu
+AU  - Uchiyama, Hitoshi
+AU  - Kosaka, Hirotaka
+AU  - Okazawa, Hidehiko
+AU  - Fujibayashi, Yasuhisa
+AU  - Sadato, Norihiro
+T2  - Frontiers in Integrative Neuroscience
+AB  - Eye contact provides a communicative link between humans, prompting joint attention. As spontaneous brain activity might have an important role in the coordination of neuronal processing within the brain, their inter-subject synchronization might occur during eye contact.To test this, we conducted simultaneous functional MRI in pairs of adults. Eye contact was maintained at baseline while the subjects engaged in real-time gaze exchange in a joint attention task. Averted gaze activated the bilateral occipital pole extending to the right posterior superior temporal sulcus, the dorso-medial prefrontal cortex, and the bilateral inferior frontal gyrus. Following a partner’s gaze toward an object activated the left intraparietal sulcus. After all the task-related effects were modeled out, inter-individual correlation analysis of residual time-courses was performed. Paired subjects showed more prominent correlations than non-paired subjects in the right inferior frontal gyrus, suggesting that this region is involved in sharing intention during eye contact that provides the context for joint attention.
+DA  - 2010///
+PY  - 2010
+DO  - 10.3389/fnint.2010.00127
+DP  - DOI.org (Crossref)
+VL  - 4
+J2  - Front. Integr. Neurosci.
+LA  - en
+SN  - 1662-5145
+ST  - “Stay Tuned”
+UR  - http://journal.frontiersin.org/article/10.3389/fnint.2010.00127/abstract
+Y2  - 2020/12/09/05:22:02
+ER  - 
+
+TY  - JOUR
+TI  - Interindividual synchronization of brain activity during live verbal communication
+AU  - Spiegelhalder, Kai
+AU  - Ohlendorf, Sabine
+AU  - Regen, Wolfram
+AU  - Feige, Bernd
+AU  - Tebartz van Elst, Ludger
+AU  - Weiller, Cornelius
+AU  - Hennig, Jürgen
+AU  - Berger, Mathias
+AU  - Tüscher, Oliver
+T2  - Behavioural Brain Research
+DA  - 2014/01//
+PY  - 2014
+DO  - 10.1016/j.bbr.2013.10.015
+DP  - DOI.org (Crossref)
+VL  - 258
+SP  - 75
+EP  - 79
+J2  - Behavioural Brain Research
+LA  - en
+SN  - 01664328
+UR  - https://linkinghub.elsevier.com/retrieve/pii/S0166432813006232
+Y2  - 2020/12/09/05:22:18
+KW  - Brain
+KW  - FLOW
+KW  - FMRI
+KW  - INFORMATION
+KW  - METAANALYSIS
+KW  - NEUROSCIENCE
+KW  - SOCIAL COGNITION
+ER  - 
+
+TY  - JOUR
+TI  - Mapping the information flow from one brain to another during gestural communication
+AU  - Schippers, M. B.
+AU  - Roebroeck, A.
+AU  - Renken, R.
+AU  - Nanetti, L.
+AU  - Keysers, C.
+T2  - Proceedings of the National Academy of Sciences
+DA  - 2010/05/18/
+PY  - 2010
+DO  - 10.1073/pnas.1001791107
+DP  - DOI.org (Crossref)
+VL  - 107
+IS  - 20
+SP  - 9388
+EP  - 9393
+J2  - Proceedings of the National Academy of Sciences
+LA  - en
+SN  - 0027-8424, 1091-6490
+UR  - http://www.pnas.org/cgi/doi/10.1073/pnas.1001791107
+Y2  - 2020/12/09/05:22:29
+KW  - Brain
+ER  - 
+
+TY  - JOUR
+TI  - Dissecting social interaction: dual-fMRI reveals patterns of interpersonal brain-behavior relationships that dissociate among dimensions of social exchange
+AU  - Špiláková, Beáta
+AU  - Shaw, Daniel J
+AU  - Czekóová, Kristína
+AU  - Brázdil, Milan
+T2  - Social Cognitive and Affective Neuroscience
+AB  - During social interactions, each individual’s actions are simultaneously a consequence of and an antecedent to their interaction partner’s behavior. Capturing online the brain processes underlying such mutual dependency requires simultaneous measurements of all interactants’ brains during real-world exchange (‘hyperscanning’). This demands a precise characterization of the type of interaction under investigation, however, and analytical techniques capable of capturing interpersonal dependencies. We adapted an interactive task capable of dissociating between two dimensions of interdependent social exchange: goal structure (cooperation vs competition) and interaction structure [concurrent (CN) vs turn-based]. Performing dual-functional magnetic resonance imaging hyperscanning on pairs of individuals interacting on this task, and modeling brain responses in both interactants as systematic reactions to their partner’s behavior, we investigated interpersonal brain-behavior dependencies (iBBDs) during each dimension. This revealed patterns of iBBDs that differentiated among exchanges; in players supporting the actions of another, greater brain responses to the co-player’s actions were expressed in regions implicated in social cognition, such as the medial prefrontal cortex, precuneus and temporal cortices. Stronger iBBD during CN competitive exchanges was observed in brain systems involved in movement planning and updating, however, such as the supplementary motor area. This demonstrates the potential for hyperscanning to elucidate neural processes underlying different forms of social exchange.
+DA  - 2019/02/13/
+PY  - 2019
+DO  - 10.1093/scan/nsz004
+DP  - DOI.org (Crossref)
+VL  - 14
+IS  - 2
+SP  - 225
+EP  - 235
+LA  - en
+SN  - 1749-5016, 1749-5024
+ST  - Dissecting social interaction
+UR  - https://academic.oup.com/scan/article/14/2/225/5289624
+Y2  - 2020/12/09/05:23:09
+KW  - adult
+KW  - Adult
+KW  - article
+KW  - brain
+KW  - Brain
+KW  - brain mapping
+KW  - Brain Mapping
+KW  - competition
+KW  - Competition
+KW  - controlled study
+KW  - Cooperation
+KW  - dissociation
+KW  - female
+KW  - Female
+KW  - functional magnetic resonance imaging
+KW  - Heart Block
+KW  - human
+KW  - human experiment
+KW  - human relation
+KW  - Humans
+KW  - Hyperscanning
+KW  - Interpersonal brain-behavior dependencies
+KW  - Interpersonal Relations
+KW  - Magnetic Resonance Imaging
+KW  - male
+KW  - Male
+KW  - medial prefrontal cortex
+KW  - nuclear magnetic resonance imaging
+KW  - parietal lobe
+KW  - Parietal Lobe
+KW  - physiology
+KW  - precuneus
+KW  - prefrontal cortex
+KW  - Prefrontal Cortex
+KW  - social behavior
+KW  - Social Behavior
+KW  - social cognition
+KW  - social interaction
+KW  - Social interaction
+KW  - supplementary motor area
+KW  - temporal cortex
+KW  - temporal lobe
+KW  - Temporal Lobe
+ER  - 
+
+TY  - JOUR
+TI  - Speaker-listener neural coupling underlies successful communication
+AU  - Stephens, G. J.
+AU  - Silbert, L. J.
+AU  - Hasson, U.
+T2  - Proceedings of the National Academy of Sciences
+DA  - 2010/08/10/
+PY  - 2010
+DO  - 10.1073/pnas.1008662107
+DP  - DOI.org (Crossref)
+VL  - 107
+IS  - 32
+SP  - 14425
+EP  - 14430
+J2  - Proceedings of the National Academy of Sciences
+LA  - en
+SN  - 0027-8424, 1091-6490
+UR  - http://www.pnas.org/cgi/doi/10.1073/pnas.1008662107
+Y2  - 2020/12/09/05:23:16
+ER  - 
+
+TY  - JOUR
+TI  - Hard to “tune in”: neural mechanisms of live face-to-face interaction with high-functioning autistic spectrum disorder
+AU  - Tanabe, Hiroki C.
+AU  - Kosaka, Hirotaka
+AU  - Saito, Daisuke N.
+AU  - Koike, Takahiko
+AU  - Hayashi, Masamichi J.
+AU  - Izuma, Keise
+AU  - Komeda, Hidetsugu
+AU  - Ishitobi, Makoto
+AU  - Omori, Masao
+AU  - Munesue, Toshio
+AU  - Okazawa, Hidehiko
+AU  - Wada, Yuji
+AU  - Sadato, Norihiro
+T2  - Frontiers in Human Neuroscience
+AB  - Persons with autism spectrum disorders (ASD) are known to have difﬁculty in eye contact (EC). This may make it difﬁcult for their partners during face to face communication with them. To elucidate the neural substrates of live inter-subject interaction of ASD patients and normal subjects, we conducted hyper-scanning functional MRI with 21 subjects with autistic spectrum disorder (ASD) paired with typically-developed (normal) subjects, and with 19 pairs of normal subjects as a control. Baseline EC was maintained while subjects performed real-time joint-attention task. The task-related effects were modeled out, and inter-individual correlation analysis was performed on the residual time-course data. ASD–Normal pairs were less accurate at detecting gaze direction than Normal–Normal pairs. Performance was impaired both in ASD subjects and in their normal partners. The left occipital pole (OP) activation by gaze processing was reduced in ASD subjects, suggesting that deterioration of eye-cue detection in ASD is related to impairment of early visual processing of gaze. On the other hand, their normal partners showed greater activity in the bilateral occipital cortex and the right prefrontal area, indicating a compensatory workload. Inter-brain coherence in the right IFG that was observed in the Normal-Normal pairs (Saito et al., 2010) during EC diminished in ASD–Normal pairs. Intra-brain functional connectivity between the right IFG and right superior temporal sulcus (STS) in normal subjects paired with ASD subjects was reduced compared with in Normal–Normal pairs. This functional connectivity was positively correlated with performance of the normal partners on the eye-cue detection. Considering the integrative role of the right STS in gaze processing, inter-subject synchronization during EC may be a prerequisite for eye cue detection by the normal partner.
+DA  - 2012///
+PY  - 2012
+DO  - 10.3389/fnhum.2012.00268
+DP  - DOI.org (Crossref)
+VL  - 6
+J2  - Front. Hum. Neurosci.
+LA  - en
+SN  - 1662-5161
+ST  - Hard to “tune in”
+UR  - http://journal.frontiersin.org/article/10.3389/fnhum.2012.00268/abstract
+Y2  - 2020/12/09/05:23:28
+ER  - 
+
+TY  - JOUR
+TI  - Neural correlates of online cooperation during joint force production
+AU  - Abe, Masaki O.
+AU  - Koike, Takahiko
+AU  - Okazaki, Shuntaro
+AU  - Sugawara, Sho K.
+AU  - Takahashi, Kohske
+AU  - Watanabe, Katsumi
+AU  - Sadato, Norihiro
+T2  - NeuroImage
+AB  - During joint action, two or more persons depend on each other to accomplish a goal. This mutual recursion, or circular dependency, is one of the characteristics of cooperation. To evaluate the neural substrates of cooperation, we conducted a hyperscanning functional MRI study in which 19 dyads performed a joint force-production task. The goal of the task was to match their average grip forces to the target value (20% of their maximum grip forces) through visual feedback over a 30-s period; the task required taking into account other-produced force to regulate the self-generated one in real time, which represented cooperation. Time-series data of the dyad's exerted grip forces were recorded, and the noise contribution ratio (NCR), a measure of inﬂuence from the partner, was computed using a multivariate autoregressive model to identify the degree to which each participant's grip force was explained by that of their partner's, i.e., the degree of cooperation. Compared with the single force-production task, the joint task enhanced the NCR and activated the mentalizing system, including the medial prefrontal cortex, precuneus, and bilateral posterior subdivision of the temporoparietal junction (TPJ). In addition, speciﬁc activation of the anterior subdivision of the right TPJ signiﬁcantly and positively correlated with the NCR across participants during the joint task. The effective connectivity of the anterior to posterior TPJ was upregulated when participants coordinated their grip forces. Finally, the joint task enhanced cross-brain functional connectivity of the right anterior TPJ, indicating shared attention toward the temporal patterns of the motor output of the partner. Since the posterior TPJ is part of the mentalizing system for tracking the intention of perceived agents, our ﬁndings indicate that cooperation, i.e., the degree of adjustment of individual motor output depending on that of the partner, is mediated by the interconnected subdivisions of the right TPJ.
+DA  - 2019/05//
+PY  - 2019
+DO  - 10.1016/j.neuroimage.2019.02.003
+DP  - DOI.org (Crossref)
+VL  - 191
+SP  - 150
+EP  - 161
+J2  - NeuroImage
+LA  - en
+SN  - 10538119
+UR  - https://linkinghub.elsevier.com/retrieve/pii/S1053811919300898
+Y2  - 2020/12/09/05:25:18
+KW  - adult
+KW  - Adult
+KW  - article
+KW  - attention
+KW  - brain
+KW  - Brain
+KW  - case report
+KW  - clinical article
+KW  - cooperation
+KW  - Cooperation
+KW  - Cooperative Behavior
+KW  - female
+KW  - Female
+KW  - functional connectivity
+KW  - functional magnetic resonance imaging
+KW  - grip strength
+KW  - hand strength
+KW  - Hand Strength
+KW  - human
+KW  - human experiment
+KW  - Humans
+KW  - Hyperscanning fMRI
+KW  - joint
+KW  - Joint action
+KW  - male
+KW  - Male
+KW  - medial prefrontal cortex
+KW  - nerve tract
+KW  - Neural Pathways
+KW  - noise
+KW  - physiology
+KW  - precuneus
+KW  - psychomotor performance
+KW  - Psychomotor Performance
+KW  - Temporo-parietal-junction
+KW  - temporoparietal junction
+KW  - time series analysis
+KW  - visual feedback
+KW  - young adult
+KW  - Young Adult
+ER  - 
+
+TY  - JOUR
+TI  - An fMRI study of joint action–varying levels of cooperation correlates with activity in control networks
+AU  - Chaminade, Thierry
+AU  - Marchant, Jennifer L.
+AU  - Kilner, James
+AU  - Frith, Christopher D.
+T2  - Frontiers in Human Neuroscience
+AB  - As social agents, humans continuously interact with with the people around them. Here, motor cooperation was investigated by designing a situation in which pairs of participants, one being scanned with fMRI, controlled jointly a visually presented object with joystick movements. The object oscillated dynamically along two dimensions, shades of pink and width of gratings, corresponding to the two cardinal directions of joystick movements. While the overall control of each participant on the object was kept constant, the amount of cooperation along the two dimensions varied along four levels, from no (each participant controlled exclusively one dimension) to full (each participant controlled half of each dimension) cooperation. Increasing cooperation correlated with BOLD signal in the left parietal operculum and anterior cingulate cortex, while decreasing cooperation correlated with activity in the right inferior frontal and superior temporal gyri, in the intraparietal sulci and inferior temporal gyrii bilaterally, and in the dorsomedial prefrontal cortex. As joint control improved with the level of cooperation, we assessed the brain responses correlating with joint performance, and found that activity in most of the areas associated with levels of cooperation also correlated with the joint performance. The only brain area found exclusively in the negative correlation with cooperation was within the posterior region of the rostral medial frontal cortex, involved in the monitoring of action outcome. We therefore propose that this region responds to the predictability of visual feedback given the motor commands, which is maximal when participants do not cooperate as they fully control one dimension. Our results therefore indicate that, in the current experimental paradigm, the level of cooperation affects sensorimotor processing, but not mentalizing. Altogether, humans do not need to have access to others’ intentional states to cooperate on a joint motor control task.
+DA  - 2012///
+PY  - 2012
+DO  - 10.3389/fnhum.2012.00179
+DP  - Frontiers
+VL  - 6
+J2  - Front. Hum. Neurosci.
+LA  - English
+SN  - 1662-5161
+UR  - https://www.frontiersin.org/articles/10.3389/fnhum.2012.00179/full
+Y2  - 2020/12/15/14:53:01
+L1  - https://www.frontiersin.org/articles/10.3389/fnhum.2012.00179/pdf
+KW  - fMRI
+KW  - human neuroscience
+KW  - Joint Action
+KW  - Magnetic Resonance Imaging
+KW  - mentalization
+KW  - motor control
+ER  - 
+
+TY  - JOUR
+TI  - Inter-subject synchronization of prefrontal cortex hemodynamic activity during natural viewing
+AU  - Jääskeläinen, Iiro P.
+AU  - Koskentalo, Katri
+AU  - Balk, Marja H.
+AU  - Autti, Taina
+AU  - Kauramäki, Jaakko
+AU  - Pomren, Cajus
+AU  - Sams, Mikko
+T2  - The Open Neuroimaging Journal
+AB  - Hemodynamic activity in occipital, temporal, and parietal cortical areas were recently shown to correlate across subjects during viewing of a 30-minute movie clip. However, most of the frontal cortex lacked between-subject correlations. Here we presented 12 healthy naïve volunteers with the first 72 minutes of a movie ("Crash", 2005, Lions Gate Films) outside of the fMRI scanner to involve the subjects in the plot of the movie, followed by presentation of the last 36 minutes during fMRI scanning. We observed significant between-subjects correlation of fMRI activity in especially right hemisphere frontal cortical areas, in addition to the correlation of activity in temporal, occipital, and parietal areas. It is possible that this resulted from the subjects following the plot of the movie and being emotionally engaged in the movie during fMRI scanning. We further show that probabilistic independent component analysis (ICA) reveals meaningful activations in individual subjects during natural viewing.
+DA  - 2008///
+PY  - 2008
+DO  - 10.2174/1874440000802010014
+DP  - PubMed
+VL  - 2
+SP  - 14
+EP  - 19
+J2  - Open Neuroimag J
+LA  - eng
+SN  - 1874-4400
+L1  - https://benthamopen.com/contents/pdf/TONIJ/TONIJ-2-14.pdf
+L2  - http://www.ncbi.nlm.nih.gov/pubmed/19018313
+ER  - 
+
+TY  - JOUR
+TI  - Inter-subject correlation of brain hemodynamic responses during watching a movie: localization in space and frequency
+AU  - Kauppi, Jukka-Pekka
+AU  - Jääskeläinen, Iiro P.
+AU  - Sams, Mikko
+AU  - Tohka, Jussi
+T2  - Frontiers in Neuroinformatics
+AB  - Cinema is a promising naturalistic stimulus that enables, for instance, elicitation of robust emotions during functional magnetic resonance imaging (fMRI). Inter-subject correlation (ISC) has been used as a model-free analysis method to map the highly complex hemodynamic responses that are evoked during watching a movie. Here, we extended the ISC analysis to frequency domain using wavelet analysis combined with non-parametric permutation methods for making voxel-wise statistical inferences about frequency-band specific ISC. We applied these novel analysis methods to a dataset collected in our previous study where 12 subjects watched an emotionally engaging movie "Crash" during fMRI scanning. Our results suggest that several regions within the frontal and temporal lobes show ISC predominantly at low frequency bands, whereas visual cortical areas exhibit ISC also at higher frequencies. It is possible that these findings relate to recent observations of a cortical hierarchy of temporal receptive windows, or that the types of events processed in temporal and prefrontal cortical areas (e.g., social interactions) occur over longer time periods than the stimulus features processed in the visual areas. Software tools to perform frequency-specific ISC analysis, together with a visualization application, are available as open source Matlab code.
+DA  - 2010///
+PY  - 2010
+DO  - 10.3389/fninf.2010.00005
+DP  - PubMed
+VL  - 4
+SP  - 5
+J2  - Front Neuroinform
+LA  - eng
+SN  - 1662-5196
+ST  - Inter-subject correlation of brain hemodynamic responses during watching a movie
+L1  - https://www.frontiersin.org/articles/10.3389/fninf.2010.00005/pdf
+L2  - http://www.ncbi.nlm.nih.gov/pubmed/20428497
+KW  - BOLD
+KW  - fMRI
+KW  - intersubject correlation
+KW  - natural vision
+KW  - permutation test
+KW  - stationary wavelet transform
+ER  - 
+
+TY  - JOUR
+TI  - Hyperscanning: Simultaneous fMRI during Linked Social Interactions
+AU  - Montague, P. Read
+AU  - Berns, Gregory S.
+AU  - Cohen, Jonathan D.
+AU  - McClure, Samuel M.
+AU  - Pagnoni, Giuseppe
+AU  - Dhamala, Mukesh
+AU  - Wiest, Michael C.
+AU  - Karpov, Igor
+AU  - King, Richard D.
+AU  - Apple, Nathan
+AU  - Fisher, Ronald E.
+T2  - NeuroImage
+AB  - “Plain question and plain answer make the shortest road out of most perplexities.” Mark Twain-Life on the Mississippi A new methodology for the measurement of the neural substrates of human social interaction is described. This technology, termed “Hyperscan,” embodies both the hardware and the software necessary to link magnetic resonance scanners through the internet. Hyperscanning allows for the performance of human behavioral experiments in which participants can interact with each other while functional MRI is acquired in synchrony with the behavioral interactions. Data are presented from a simple game of deception between pairs of subjects. Because people may interact both asymmetrically and asynchronously, both the design and the analysis must accommodate this added complexity. Several potential approaches are described.
+DA  - 2002/08/01/
+PY  - 2002
+DO  - 10.1006/nimg.2002.1150
+DP  - ScienceDirect
+VL  - 16
+IS  - 4
+SP  - 1159
+EP  - 1164
+J2  - NeuroImage
+LA  - en
+SN  - 1053-8119
+ST  - Hyperscanning
+UR  - http://www.sciencedirect.com/science/article/pii/S105381190291150X
+Y2  - 2020/12/17/12:59:13
+L1  - https://pdf.sciencedirectassets.com/272508/1-s2.0-S1053811900X00730/1-s2.0-S105381190291150X/main.pdf?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEIX%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIAap5c5%2F%2Bs7Vc%2BJ2uzOumMXLTgozO4tvCs7TODJLPZ48AiEApjtGGkMDtX4REQvqiZEAHkGcyp2clx%2BrvKZ0lzZ%2BjKQqtAMILRADGgwwNTkwMDM1NDY4NjUiDEOlmnb86SRazym6ciqRA9ow9Z761JYJIprYnjtSpLdlMxWhBgsnPTLAtkSpbmHKX9nXjn%2BBfnyTvofwA%2BFhgWYzBdZJGrfMYJ8%2B%2FWTUxbH8EPzAOV%2FPs6uexoEYfm1nh4lItfdQtNBr%2BvuTV9ywXf3002k6zgLtejclw9Z003A%2BBPf4DEnrDM7DKCgSr2zqD4a93fD%2FmLFuug96IB2b4fQUMZ%2BA%2BNMcU%2BcTTbtOeXnyxz6V4YsHQJ2CT2wF4g9EjBkpURS2cEFzyvDbeVc5whermUebs%2BM0FecJZHxMeOkmbGu0IvBdFRQ2O0JkiaGAAnAP9rF%2BTANlMJGcvllDWCADFYP%2FcLB2JT2GlvfYsldrgSEd8ynuutxclN5Lt%2F%2BuI9Dc3xRRShqXAIA7q1kLsvbFCDwZrmoYmzwkav3dOGwzIyxBJLUMVfuZ3r%2FZymWYCZKdkstcwp0Ux1LPgC7rDSmpzirnlM4mtjm9f0vy%2FbfzGG7UCVjf5GndP1iCjHNaNSLcbden1iFl1JBW6XawAXrXRR95sFdb6edOinsToMOdMJSY7f4FOusBbozQgEJ0bZaKBo6QtjrrZOOdpEXqBgatkpeowyjHDx%2BzBR6%2BxZC2rYWuDoORjURD9j%2BJR8aIocWDvunIQXJ1JKjgOY3MWktQTRSMXZDHvw00%2B8pW%2BNs8r%2BC0AQJhQ%2B5YbJTuhCqU36xK6%2FaXQuZFJVE7Ge3YHQVztE%2BeYX21SABVjtn71T38eQnk3jAULlmIfvSmx46nIESuKEc3zXg5MmLsXTWqAz1LXzwf5kjurJhSvJZtxjvOghTr%2B3zJgkzo2FPzPlGvJsjrb6ejt4wN3UKO9U%2B7ICS%2FQMvAyKvk1UPz3nk6qZZSd2dCww%3D%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20201217T125913Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIAQ3PHCVTY6TO5FI6Y%2F20201217%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=6d92aaa3609ca02b6659aa56422f32a83d9e38683d46f4a425bd8a7ff12935ec&hash=2946427a38f36ae187b3f12be78fd9052e3975bb597a960ebc11d4143d603ad5&host=68042c943591013ac2b2430a89b270f6af2c76d8dfd086a07176afe7c76c2c61&pii=S105381190291150X&tid=spdf-3db535bf-6488-4cbb-b530-d419effcce72&sid=1fc5725e59202643d5186ca285db186e3469gxrqb&type=client
+L2  - https://www.sciencedirect.com/science/article/pii/S105381190291150X
+KW  - behavior
+KW  - computer system
+KW  - game
+KW  - human
+KW  - human experiment
+KW  - information processing
+KW  - Internet
+KW  - interpersonal communication
+KW  - Interpersonal Relations
+KW  - Magnetic Resonance Imaging
+KW  - nuclear magnetic resonance imaging
+KW  - priority journal
+KW  - review
+KW  - social interaction
+ER  - 
+
+TY  - JOUR
+TI  - A dual-fMRI investigation of the iterated Ultimatum Game reveals that reciprocal behaviour is associated with neural alignment
+AU  - Shaw, Daniel J.
+AU  - Czekóová, Kristína
+AU  - Staněk, Rostislav
+AU  - Mareček, Radek
+AU  - Urbánek, Tomáš
+AU  - Špalek, Jiří
+AU  - Kopečková, Lenka
+AU  - Řezáč, Jan
+AU  - Brázdil, Milan
+T2  - Scientific Reports
+AB  - Dyadic interactions often involve a dynamic process of mutual reciprocity; to steer a series of exchanges towards a desired outcome, both interactants must adapt their own behaviour according to that of their interaction partner. Understanding the brain processes behind such bidirectional reciprocity is therefore central to social neuroscience, but this requires measurement of both individuals’ brains during real-world exchanges. We achieved this by performing functional magnetic resonance imaging (fMRI) on pairs of male individuals simultaneously while they interacted in a modified iterated Ultimatum Game (iUG). In this modification, both players could express their intent and maximise their own monetary gain by reciprocating their partner’s behaviour – they could promote generosity through cooperation and/or discourage unfair play with retaliation. By developing a novel model of reciprocity adapted from behavioural economics, we then show that each player’s choices can be predicted accurately by estimating expected utility (EU) not only in terms of immediate payoff, but also as a reaction to their opponent’s prior behaviour. Finally, for the first time we reveal that brain signals implicated in social decision making are modulated by these estimates of EU, and become correlated more strongly between interacting players who reciprocate one another.
+DA  - 2018/07/18/
+PY  - 2018
+DO  - 10.1038/s41598-018-29233-9
+DP  - www.nature.com
+VL  - 8
+IS  - 1
+SP  - 10896
+LA  - en
+SN  - 2045-2322
+UR  - https://www.nature.com/articles/s41598-018-29233-9
+Y2  - 2020/12/17/14:29:33
+L1  - https://www.nature.com/articles/s41598-018-29233-9.pdf
+L2  - https://www.nature.com/articles/s41598-018-29233-9
+KW  - Magnetic Resonance Imaging
+ER  - 
+
+TY  - JOUR
+TI  - Getting to Know You: Reputation and Trust in a Two-Person Economic Exchange
+AU  - King-Casas, Brooks
+AU  - Tomlin, Damon
+AU  - Anen, Cedric
+AU  - Camerer, Colin F.
+AU  - Quartz, Steven R.
+AU  - Montague, P. Read
+T2  - Science
+AB  - Using a multiround version of an economic exchange (trust game), we report that reciprocity expressed by one player strongly predicts future trust expressed by their partner—a behavioral finding mirrored by neural responses in the dorsal striatum. Here, analyses within and between brains revealed two signals—one encoded by response magnitude, and the other by response timing. Response magnitude correlated with the “intention to trust” on the next play of the game, and the peak of these “intention to trust” responses shifted its time of occurrence by 14 seconds as player reputations developed. This temporal transfer resembles a similar shift of reward prediction errors common to reinforcement learning models, but in the context of a social exchange. These data extend previous model-based functional magnetic resonance imaging studies into the social domain and broaden our view of the spectrum of functions implemented by the dorsal striatum.
+During a game in which players learn whether their partner is selfish or generous, neurons in the middle of the brain show activity that reflects the level of trust being built.
+During a game in which players learn whether their partner is selfish or generous, neurons in the middle of the brain show activity that reflects the level of trust being built.
+DA  - 2005/04/01/
+PY  - 2005
+DO  - 10.1126/science.1108062
+DP  - science.sciencemag.org
+VL  - 308
+IS  - 5718
+SP  - 78
+EP  - 83
+LA  - en
+SN  - 0036-8075, 1095-9203
+ST  - Getting to Know You
+UR  - https://science.sciencemag.org/content/308/5718/78
+Y2  - 2020/12/29/08:27:12
+L2  - http://www.ncbi.nlm.nih.gov/pubmed/15802598
+L2  - https://science.sciencemag.org/content/308/5718/78
+L2  - https://science.sciencemag.org/content/308/5718/78
+ER  - 
+
+TY  - JOUR
+TI  - What Makes Eye Contact Special? Neural Substrates of On-Line Mutual Eye-Gaze: A Hyperscanning fMRI Study
+AU  - Koike, Takahiko
+AU  - Sumiya, Motofumi
+AU  - Nakagawa, Eri
+AU  - Okazaki, Shuntaro
+AU  - Sadato, Norihiro
+T2  - eNeuro
+AB  - Automatic mimicry is a critical element of social interaction. A salient type of automatic mimicry is eye contact characterized by sharing of affective and mental states among individuals. We conducted a hyperscanning functional magnetic resonance imaging study involving on-line (LIVE) and delayed off-line (REPLAY) conditions to test our hypothesis that recurrent interaction through eye contact activates the limbic mirror system, including the anterior cingulate cortex (ACC) and anterior insular cortex (AIC), both of which are critical for self-awareness. Sixteen pairs of human adults participated in the experiment. Given that an eye-blink represents an individual's attentional window toward the partner, we analyzed pairwise time-series data for eye-blinks. We used multivariate autoregression analysis to calculate the noise contribution ratio (NCR) as an index of how a participant's directional attention was influenced by that of their partner. NCR was greater in the LIVE than in the REPLAY condition, indicating mutual perceptual-motor interaction during real-time eye contact. Relative to the REPLAY condition, the LIVE condition was associated with greater activation in the left cerebellar hemisphere, vermis, and ACC, accompanied by enhanced functional connectivity between ACC and right AIC. Given the roles of the cerebellum in sensorimotor prediction and ACC in movement initiation, ACC-cerebellar activation may represent their involvement in modulating visual input related to the partner's movement, which may, in turn, involve the limbic mirror system. Our findings indicate that mutual interaction during eye contact is mediated by the cerebellum and limbic mirror system.
+DA  - 2019/02//Jan- undefined
+PY  - 2019
+DO  - 10.1523/ENEURO.0284-18.2019
+DP  - PubMed
+VL  - 6
+IS  - 1
+J2  - eNeuro
+LA  - eng
+SN  - 2373-2822
+ST  - What Makes Eye Contact Special?
+L2  - http://www.ncbi.nlm.nih.gov/pubmed/30834300
+KW  - Attention
+KW  - automatic mimicry
+KW  - Brain
+KW  - Brain Mapping
+KW  - eye contact
+KW  - Female
+KW  - Fixation, Ocular
+KW  - fMRI
+KW  - Humans
+KW  - Imitative Behavior
+KW  - Interpersonal Relations
+KW  - Magnetic Resonance Imaging
+KW  - Male
+KW  - mirror neurons
+KW  - shared attention
+KW  - Social Behavior
+KW  - Young Adult
+ER  - 
+
+TY  - JOUR
+TI  - Neural substrates of shared attention as social memory: A hyperscanning functional magnetic resonance imaging study
+AU  - Koike, Takahiko
+AU  - Tanabe, Hiroki C.
+AU  - Okazaki, Shuntaro
+AU  - Nakagawa, Eri
+AU  - Sasaki, Akihiro T.
+AU  - Shimada, Koji
+AU  - Sugawara, Sho K.
+AU  - Takahashi, Haruka K.
+AU  - Yoshihara, Kazufumi
+AU  - Bosch-Bayard, Jorge
+AU  - Sadato, Norihiro
+T2  - NeuroImage
+AB  - During a dyadic social interaction, two individuals can share visual attention through gaze, directed to each other (mutual gaze) or to a third person or an object (joint attention). Shared attention is fundamental to dyadic face-to-face interaction, but how attention is shared, retained, and neutrally represented in a pair-specific manner has not been well studied. Here, we conducted a two-day hyperscanning functional magnetic resonance imaging study in which pairs of participants performed a real-time mutual gaze task followed by a joint attention task on the first day, and mutual gaze tasks several days later. The joint attention task enhanced eye-blink synchronization, which is believed to be a behavioral index of shared attention. When the same participant pairs underwent mutual gaze without joint attention on the second day, enhanced eye-blink synchronization persisted, and this was positively correlated with inter-individual neural synchronization within the right inferior frontal gyrus. Neural synchronization was also positively correlated with enhanced eye-blink synchronization during the previous joint attention task session. Consistent with the Hebbian association hypothesis, the right inferior frontal gyrus had been activated both by initiating and responding to joint attention. These results indicate that shared attention is represented and retained by pair-specific neural synchronization that cannot be reduced to the individual level.
+DA  - 2016/01/15/
+PY  - 2016
+DO  - 10.1016/j.neuroimage.2015.09.076
+DP  - PubMed
+VL  - 125
+SP  - 401
+EP  - 412
+J2  - Neuroimage
+LA  - eng
+SN  - 1095-9572
+ST  - Neural substrates of shared attention as social memory
+L2  - http://www.ncbi.nlm.nih.gov/pubmed/26514295
+KW  - Attention
+KW  - Brain
+KW  - Eye-blink synchronization
+KW  - Female
+KW  - Fixation, Ocular
+KW  - Humans
+KW  - Hyperscanning
+KW  - Inter-individual neural synchronization
+KW  - Interpersonal Relations
+KW  - Joint attention
+KW  - Magnetic Resonance Imaging
+KW  - Male
+KW  - Memory
+KW  - Mutual gaze
+KW  - Shared attention
+KW  - Young Adult
+ER  - 
+
+TY  - JOUR
+TI  - Agent-Specific Responses in the Cingulate Cortex During Economic Exchanges
+AU  - Tomlin, Damon
+AU  - Kayali, M. Amin
+AU  - King-Casas, Brooks
+AU  - Anen, Cedric
+AU  - Camerer, Colin F.
+AU  - Quartz, Steven R.
+AU  - Montague, P. Read
+T2  - Science
+AB  - Interactions with other responsive agents lie at the core of all social exchange. During a social exchange with a partner, one fundamental variable that must be computed correctly is who gets credit for a shared outcome; this assignment is crucial for deciding on an optimal level of cooperation that avoids simple exploitation. We carried out an iterated, two-person economic exchange and made simultaneous hemodynamic measurements from each player's brain. These joint measurements revealed agent-specific responses in the social domain (“me” and “not me”) arranged in a systematic spatial pattern along the cingulate cortex. This systematic response pattern did not depend on metrical aspects of the exchange, and it disappeared completely in the absence of a responding partner.
+The abstract ideas of self and other seem to be represented in two distinct regions of the human cingulate cortex.
+The abstract ideas of self and other seem to be represented in two distinct regions of the human cingulate cortex.
+DA  - 2006/05/19/
+PY  - 2006
+DO  - 10.1126/science.1125596
+DP  - science.sciencemag.org
+VL  - 312
+IS  - 5776
+SP  - 1047
+EP  - 1050
+LA  - en
+SN  - 0036-8075, 1095-9203
+UR  - https://science.sciencemag.org/content/312/5776/1047
+Y2  - 2020/12/29/08:40:42
+L2  - http://www.ncbi.nlm.nih.gov/pubmed/16709783
+L2  - https://science.sciencemag.org/content/312/5776/1047
+KW  - Gyrus Cinguli
+ER  - 
+
+TY  - JOUR
+TI  - Cooperation in lovers: An fNIRS-based hyperscanning study
+AU  - Pan, Yafeng
+AU  - Cheng, Xiaojun
+AU  - Zhang, Zhenxin
+AU  - Li, Xianchun
+AU  - Hu, Yi
+T2  - Human Brain Mapping
+AB  - This study investigated interactive exchange in lovers and the associated interpersonal brain synchronization (IBS) using functional near-infrared spectroscopy (fNIRS)-based hyperscanning. Three types of female-male dyads, lovers, friends, and strangers, performed a cooperation task during which brain activity was recorded in right frontoparietal regions. We measured better cooperative behavior in lover dyads compared with friend and stranger dyads. Lover dyads demonstrated increased IBS in right superior frontal cortex, which also covaried with their task performance. Granger causality analyses in lover dyads revealed stronger directional synchronization from females to males than from males to females, suggesting different roles for females and males during cooperation. Our study refines the theoretical explanation of romantic interaction between lovers. Hum Brain Mapp 38:831-841, 2017. © 2016 Wiley Periodicals, Inc.
+DA  - 2017/02//
+PY  - 2017
+DO  - 10.1002/hbm.23421
+DP  - PubMed
+VL  - 38
+IS  - 2
+SP  - 831
+EP  - 841
+J2  - Hum Brain Mapp
+LA  - eng
+SN  - 1097-0193
+ST  - Cooperation in lovers
+L1  - https://europepmc.org/articles/pmc6867051?pdf=render
+L2  - http://www.ncbi.nlm.nih.gov/pubmed/27699945
+KW  - Analysis of Variance
+KW  - Brain
+KW  - Brain Mapping
+KW  - cooperation
+KW  - Cooperative Behavior
+KW  - Female
+KW  - fNIRS
+KW  - Humans
+KW  - hyperscanning
+KW  - interpersonal brain synchronization
+KW  - Interpersonal Relations
+KW  - Love
+KW  - lovers
+KW  - Male
+KW  - Reaction Time
+KW  - Sex Characteristics
+KW  - Spectroscopy, Near-Infrared
+KW  - Statistics, Nonparametric
+KW  - Young Adult
+ER  - 
+
+TY  - JOUR
+TI  - Neural synchronization during face-to-face communication
+AU  - Jiang, Jing
+AU  - Dai, Bohan
+AU  - Peng, Danling
+AU  - Zhu, Chaozhe
+AU  - Liu, Li
+AU  - Lu, Chunming
+T2  - The Journal of Neuroscience: The Official Journal of the Society for Neuroscience
+AB  - Although the human brain may have evolutionarily adapted to face-to-face communication, other modes of communication, e.g., telephone and e-mail, increasingly dominate our modern daily life. This study examined the neural difference between face-to-face communication and other types of communication by simultaneously measuring two brains using a hyperscanning approach. The results showed a significant increase in the neural synchronization in the left inferior frontal cortex during a face-to-face dialog between partners but none during a back-to-back dialog, a face-to-face monologue, or a back-to-back monologue. Moreover, the neural synchronization between partners during the face-to-face dialog resulted primarily from the direct interactions between the partners, including multimodal sensory information integration and turn-taking behavior. The communicating behavior during the face-to-face dialog could be predicted accurately based on the neural synchronization level. These results suggest that face-to-face communication, particularly dialog, has special neural features that other types of communication do not have and that the neural synchronization between partners may underlie successful face-to-face communication.
+DA  - 2012/11/07/
+PY  - 2012
+DO  - 10.1523/JNEUROSCI.2926-12.2012
+DP  - PubMed
+VL  - 32
+IS  - 45
+SP  - 16064
+EP  - 16069
+J2  - J Neurosci
+LA  - eng
+SN  - 1529-2401
+L1  - https://www.jneurosci.org/content/jneuro/32/45/16064.full.pdf
+L2  - http://www.ncbi.nlm.nih.gov/pubmed/23136442
+KW  - Adult
+KW  - Brain
+KW  - Communication
+KW  - Face
+KW  - Female
+KW  - Functional Neuroimaging
+KW  - Humans
+KW  - Interpersonal Relations
+KW  - Male
+KW  - Spectroscopy, Near-Infrared
+ER  - 
+
+TY  - JOUR
+TI  - Inter-brain network underlying turn-based cooperation and competition: A hyperscanning study using near-infrared spectroscopy
+AU  - Liu, Tao
+AU  - Saito, Godai
+AU  - Lin, Chenhui
+AU  - Saito, Hirofumi
+T2  - Scientific Reports
+AB  - The present study examined neural substrates underlying turn-based cooperation and competition in a real two-person situation. We simultaneously measured pairs of participants’ activations in their bilateral frontal, temporal, and parietal regions using a 96-channel near-infrared spectroscopy (NIRS) system, when participants played a turn-taking disk-game on a computer. NIRS data demonstrated significant inter-brain neural synchronization (INS) across participant pairs’ right posterior superior temporal sulcus (pSTS) in both the cooperation and competition conditions, and the competition condition also involved significant INS in the right inferior parietal lobule (IPL). In addition, competitive dyads’ INS in the bilateral inferior frontal gyrus (IFG) may play as a role of mediation in relationship between their empathy score and disk-manipulation latency, but cooperative dyads’ INS did not. These results suggest that first the right pSTS may be commonly involved in both cooperation and competition due to task demands of joint attention and intention understanding, while the right IPL may be more important for competition due to additional requirements of mentalizing resources in competing contexts. Second, participants’ empathy may promote INS in the bilateral IFG across competitors, and in turn affect their competitive performance.
+DA  - 2017/08/17/
+PY  - 2017
+DO  - 10.1038/s41598-017-09226-w
+DP  - www.nature.com
+VL  - 7
+IS  - 1
+SP  - 8684
+LA  - en
+SN  - 2045-2322
+ST  - Inter-brain network underlying turn-based cooperation and competition
+UR  - https://www.nature.com/articles/s41598-017-09226-w
+Y2  - 2021/03/05/05:14:54
+L1  - https://www.nature.com/articles/s41598-017-09226-w.pdf
+L2  - https://www.nature.com/articles/s41598-017-09226-w
+ER  - 
+
+TY  - JOUR
+TI  - Brain-to-brain synchrony in parent-child dyads and the relationship with emotion regulation revealed by fNIRS-based hyperscanning
+AU  - Reindl, Vanessa
+AU  - Gerloff, Christian
+AU  - Scharke, Wolfgang
+AU  - Konrad, Kerstin
+T2  - NeuroImage
+AB  - Parent-child synchrony, the coupling of behavioral and biological signals during social contact, may fine-tune the child's brain circuitries associated with emotional bond formation and the child's development of emotion regulation. Here, we examined the neurobiological underpinnings of these processes by measuring parent's and child's prefrontal neural activity concurrently with functional near-infrared spectroscopy hyperscanning. Each child played both a cooperative and a competitive game with the parent, mostly the mother, as well as an adult stranger. During cooperation, parent's and child's brain activities synchronized in the dorsolateral prefrontal and frontopolar cortex (FPC), which was predictive for their cooperative performance in subsequent trials. No significant brain-to-brain synchrony was observed in the conditions parent-child competition, stranger-child cooperation and stranger-child competition. Furthermore, parent-child compared to stranger-child brain-to-brain synchrony during cooperation in the FPC mediated the association between the parent's and the child's emotion regulation, as assessed by questionnaires. Thus, we conclude that brain-to-brain synchrony may represent an underlying neural mechanism of the emotional connection between parent and child, which is linked to the child's development of adaptive emotion regulation. Future studies may uncover whether brain-to-brain synchrony can serve as a neurobiological marker of the dyad's socio-emotional interaction, which is sensitive to risk conditions, and can be modified by interventions.
+DA  - 2018/09/01/
+PY  - 2018
+DO  - 10.1016/j.neuroimage.2018.05.060
+DP  - ScienceDirect
+VL  - 178
+SP  - 493
+EP  - 502
+J2  - NeuroImage
+LA  - en
+SN  - 1053-8119
+UR  - https://www.sciencedirect.com/science/article/pii/S1053811918304786
+Y2  - 2021/03/05/05:17:00
+KW  - Brain-to-brain synchrony
+KW  - Cooperation
+KW  - Emotion regulation
+KW  - fNIRS hyperscanning
+KW  - Parent-child interaction
+ER  - 
+
+TY  - JOUR
+TI  - Shared neural representations of syntax during online dyadic communication
+AU  - Liu, Wenda
+AU  - Branigan, Holly P.
+AU  - Zheng, Lifen
+AU  - Long, Yuhang
+AU  - Bai, Xialu
+AU  - Li, Kanyu
+AU  - Zhao, Hui
+AU  - Zhou, Siyuan
+AU  - Pickering, Martin J.
+AU  - Lu, Chunming
+T2  - NeuroImage
+AB  - When people communicate, they come to see the world in a similar way to each other by aligning their mental representations at such levels as syntax. Syntax is an essential feature of human language that distinguishes humans from other non-human animals. However, whether and how communicators share neural representations of syntax is not well understood. Here we addressed this issue by measuring the brain activity of both communicators in a series of dyadic communication contexts, by using functional near-infrared spectroscopy (fNIRS)-based hyperscanning. Two communicators alternatively spoke sentences either with the same or with different syntactic structures. Results showed a significantly higher-level increase of interpersonal neural synchronization (INS) at right posterior superior temporal cortex when communicators produced the same syntactic structures as each other compared to when they produced different syntactic structures. These increases of INS correlated significantly with communication quality. Our findings provide initial evidence for shared neural representations of syntax between communicators.
+DA  - 2019/09//
+PY  - 2019
+DO  - 10.1016/j.neuroimage.2019.05.035
+DP  - PubMed
+VL  - 198
+SP  - 63
+EP  - 72
+J2  - Neuroimage
+LA  - eng
+SN  - 1095-9572
+L1  - https://www.pure.ed.ac.uk/ws/files/89494449/Lu_et_al_Neuroimage_final.pdf
+L2  - http://www.ncbi.nlm.nih.gov/pubmed/31102737
+KW  - Adult
+KW  - Communication
+KW  - Cortical Synchronization
+KW  - Female
+KW  - fNIRS
+KW  - Humans
+KW  - Linguistics
+KW  - Male
+KW  - Neural synchronization
+KW  - Shared representation
+KW  - Spectroscopy, Near-Infrared
+KW  - Speech
+KW  - Speech Perception
+KW  - Syntax
+KW  - Temporal Lobe
+KW  - Young Adult
+ER  - 
+
+TY  - JOUR
+TI  - Leader emergence through interpersonal neural synchronization
+AU  - Jiang, Jing
+AU  - Chen, Chuansheng
+AU  - Dai, Bohan
+AU  - Shi, Guang
+AU  - Ding, Guosheng
+AU  - Liu, Li
+AU  - Lu, Chunming
+T2  - Proceedings of the National Academy of Sciences
+AB  - The neural mechanism of leader emergence is not well understood. This study investigated (i) whether interpersonal neural synchronization (INS) plays an important role in leader emergence, and (ii) whether INS and leader emergence are associated with the frequency or the quality of communications. Eleven three-member groups were asked to perform a leaderless group discussion (LGD) task, and their brain activities were recorded via functional near infrared spectroscopy (fNIRS)-based hyperscanning. Video recordings of the discussions were coded for leadership and communication. Results showed that the INS for the leader–follower (LF) pairs was higher than that for the follower–follower (FF) pairs in the left temporo-parietal junction (TPJ), an area important for social mentalizing. Although communication frequency was higher for the LF pairs than for the FF pairs, the frequency of leader-initiated and follower-initiated communication did not differ significantly. Moreover, INS for the LF pairs was significantly higher during leader-initiated communication than during follower-initiated communications. In addition, INS for the LF pairs during leader-initiated communication was significantly correlated with the leaders’ communication skills and competence, but not their communication frequency. Finally, leadership could be successfully predicted based on INS as well as communication frequency early during the LGD (before half a minute into the task). In sum, this study found that leader emergence was characterized by high-level neural synchronization between the leader and followers and that the quality, rather than the frequency, of communications was associated with synchronization. These results suggest that leaders emerge because they are able to say the right things at the right time.
+DA  - 2015/04/07/
+PY  - 2015
+DO  - 10.1073/pnas.1422930112
+DP  - www.pnas.org
+VL  - 112
+IS  - 14
+SP  - 4274
+EP  - 4279
+J2  - PNAS
+LA  - en
+SN  - 0027-8424, 1091-6490
+UR  - https://www.pnas.org/content/112/14/4274
+Y2  - 2021/03/05/05:17:42
+L1  - https://www.pnas.org/content/pnas/112/14/4274.full.pdf
+L2  - https://www.pnas.org/content/112/14/4274.short
+L2  - http://www.ncbi.nlm.nih.gov/pubmed/25831535
+KW  - babble hypothesis
+KW  - communication skill
+KW  - leader emergence
+KW  - neural synchronization
+KW  - quality of communication
+ER  - 
+
+TY  - JOUR
+TI  - Cheering Enhances Inter-Brain Synchronization Between Sensorimotor Areas of Player and Observer
+AU  - Koide, Tadayoshi
+AU  - Shimada, Sotaro
+T2  - Japanese Psychological Research
+AB  - Cheering for another person is a common experience. Cheering may facilitate the cheerer's subjective unity with the cheered-for person, potentially involving synchronized activity between the two individuals’ brains. In the current study, we measured the sensorimotor cortical activity of a player and an observer simultaneously during a competitive game, using functional near-infrared spectroscopy. The player performed the rock-paper-scissors game against an experimenter while the observer either cheered for that player (cheering group) or judged whether the player cheated or not (control group). In the cheering group, observers reported a significantly stronger sense of unity with the player, and exhibited greater sensorimotor activation when observing the player win, compared with the control group. The functional connectivity between the sensorimotor areas of the player and observer was significantly greater in the cheering group, exhibiting a significant correlation with the subjective sense of unity between the player and observer. These results suggest that cheering enhances the synchronization of the player's and the observer's internal states, establishing a sense of unity.
+DA  - 2018///
+PY  - 2018
+DO  - https://doi.org/10.1111/jpr.12202
+DP  - Wiley Online Library
+VL  - 60
+IS  - 4
+SP  - 265
+EP  - 275
+LA  - en
+SN  - 1468-5884
+UR  - https://onlinelibrary.wiley.com/doi/abs/10.1111/jpr.12202
+Y2  - 2021/03/05/05:18:18
+L1  - https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/jpr.12202
+KW  - cheering
+KW  - functional near-infrared spectroscopy
+KW  - hyperscanning
+KW  - inter-brain synchronization
+KW  - mirror neuron system
+ER  - 
+
+TY  - JOUR
+TI  - Donate or receive? Social hyperscanning application with fNIRS
+AU  - Balconi, Michela
+AU  - Fronda, Giulia
+AU  - Vanutelli, Maria Elide
+T2  - Current Psychology
+AB  - Recent research in social neuroscience has shown how prosocial behavior can increase perceived self-efficacy, perception of cognitive abilitites and social interactions. The present research explored the effect of prosocial behavior, that is giving a gift during an interpersonal exchange, measuring the hyperscanning among two brains. The experiment aimed to analyze the behavioral performance and the brain-to-brain prefrontal neural activity of 16 dyads during a joint action consisting in a cooperative game, which took place in a laboratory setting controlled by an experimenter, to play before and after a gift exchange. Two different types of gift exchange were compared: experiential and material. Functional Near Infrared Spectroscopy (fNIRS) was applied to record brain activity. Inter-brain connectivity was calculated before and after the gift exchange. In behavioral data, a behavioral performance increase was observed after gift exchange, with accuracy improvement and response times decrease. Regarding intra-brain analyses, an increase in oxygenated hemoglobin was detected, especially in the dorsolateral prefrontal cortex (DLPFC) in both donor and receiver; and in the dorsal part of the premotor cortex (DPMC) in the donor. Moreover, as regards the gift type, greater activation in the DPLFC emerged in both the donor and the receiver after receiving an experiential gift. Finally, the results of the inter-brain connectivity analysis showed that after gift exchange, the donor and receiver brain activity was more synchronized in the DPMC and Frontal Eye Fields (FEF) areas. The present study provides a contribution to the identification of inter-brain functional connectivity when prosocial behaviors are played out.
+DA  - 2019/08/01/
+PY  - 2019
+DO  - 10.1007/s12144-019-00247-4
+DP  - Springer Link
+VL  - 38
+IS  - 4
+SP  - 991
+EP  - 1002
+J2  - Curr Psychol
+LA  - en
+SN  - 1936-4733
+ST  - Donate or receive?
+UR  - https://doi.org/10.1007/s12144-019-00247-4
+Y2  - 2021/03/05/05:18:41
+L1  - https://link.springer.com/content/pdf/10.1007%2Fs12144-019-00247-4.pdf
+ER  - 
+
+TY  - JOUR
+TI  - Frontal temporal and parietal systems synchronize within and across brains during live eye-to-eye contact
+AU  - Hirsch, Joy
+AU  - Zhang, Xian
+AU  - Noah, J. Adam
+AU  - Ono, Yumie
+T2  - NeuroImage
+AB  - Human eye-to-eye contact is a primary source of social cues and communication. In spite of the biological significance of this interpersonal interaction, the underlying neural processes are not well-understood. This knowledge gap, in part, reflects limitations of conventional neuroimaging methods, including solitary confinement in the bore of a scanner and minimal tolerance of head movement that constrain investigations of natural, two-person interactions. However, these limitations are substantially resolved by recent technical developments in functional near-infrared spectroscopy (fNIRS), a non-invasive spectral absorbance technique that detects changes in blood oxygen levels in the brain by using surface-mounted optical sensors. Functional NIRS is tolerant of limited head motion and enables simultaneous acquisitions of neural signals from two interacting partners in natural conditions. We employ fNIRS to advance a data-driven theoretical framework for two-person neuroscience motivated by the Interactive Brain Hypothesis which proposes that interpersonal interaction between individuals evokes neural mechanisms not engaged during solo, non-interactive, behaviors. Within this context, two specific hypotheses related to eye-to-eye contact, functional specificity and functional synchrony, were tested. The functional specificity hypothesis proposes that eye-to-eye contact engages specialized, within-brain, neural systems; and the functional synchrony hypothesis proposes that eye-to-eye contact engages specialized, across-brain, neural processors that are synchronized between dyads. Signals acquired during eye-to-eye contact between partners (interactive condition) were compared to signals acquired during mutual gaze at the eyes of a picture-face (non-interactive condition). In accordance with the specificity hypothesis, responses during eye-to-eye contact were greater than eye-to-picture gaze for a left frontal cluster that included pars opercularis (associated with canonical language production functions known as Broca's region), pre- and supplementary motor cortices (associated with articulatory systems), as well as the subcentral area. This frontal cluster was also functionally connected to a cluster located in the left superior temporal gyrus (associated with canonical language receptive functions known as Wernicke's region), primary somatosensory cortex, and the subcentral area. In accordance with the functional synchrony hypothesis, cross-brain coherence during eye-to-eye contact relative to eye-to-picture gaze increased for signals originating within left superior temporal, middle temporal, and supramarginal gyri as well as the pre- and supplementary motor cortices of both interacting brains. These synchronous cross-brain regions are also associated with known language functions, and were partner-specific (i.e., disappeared with randomly assigned partners). Together, both within and across-brain neural correlates of eye-to-eye contact included components of previously established productive and receptive language systems. These findings reveal a left frontal, temporal, and parietal long-range network that mediates neural responses during eye-to-eye contact between dyads, and advance insight into elemental mechanisms of social and interpersonal interactions.
+DA  - 2017/08/15/
+PY  - 2017
+DO  - 10.1016/j.neuroimage.2017.06.018
+DP  - PubMed
+VL  - 157
+SP  - 314
+EP  - 330
+J2  - Neuroimage
+LA  - eng
+SN  - 1095-9572
+L1  - https://europepmc.org/articles/pmc5863547?pdf=render
+L2  - http://www.ncbi.nlm.nih.gov/pubmed/28619652
+KW  - Adult
+KW  - Cross-brain coherence
+KW  - Eye
+KW  - Eye contact
+KW  - Facial Recognition
+KW  - Female
+KW  - Fixation, Ocular
+KW  - FNIRS
+KW  - Frontal Lobe
+KW  - Functional Neuroimaging
+KW  - Humans
+KW  - Hyperscanning
+KW  - Interactive Brain Hypothesis
+KW  - Interpersonal Relations
+KW  - Male
+KW  - Parietal Lobe
+KW  - Social neuroscience
+KW  - Spectroscopy, Near-Infrared
+KW  - Temporal Lobe
+KW  - Two-person neuroscience
+KW  - Young Adult
+ER  - 
+
+TY  - JOUR
+TI  - How Two Brains Make One Synchronized Mind in the Inferior Frontal Cortex: fNIRS-Based Hyperscanning During Cooperative Singing
+AU  - Osaka, Naoyuki
+AU  - Minamoto, Takehiro
+AU  - Yaoi, Ken
+AU  - Azuma, Miyuki
+AU  - Shimada, Yohko Minamoto
+AU  - Osaka, Mariko
+T2  - Frontiers in Psychology
+AB  - One form of communication that is common in all cultures is people singing together. Singing together reflects an index of cognitive synchronization and cooperation of human brains. Little is known about the neural synchronization mechanism, however. Here, we examined how two brains make one synchronized behavior using cooperated singing/humming between two people and hyperscanning, a new brain scanning technique. Hyperscanning allowed us to observe dynamic cooperation between interacting participants. We used functional near-infrared spectroscopy (fNIRS) to simultaneously record the brain activity of two people while they cooperatively sang or hummed a song in face-to-face (FtF) or face-to-wall (FtW) conditions. By calculating the inter-brain wavelet transform coherence between two interacting brains, we found a significant increase in the neural synchronization of the left inferior frontal cortex (IFC) for cooperative singing or humming regardless of FtF or FtW compared with singing or humming alone. On the other hand, the right IFC showed an increase in neural synchronization for humming only, possibly due to more dependence on musical processing.
+DA  - 2015///
+PY  - 2015
+DO  - 10.3389/fpsyg.2015.01811
+DP  - Frontiers
+VL  - 6
+J2  - Front. Psychol.
+LA  - English
+SN  - 1664-1078
+ST  - How Two Brains Make One Synchronized Mind in the Inferior Frontal Cortex
+UR  - https://www.frontiersin.org/articles/10.3389/fpsyg.2015.01811/full
+Y2  - 2021/03/05/05:19:19
+L1  - https://www.frontiersin.org/articles/10.3389/fpsyg.2015.01811/pdf
+KW  - cooperation
+KW  - fNIRS
+KW  - Humming
+KW  - hyperscanning
+KW  - inferior frontal cortex
+KW  - Singing
+ER  - 
+
+TY  - CONF
+TI  - Brain-to-brain synchronization of the expectation of cooperation behavior: A fNIRS hyperscanning study
+AU  - Zhang, M.
+AU  - Ding, K.
+AU  - Jia, H.
+AU  - Yu, D.
+T2  - 2018 40th Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC)
+AB  - Expectation of cooperation (hereafter EOC) plays an important role in social dilemmas. In the present study, participant dyads performed an improved prisoner's dilemma game, with their prefrontal cortex and inferior frontal gyrus recorded via the functional near-infrared spectroscopy (fNIRS) hyperscanning technique. Inter brain results indicated significant inter-brain neural synchronization (INS) across participant pairs' inferior frontal gyrus (IFG) in high-powered incentives and defective expectation. Furthermore, the agreeableness proved to be a predictor of cooperative expectation in the inter brain frame. These results may revealed the inter-brain underlying substrate of EOC in social dilemmas and indicated the involvement of the mentalizing network and human mirror neuron system network in social dilemmas.
+C3  - 2018 40th Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC)
+DA  - 2018/07//
+PY  - 2018
+DO  - 10.1109/EMBC.2018.8512315
+DP  - IEEE Xplore
+SP  - 546
+EP  - 549
+ST  - Brain-to-brain synchronization of the expectation of cooperation behavior
+L2  - https://ieeexplore.ieee.org/abstract/document/8512315?casa_token=fAbQvCd_EC4AAAAA:2gFUgljk3DniCnPLu9OzC7zpCs0V1Rm6aJZTHbtqAVysK5TS98qxkJHBU8QSYWwC56ylDtvh0Q
+KW  - brain
+KW  - Brain
+KW  - Brain Mapping
+KW  - brain-to-brain synchronization
+KW  - cellular biophysics
+KW  - Coherence
+KW  - Cooperative Behavior
+KW  - defective expectation
+KW  - expectation-of-cooperation
+KW  - Face
+KW  - fNIRS hyperscanning study
+KW  - functional near-infrared spectroscopy hyperscanning technique
+KW  - Games
+KW  - high-powered incentives
+KW  - human mirror neuron system network
+KW  - Humans
+KW  - inferior frontal gyrus
+KW  - infrared spectroscopy
+KW  - inter-brain neural synchronization
+KW  - interbrain frame
+KW  - Interpersonal Relations
+KW  - Mirror Neurons
+KW  - Mirrors
+KW  - neural nets
+KW  - neurophysiology
+KW  - prefrontal cortex
+KW  - Prefrontal Cortex
+KW  - Prisoner Dilemma
+KW  - Spectroscopy, Near-Infrared
+KW  - Substrates
+KW  - Synchronization
+KW  - Task analysis
+KW  - Theory of Mind
+ER  - 
+
+TY  - JOUR
+TI  - Interpersonal brain synchronization associated with working alliance during psychological counseling
+AU  - Zhang, Ya
+AU  - Meng, Tian
+AU  - Hou, Yingying
+AU  - Pan, Yafeng
+AU  - Hu, Yi
+T2  - Psychiatry Research: Neuroimaging
+AB  - The mechanisms underlying behavioral synchrony during psychological counseling are not clear. Recent research has provided evidence that pervasive synchrony is associated with interpersonal brain synchronization (IBS) and possibly contributes to the positive working alliance—the degree to which the counseling dyads engage in collaborative and purposive work. Our study explored the IBS between the clients and the counselors using functional near-infrared spectroscopy (fNIRS)-based hyperscanning. Thirty-four participants (as clients) were randomly assigned either to the psychological counseling group or to the chatting group; three female professional counselors provided them with 40 minutes of psychological counseling or chatting. We found better working alliances and increased IBS in the right temporo-parietal junction (rTPJ) between clients and counselors during psychological counseling (versus chatting). Such IBS also correlated with the bond of working alliance. To our knowledge, our work represents the first demonstration of fNIRS-hyperscanning measurements for synchronous brain activity between the clients and counselors. This study refines the neural explanation of behavioral synchrony during psychological counseling.
+DA  - 2018/12/30/
+PY  - 2018
+DO  - 10.1016/j.pscychresns.2018.09.007
+DP  - ScienceDirect
+VL  - 282
+SP  - 103
+EP  - 109
+J2  - Psychiatry Research: Neuroimaging
+LA  - en
+SN  - 0925-4927
+UR  - https://www.sciencedirect.com/science/article/pii/S0925492718301161
+Y2  - 2021/03/05/05:21:54
+KW  - fNIRS hyperscanning
+KW  - Interpersonal brain synchronization
+KW  - Psychological counseling
+KW  - Psychotherapy
+KW  - Synchrony
+KW  - Working alliance
+ER  - 
+
+TY  - JOUR
+TI  - Putting our heads together: interpersonal neural synchronization as a biological mechanism for shared intentionality
+AU  - Fishburn, Frank A
+AU  - Murty, Vishnu P
+AU  - Hlutkowsky, Christina O
+AU  - MacGillivray, Caroline E
+AU  - Bemis, Lisa M
+AU  - Murphy, Meghan E
+AU  - Huppert, Theodore J
+AU  - Perlman, Susan B
+T2  - Social Cognitive and Affective Neuroscience
+AB  - Shared intentionality, or collaborative interactions in which individuals have a shared goal and must coordinate their efforts, is a core component of human interaction. However, the biological bases of shared intentionality and, specifically, the processes by which the brain adjusts to the sharing of common goals, remain largely unknown. Using functional near infrared spectroscopy (fNIRS), coordination of cerebral hemodynamic activation was found in subject pairs when completing a puzzle together in contrast to a condition in which subjects completed identical but individual puzzles (same intention without shared intentionality). Interpersonal neural coordination was also greater when completing a puzzle together compared to two control conditions including the observation of another pair completing the same puzzle task or watching a movie with a partner (shared experience). Further, permutation testing revealed that the time course of neural activation of one subject predicted that of their partner, but not that of others completing the identical puzzle in different partner sets. Results indicate unique brain-to-brain coupling specific to shared intentionality beyond what has been previously found by investigating the fundamentals of social exchange.
+DA  - 2018/09/05/
+PY  - 2018
+DO  - 10.1093/scan/nsy060
+DP  - Silverchair
+VL  - 13
+IS  - 8
+SP  - 841
+EP  - 849
+J2  - Social Cognitive and Affective Neuroscience
+SN  - 1749-5016
+ST  - Putting our heads together
+UR  - https://doi.org/10.1093/scan/nsy060
+Y2  - 2021/03/05/05:22:16
+L1  - https://academic.oup.com/scan/article-pdf/13/8/841/25891649/nsy060.pdf
+ER  - 
+
+TY  - JOUR
+TI  - Interpersonal synchronization of inferior frontal cortices tracks social interactive learning of a song
+AU  - Pan, Yafeng
+AU  - Novembre, Giacomo
+AU  - Song, Bei
+AU  - Li, Xianchun
+AU  - Hu, Yi
+T2  - NeuroImage
+AB  - Much of human learning emerges as a result of interaction with others. Yet, this interpersonal process has been poorly characterized from a neurophysiological perspective. This study investigated (i) whether Interpersonal Brain Synchronization (IBS) can reliably mark social interactive learning, and specifically (ii) during what kind of interactive behavior. We recorded brain activity from learner-instructor dyads using functional Near-Infrared Spectroscopy (fNIRS) during the acquisition of a music song. We made four fundamental observations. First, during the interactive learning task, brain activity recorded from the bilateral Inferior Frontal Cortex (IFC) synchronized across the learner and the instructor. Second, such IBS was observed in particular when the learner was observing the instructor's vocal behavior and when the learning experience entailed a turn-taking and more active mode of interaction. Third, this specific enhancement of IBS predicted learner's behavioral performance. Fourth, Granger causality analyses further disclosed that the signal recorded from the instructor's brain better predicted that recorded from the learner's brain than vice versa. Together, these results indicate that social interactive learning can be neurophysiologically characterized in terms of IBS. Furthermore, they suggest that the learner's involvement in the learning experience, alongside the instructor's modeling, are key factors driving the alignment of neural processes across learner and instructor. Such alignment impacts upon the real-time acquisition of new information and eventually upon the learning (behavioral) performance. Hence, besides providing a biological characterization of social interactive learning, our results hold relevance for clinical and pedagogical practices.
+DA  - 2018/12/01/
+PY  - 2018
+DO  - 10.1016/j.neuroimage.2018.08.005
+DP  - ScienceDirect
+VL  - 183
+SP  - 280
+EP  - 290
+J2  - NeuroImage
+LA  - en
+SN  - 1053-8119
+UR  - https://www.sciencedirect.com/science/article/pii/S105381191830692X
+Y2  - 2021/03/05/05:22:40
+KW  - fNIRS hyperscanning
+KW  - Inferior frontal cortex
+KW  - Interpersonal brain synchronization
+KW  - Involvement theory
+KW  - Music
+KW  - Social interactive learning
+KW  - Turn-taking
+ER  - 
+
+TY  - JOUR
+TI  - fNIRS Responses in Professional Violinists While Playing Duets: Evidence for Distinct Leader and Follower Roles at the Brain Level
+AU  - Vanzella, Patricia
+AU  - Balardin, Joana B.
+AU  - Furucho, Rogério A.
+AU  - Zimeo Morais, Guilherme Augusto
+AU  - Braun Janzen, Thenille
+AU  - Sammler, Daniela
+AU  - Sato, João R.
+T2  - Frontiers in Psychology
+AB  - Music played in ensembles is a naturalistic model to study joint action and leader-follower relationships. Recently, the investigation of the brain underpinnings of joint musical actions has gained attention; however, the cerebral correlates underlying the roles of leader and follower in music performance remain elusive. The present study addressed this question by simultaneously measuring the hemodynamic correlates of functional neural activity elicited during naturalistic violin duet performance using fNIRS. Findings revealed distinct patterns of functional brain activation when musicians played the Violin 2 (follower) than the Violin 1 part (leader) in duets, both compared to solo performance. More specifically, results indicated that musicians playing the Violin 2 part had greater oxy-Hb activation in temporo-parietal (p = 0.02) and somatomotor (p = 0.04) regions during the duo condition in relation to the solo. On the other hand, there were no significant differences in the activation of these areas between duo/solo conditions during the execution of the Violin 1 part (p’s > 0.05). These findings suggest that ensemble cohesion during a musical performance may impose particular demands when musicians play the follower position, especially in brain areas associated with the processing of dynamic social information and motor simulation. This study is the first to use fNIRS hyperscanning technology to simultaneously measure the brain activity of two musicians during naturalistic music ensemble performance, opening new avenues for the investigation of brain correlates underlying joint musical actions with multiple subjects in a naturalistic environment.
+DA  - 2019///
+PY  - 2019
+DO  - 10.3389/fpsyg.2019.00164
+DP  - Frontiers
+VL  - 10
+J2  - Front. Psychol.
+LA  - English
+SN  - 1664-1078
+ST  - fNIRS Responses in Professional Violinists While Playing Duets
+UR  - https://www.frontiersin.org/articles/10.3389/fpsyg.2019.00164/full
+Y2  - 2021/03/05/05:22:59
+L1  - https://www.frontiersin.org/articles/10.3389/fpsyg.2019.00164/pdf
+KW  - fNIRS
+KW  - hyperscanning
+KW  - Joint Action
+KW  - Leadership
+KW  - musical ensemble performance
+KW  - naturalistic paradigm
+ER  - 
+
+TY  - JOUR
+TI  - Interpersonal frontopolar neural synchronization in group communication: An exploration toward fNIRS hyperscanning of natural interactions
+AU  - Nozawa, Takayuki
+AU  - Sasaki, Yukako
+AU  - Sakaki, Kohei
+AU  - Yokoyama, Ryoichi
+AU  - Kawashima, Ryuta
+T2  - NeuroImage
+AB  - Research of interpersonal neural synchronization (INS) using functional near-infrared spectroscopy (fNIRS) hyperscanning is an expanding nascent field. This field still requires the accumulation of findings and establishment of analytic standards. In this study, we therefore intend to extend fNIRS-based INS research in three directions: (1) verifying the enhancement of frontopolar INS by natural and unstructured verbal communication involving more than two individuals; (2) examining timescale dependence of the INS modulation; and (3) evaluating the effects of artifact reduction methods in capturing INS. We conducted an fNIRS hyperscanning study while 12 groups of four subjects were engaged in cooperative verbal communication. Corresponding to the three objectives, our analyses of the data (1) confirmed communication-enhanced frontopolar INS, as expected from the region's roles in social communication; (2) revealed the timescale dependency in the INS modulation, suggesting the merit of evaluating INS in fine timescale bins; and (3) determined that removal of the skin blood flow component engenders substantial improvement in sensitivity to communication-enhanced INS and segregation from artifactual synchronization, and that caution for artifact reduction preprocessing is needed to avoid excessive removal of the neural fluctuation component. Accordingly, this study provides a prospective technical basis for future hyperscanning studies during daily communicative activities.
+DA  - 2016/06//
+PY  - 2016
+DO  - 10.1016/j.neuroimage.2016.03.059
+DP  - PubMed
+VL  - 133
+SP  - 484
+EP  - 497
+J2  - Neuroimage
+LA  - eng
+SN  - 1095-9572
+ST  - Interpersonal frontopolar neural synchronization in group communication
+L2  - http://www.ncbi.nlm.nih.gov/pubmed/27039144
+KW  - Artifact reduction
+KW  - Brain Mapping
+KW  - Communication
+KW  - Cortical Synchronization
+KW  - Female
+KW  - fNIRS
+KW  - Functional Neuroimaging
+KW  - Humans
+KW  - Hyperscanning
+KW  - Interpersonal neural synchronization
+KW  - Interpersonal Relations
+KW  - Male
+KW  - Prefrontal Cortex
+KW  - Sensitivity and Specificity
+KW  - Skin blood flow
+KW  - Social cognition
+KW  - Spectroscopy, Near-Infrared
+KW  - Young Adult
+ER  - 
+
+TY  - JOUR
+TI  - Interplay between prior knowledge and communication mode on teaching effectiveness: Interpersonal neural synchronization as a neural marker
+AU  - Liu, Jieqiong
+AU  - Zhang, Ruqian
+AU  - Geng, Binbin
+AU  - Zhang, Tingyu
+AU  - Yuan, Di
+AU  - Otani, Satoru
+AU  - Li, Xianchun
+T2  - NeuroImage
+AB  - Teacher-student interaction allows students to combine prior knowledge with new information to develop new knowledge. It is widely understood that both communication mode and students' knowledge state contribute to the teaching effectiveness (i.e., higher students' scores), but the nature of the interplay of these factors and the underlying neural mechanism remain unknown. In the current study, we manipulated the communication modes (face-to-face [FTF] communication mode/computer-mediated communication [CMC] mode) and prior knowledge states (with vs. without) when teacher-student dyads participated in a teaching task. Using functional near-infrared spectroscopy, the brain activities of both the teacher and student in the dyads were recorded simultaneously. After teaching, perceived teacher-student interaction and teaching effectiveness were assessed. The behavioral results demonstrated that, during teaching with prior knowledge, FTF communication improved students' academic performance, as compared with CMC. Conversely, no such effect was found for teaching without prior knowledge. Accordingly, higher task-related interpersonal neural synchronization (INS) in the left prefrontal cortex (PFC) was found in the FTF teaching condition with prior knowledge. Such INS mediated the relationship between perceived interaction and students' test scores. Furthermore, the cumulative INS in the left PFC could predict the teaching effectiveness early in the teaching process (around 25-35 s into the teaching task) only in FTF teaching with prior knowledge. These findings provide insight into how the interplay between the communication mode and students' knowledge state affects teaching effectiveness. Moreover, our findings suggest that INS could be a possible neuromarker for dynamic evaluation of teacher-student interaction and teaching effectiveness.
+DA  - 2019/06//
+PY  - 2019
+DO  - 10.1016/j.neuroimage.2019.03.004
+DP  - PubMed
+VL  - 193
+SP  - 93
+EP  - 102
+J2  - Neuroimage
+LA  - eng
+SN  - 1095-9572
+ST  - Interplay between prior knowledge and communication mode on teaching effectiveness
+L2  - http://www.ncbi.nlm.nih.gov/pubmed/30851445
+KW  - Adult
+KW  - Communication
+KW  - Communication mode
+KW  - Cortical Synchronization
+KW  - Female
+KW  - Functional near-infrared spectroscopy
+KW  - Humans
+KW  - Hyperscanning
+KW  - Interpersonal neural synchronization
+KW  - Knowledge
+KW  - Learning
+KW  - Male
+KW  - Prefrontal Cortex
+KW  - Prior knowledge
+KW  - Spectroscopy, Near-Infrared
+KW  - Teacher–student interaction
+KW  - Teaching
+KW  - Teaching effectiveness
+KW  - Young Adult
+ER  - 
+
+TY  - JOUR
+TI  - Between-brain coherence during joint n-back task performance: A two-person functional near-infrared spectroscopy study
+AU  - Dommer, Lukas
+AU  - Jäger, Natalie
+AU  - Scholkmann, Felix
+AU  - Wolf, Martin
+AU  - Holper, Lisa
+T2  - Behavioural Brain Research
+AB  - The present study aimed to step into two-person neuroscience by investigating the hemodynamic correlates of between-brain connectivity during joint task performance. To test this approach, wireless functional near-infrared spectroscopy (fNIRS) was used to record brain signals during performance of a dual n-back task simultaneously in paired players as compared to single players. Evaluating functional connectivity between the paired players’ brains using wavelet transform coherence (WTC) analysis revealed (1) a significant increase in between-brain coherence during joint task performance as compared to baseline condition. These patterns were observed in two frequency bands, i.e. in the heart rate (HR) frequency and in low-frequency oscillations (LFOs). (2) Averaged hemodynamic responses revealed larger responses in total hemoglobin concentration changes [tHb] for the paired players as compared to the single players; in addition, within the paired players groups joint task performance revealed larger changes in [tHb] as compared to a rest period and to a baseline condition. (3) No increase in behavioral performance was found in the paired players as compared to the single players. Our findings designate fNIRS as suitable tool for monitoring interpersonal performances between two subjects. The results show that two-person performance leads to relevant and significant effects, which are detectable using between-brain connectivity analysis. Using this approach can provide additional insight into interpersonal activation patterns not detectable using typical one-person experiments. Our study demonstrates the potential of simultaneously assessing cerebral hemodynamic responses for various two-person experimental paradigms and research areas where interpersonal performances are involved.
+DA  - 2012/10/01/
+PY  - 2012
+DO  - 10.1016/j.bbr.2012.06.024
+DP  - ScienceDirect
+VL  - 234
+IS  - 2
+SP  - 212
+EP  - 222
+J2  - Behavioural Brain Research
+LA  - en
+SN  - 0166-4328
+ST  - Between-brain coherence during joint n-back task performance
+UR  - https://www.sciencedirect.com/science/article/pii/S0166432812004378
+Y2  - 2021/03/05/05:24:48
+KW  - Functional connectivity
+KW  - Functional near-infrared spectroscopy (fNIRS)
+KW  - Heart rate frequency
+KW  - Low-frequency oscillations (LFOs)
+KW  - Prefrontal cortex
+KW  - Two-person neuroscience
+KW  - Wavelet transform coherence (WTC)
+ER  - 
+
+TY  - JOUR
+TI  - Interpersonal brain synchronization in the right temporo-parietal junction during face-to-face economic exchange
+AU  - Tang, Honghong
+AU  - Mai, Xiaoqin
+AU  - Wang, Shun
+AU  - Zhu, Chaozhe
+AU  - Krueger, Frank
+AU  - Liu, Chao
+T2  - Social Cognitive and Affective Neuroscience
+AB  - In daily life, interpersonal interactions are influenced by uncertainty about other people’s intentions. Face-to-face (FF) interaction reduces such uncertainty by providing external visible cues such as facial expression or body gestures and facilitates shared intentionality to promote belief of cooperative decisions and actual cooperative behaviors in interaction. However, so far little is known about interpersonal brain synchronization between two people engaged in naturally occurring FF interactions. In this study, we combined an adapted ultimatum game with functional near-infrared spectroscopy (fNIRS) hyperscanning to investigate how FF interaction impacts interpersonal brain synchronization during economic exchange. Pairs of strangers interacted repeatedly either FF or face-blocked (FB), while their activation was simultaneously measured in the right temporo-parietal junction (rTPJ) and the control region, right dorsolateral prefrontal cortex (rDLPFC). Behaviorally, FF interactions increased shared intentionality between strangers, leading more positive belief of cooperative decisions and more actual gains in the game. FNIRS results indicated increased interpersonal brain synchronizations during FF interactions in rTPJ (but not in rDLPFC) with greater shared intentionality between partners. These results highlighted the importance of rTPJ in collaborative social interactions during FF economic exchange and warrant future research that combines FF interactions with fNIRS hyperscanning to study social brain disorders such as autism.
+DA  - 2016/01/01/
+PY  - 2016
+DO  - 10.1093/scan/nsv092
+DP  - Silverchair
+VL  - 11
+IS  - 1
+SP  - 23
+EP  - 32
+J2  - Social Cognitive and Affective Neuroscience
+SN  - 1749-5016
+UR  - https://doi.org/10.1093/scan/nsv092
+Y2  - 2021/03/05/05:25:51
+L1  - https://academic.oup.com/scan/article-pdf/11/1/23/27102009/nsv092.pdf
+ER  - 
+
+TY  - JOUR
+TI  - Gender difference in spontaneous deception: A hyperscanning study using functional near-infrared spectroscopy
+AU  - Zhang, Mingming
+AU  - Liu, Tao
+AU  - Pelowski, Matthew
+AU  - Yu, Dongchuan
+T2  - Scientific Reports
+AB  - Previous studies have demonstrated that the neural basis of deception involves a network of regions including the medial frontal cortex (MFC), superior temporal sulcus (STS), temporo-parietal junction (TPJ), etc. However, to test the actual activity of the brain in the act of deceptive practice itself, existing studies have mainly adopted paradigms of passive deception, where participants are told to lie in certain conditions, and have focused on intra-brain mechanisms in single participants. In order to examine the neural substrates underlying more natural, spontaneous deception in real social interactions, the present study employed a functional near-infrared spectroscopy (fNIRS) hyperscanning technique to simultaneously measure pairs of participants’ fronto-temporal activations in a two-person gambling card-game. We demonstrated higher TPJ activation in deceptive compared to honest acts. Analysis of participants’ inter-brain correlation further revealed that the STS is uniquely involved in deception but not in honesty, especially in females. These results suggest that the STS may play a critical role in spontaneous deception due to mentalizing requirements relating to modulating opponents’ thoughts. To our knowledge, this study was the first to investigate such inter-brain correlates of deception in real face-to-face interactions, and thus is hoped to provide a new path for future complex social behavior research.
+DA  - 2017/08/08/
+PY  - 2017
+DO  - 10.1038/s41598-017-06764-1
+DP  - www.nature.com
+VL  - 7
+IS  - 1
+SP  - 7508
+LA  - en
+SN  - 2045-2322
+ST  - Gender difference in spontaneous deception
+UR  - https://www.nature.com/articles/s41598-017-06764-1
+Y2  - 2021/03/05/05:26:07
+L1  - https://www.nature.com/articles/s41598-017-06764-1.pdf
+L2  - https://www.nature.com/articles/s41598-017-06764-1
+ER  - 
+
+TY  - JOUR
+TI  - Synchronous brain activity during cooperative exchange depends on gender of partner: A fNIRS-based hyperscanning study
+AU  - Cheng, Xiaojun
+AU  - Li, Xianchun
+AU  - Hu, Yi
+T2  - Human Brain Mapping
+AB  - Previous studies have shown that brain activity between partners is synchronized during cooperative exchange. Whether this neural synchronization depends on the gender of partner (i.e., opposite or same to the participant) is open to be explored. In current study, we used functional near-infrared spectroscopy (fNIRS) based hyperscanning to study cooperation in a two-person game (female–female, female–male, and male–male) while assaying brain-to-brain interactions. Cooperation was greater in male–male pairs than in female–female pairs, with intermediate cooperation levels for female–male pairs. More importantly, in dyads with partners with opposite gender (female–male pairs), we found significant task-related cross-brain coherence in frontal regions (i.e., frontopolar cortex, orbitofrontal cortex, and left dorsolateral prefrontal cortex) whereas the cooperation in same gender dyads (female–female pairs and male–male pairs) was not associated with such synchronization. Moreover, the changes of such interbrain coherence across task blocks were significantly correlated with change in degree of cooperation only in mixed-sex dyads. These findings suggested that different neural processes underlie cooperation between mixed-sex and same-sex dyadic interactions. Hum Brain Mapp 36:2039–2048, 2015. © 2015 Wiley Periodicals, Inc.
+DA  - 2015///
+PY  - 2015
+DO  - https://doi.org/10.1002/hbm.22754
+DP  - Wiley Online Library
+VL  - 36
+IS  - 6
+SP  - 2039
+EP  - 2048
+LA  - en
+SN  - 1097-0193
+ST  - Synchronous brain activity during cooperative exchange depends on gender of partner
+UR  - https://onlinelibrary.wiley.com/doi/abs/10.1002/hbm.22754
+Y2  - 2021/03/05/05:26:36
+L1  - https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/hbm.22754
+KW  - frontal cortex
+KW  - functional near-infrared spectroscopy
+KW  - hyperscanning
+KW  - interbrain coherence
+KW  - mixed-sex cooperation
+ER  - 
+
+TY  - JOUR
+TI  - Role of the right inferior frontal gyrus in turn-based cooperation and competition: A near-infrared spectroscopy study
+AU  - Liu, Tao
+AU  - Saito, Hirofumi
+AU  - Oi, Misato
+T2  - Brain and Cognition
+AB  - Interpersonal interaction can be classified into two types: concurrent and turn-based interaction, requiring synchronized body-movement and complementary behaviors across persons, respectively. To examine the neural mechanism of turn-based interaction, we simultaneously measured paired participants activations in their bilateral inferior frontal gyrus (IFG) and the bilateral inferior parietal lobule (IPL) in a turn-taking game using near-infrared spectroscopy (NIRS). Pairs of participants were assigned to either one of two roles (game builder and the partner) in the game. The builder’s task was to make a copy of a target disk-pattern by placing disks on a monitor, while the partner’s task was to aid the builder in his/her goal (cooperation condition) or to obstruct it (competition condition). The builder always took the initial move and the partner followed. The NIRS data demonstrated an interaction of role (builder vs. partner) by task-type (cooperation vs. competition) in the right IFG. The builder in the cooperation condition showed higher activation than the cooperator, but the same builder in the competition condition showed lower activation than in the cooperation condition. The activations in the competitor–builder pairs showed positive correlation between their right IFG, but the activations in the cooperator–builder pairs did not. These results suggest that the builder’s activation in the right IFG is reduced/increased in the context of interacting with a cooperative/competitive partner. Also, the competitor may actively trace the builder’s disk manipulation, leading to deeper mind-set synchronization in the competition condition, while the cooperator may passively follow the builder’s move, leading to shallower mind-set synchronization in the cooperation condition.
+DA  - 2015/10/01/
+PY  - 2015
+DO  - 10.1016/j.bandc.2015.07.001
+DP  - ScienceDirect
+VL  - 99
+SP  - 17
+EP  - 23
+J2  - Brain and Cognition
+LA  - en
+SN  - 0278-2626
+ST  - Role of the right inferior frontal gyrus in turn-based cooperation and competition
+UR  - https://www.sciencedirect.com/science/article/pii/S0278262615300026
+Y2  - 2021/03/05/05:26:56
+L1  - https://pdf.sciencedirectassets.com/272444/1-s2.0-S0278262615X00066/1-s2.0-S0278262615300026/main.pdf?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEM3%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJIMEYCIQCb2vIVZzOuVwPjaUTOeqwexX6nbsXqbEsOowOcO%2BzLhQIhAIUu3uVhBV96%2FgmnNHQA8JEfiO115uKI8Htxko51DoCzKr0DCOX%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQAxoMMDU5MDAzNTQ2ODY1Igyom7kHUzY7BuXWZdAqkQP%2B7OpNZarms7aFq%2Ft8RRhx9faeQ2MCmUwQ%2F1mYlsSHMVJeQP8yD%2B7Y26AS8%2FyB2DkaBv%2FV3aWSOROu%2FXyU890wIVZzWTDuM%2FL9Eo8BTs4utvoqUkLVx2X7R5jFDBjHMijB%2BGFKdIjRHDm59FyR6BZPSaMtaO2eL2Jfh9rkkVZjhMEHJ0sPG0j9tHt6J7BmYKvB1ESIPpaCOxdD4BU%2B8Ihz2MUnAMynQQYb%2BnnY5I%2B0TCjAuSf2TAIpwGx6bmTVdrQbX1LrkkfWGc%2BYyVgpF9ORbE8CbRXVcZreGHFxaeDI8q2X0Iv5Qb6Jkga9iGJH1gf9rEYwc2jqW%2Ft7eKDf2bs8mIQBKXqf4NGyCree2h2cGWoTB%2F7uxAMY%2Bl1%2BWt1HWmJFYUaYE%2B1q9CqnyECaOIcDBJkSYH2OK1hsSqLwQWtldsfE7O4dzsA27m8DOuhWzVAq2%2FbDwR%2BQcVi5Yp9cSOGDyIAoP6u%2BfxI5yEbsrXueJchQ7EO98ehppNaWF0S8acKT3t5Wz%2FabSP9ty7%2BwTJ1KAzCZ3oaCBjrqAQji9W95RxbvG%2B3JDfcYeADhLoHquswEwDPlQk1Cv%2FwjuYWobfE7wBbR3Oddxr92F5%2BNQ0hA9sEyJOt573d8K1nv7x%2F5%2FNkkei42hjIedx%2BiVVXoglOlQ9E8u%2BKmw6EDzivm1aQKGV4O9GWgN6X7vEH%2BMprG2W5M8wVZl55sVkutKt9noxfgk7tgRqNdT6mZHTdY%2BicgXzcZ2gnAnCvnEkKISFg%2Fw0OOCSGJRpGyPL7o0%2FhiYCJoDVD9uxIGvo5UgY8Eu%2BecahsxAFHySknSkL8QUVWtfUCN7Rd4g6k7INx5q05e6t5ENSKp3A%3D%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20210305T052656Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIAQ3PHCVTYTCZOB7H2%2F20210305%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=88a16a8e4276dfb8ce7c6410c9f587a9c9e2270e866dad4c4a567be07bd073ec&hash=8ab82395a214d69d267516f65a5c3ad17d87be61f1634179c204ed4c70840883&host=68042c943591013ac2b2430a89b270f6af2c76d8dfd086a07176afe7c76c2c61&pii=S0278262615300026&tid=spdf-2a88a23b-9697-4ee7-ab3a-56ad967a4a7f&sid=a26e9aa360fff846556b1a409394829b2b18gxrqb&type=client
+KW  - Cooperation and competition
+KW  - Hyperscanning
+KW  - Inter-brain correlation
+KW  - Near-infrared spectroscopy (NIRS)
+KW  - Second-person neuroscience
+KW  - Turn-based interaction
+ER  - 
+
+TY  - JOUR
+TI  - NIRS-Based Hyperscanning Reveals Inter-brain Neural Synchronization during Cooperative Jenga Game with Face-to-Face Communication
+AU  - Liu, Ning
+AU  - Mok, Charis
+AU  - Witt, Emily E.
+AU  - Pradhan, Anjali H.
+AU  - Chen, Jingyuan E.
+AU  - Reiss, Allan L.
+T2  - Frontiers in Human Neuroscience
+AB  - Functional near-infrared spectroscopy (fNIRS) is an increasingly popular technology for studying social cognition. In particular, fNIRS permits simultaneous measurement of hemodynamic activity in two or more individuals interacting in a naturalistic setting. Here, we used fNIRS hyperscanning to study social cognition and communication in human dyads engaged in cooperative and non-cooperative interaction while they played the game of Jenga™. Novel methods were developed to identify synchronized channels for each dyad and a structural node-based spatial registration approach was utilized for inter-dyad analyses. Strong inter-brain neural synchrony (INS) was observed in the posterior region of the right middle and superior frontal gyrus, in particular Brodmann area 8, during cooperative and obstructive interaction. This synchrony was not observed during the parallel game play condition and the dialogue section, suggesting that BA8 was involved in goal-oriented social interaction such as complex interactive movements and social decision-making. INS was also observed in the dorsomedial prefrontal region (dmPFC), in particular Brodmann 9, during cooperative interaction only. These additional findings suggest that BA9 may be particularly engaged when theory-of-mind is required for cooperative social interaction. The new methods described here have the potential to significantly extend fNIRS applications to social cognitive research.
+DA  - 2016///
+PY  - 2016
+DO  - 10.3389/fnhum.2016.00082
+DP  - Frontiers
+VL  - 10
+J2  - Front. Hum. Neurosci.
+LA  - English
+SN  - 1662-5161
+UR  - https://www.frontiersin.org/articles/10.3389/fnhum.2016.00082/full
+Y2  - 2021/03/05/05:27:07
+L1  - https://www.frontiersin.org/articles/10.3389/fnhum.2016.00082/pdf
+KW  - cooperation
+KW  - fNIRS
+KW  - functional near-infrared spectroscopy
+KW  - hyperscanning
+KW  - inter-brain neural synchronization (INS)
+KW  - obstructive interaction
+ER  - 
+
+TY  - JOUR
+TI  - Social risky decision-making reveals gender differences in the TPJ: A hyperscanning study using functional near-infrared spectroscopy
+AU  - Zhang, Mingming
+AU  - Liu, Tao
+AU  - Pelowski, Matthew
+AU  - Jia, Huibin
+AU  - Yu, Dongchuan
+T2  - Brain and Cognition
+AB  - Previous neuroscience studies have investigated neural correlates of risky decision-making in a single-brain frame during pseudo social (predominantly non face-to-face) contexts. To fully understand the risky decision-making behavior in more natural social interactions, the present study employed a functional near-infrared spectroscopy (fNIRS) hyperscanning technique to simultaneously measure pairs of participants' fronto-temporal activations in a face-to-face gambling card-game. The intra-brain results revealed that both those who identified as males and as females showed higher activations in their mPFC and in the inferior parts of the frontopolar area, as well as in the tempo-parietal junction (TPJ) in cases involving higher versus lower risk. This is consistent with previous findings suggesting importance of the mentalizing network in decision tasks. The fNIRS results of inter-brain neural synchronization (INS) also revealed that males and females showed increased inter-brain coherence in the mPFC and dlPFC. Females, however, uniquely showed increased inter-brain coherence in the left TPJ. This INS result suggests that males may primarily depend on non-social cognitive ability to make a risky decision in a social interaction, while females may use both social and non-social cognitive abilities. The implications are also discussed for general topics of human interaction and two-person neuroscience.
+DA  - 2017/12//
+PY  - 2017
+DO  - 10.1016/j.bandc.2017.08.008
+DP  - PubMed
+VL  - 119
+SP  - 54
+EP  - 63
+J2  - Brain Cogn
+LA  - eng
+SN  - 1090-2147
+ST  - Social risky decision-making reveals gender differences in the TPJ
+L2  - http://www.ncbi.nlm.nih.gov/pubmed/28889923
+KW  - Adult
+KW  - Brain Mapping
+KW  - Cerebral Cortex
+KW  - Cognition
+KW  - Decision Making
+KW  - Female
+KW  - fNIRS
+KW  - Frontal Lobe
+KW  - Gender effect
+KW  - Humans
+KW  - Hyperscanning
+KW  - Interpersonal Relations
+KW  - Interpersonal synchronization
+KW  - Male
+KW  - Parietal Lobe
+KW  - Prefrontal Cortex
+KW  - Risk-Taking
+KW  - Risky decision-making
+KW  - Sex Factors
+KW  - Social Behavior
+KW  - Spectroscopy, Near-Infrared
+KW  - Statistics as Topic
+KW  - Temporal Lobe
+KW  - Young Adult
+ER  - 
+
+TY  - JOUR
+TI  - Cooperation makes two less-creative individuals turn into a highly-creative pair
+AU  - Xue, Hua
+AU  - Lu, Kelong
+AU  - Hao, Ning
+T2  - NeuroImage
+AB  - This study aimed to investigate which type of group (e.g., consisting of less-creative or highly-creative individuals) would perform better in solving creativity problems, and explore the underlying inter-brain neural correlates between team members. A preliminary test (an alternative-uses task) was performed to rank individuals' level of creativity, and divide participants into three types of dyads: high-high (two highly-creative individuals), low-low (two less-creative individuals), and high-low (one highly-creative and one less-creative individual). Dyads were then asked to solve a realistic presented problem (RPP; a typical creativity problem) during which a functional near-infrared spectroscopy (fNIRS)-based hyperscanning device was used to record the variation of interpersonal brain synchronization (IBS). Results revealed that less-creative individuals, while working together, would perform as well as highly-creative individuals. The low-low dyads showed higher levels of cooperation behaviour than the other two types of dyads. The fNIRS results revealed increased IBS only for low-low dyads at PFC (prefrontal cortex) and rTPJ (right temporal-parietal junction) brain regions during RPP task performance. In the rDLPFC (right dorsolateral prefrontal cortex), the IBS in the low-low dyads was stronger than that of high-high and high-low dyads. In the rTPJ, the IBS in the low-low dyads was only stronger than that of the high-low dyads. Besides, the IBS at rDLPFC and rTPJ regions in the low-low dyads was positively correlated with their cooperation behaviour and group creative performance. These findings indicated when two less-creative individuals worked on a creativity problem together, they tended to cooperate with each other (indicated by both behaviour index and increased IBS at rDLPFC and rTPJ), which benefited their creative performance.
+DA  - 2018/05/15/
+PY  - 2018
+DO  - 10.1016/j.neuroimage.2018.02.007
+DP  - PubMed
+VL  - 172
+SP  - 527
+EP  - 537
+J2  - Neuroimage
+LA  - eng
+SN  - 1095-9572
+L2  - http://www.ncbi.nlm.nih.gov/pubmed/29427846
+KW  - Brain
+KW  - Brain Mapping
+KW  - Brainstorming
+KW  - Cooperative Behavior
+KW  - Creativity
+KW  - Female
+KW  - fNIRS
+KW  - Humans
+KW  - Hyperscanning
+KW  - Interpersonal brain synchronization
+KW  - Interpersonal Relations
+KW  - Male
+KW  - Problem Solving
+KW  - Spectroscopy, Near-Infrared
+KW  - Young Adult
+ER  - 
+
+TY  - JOUR
+TI  - Praising or keeping silent on partner's ideas: Leading brainstorming in particular ways
+AU  - Lu, Kelong
+AU  - Qiao, Xinuo
+AU  - Hao, Ning
+T2  - Neuropsychologia
+AB  - This study aimed to investigate how different feedback affect group creative performance, and reveal the underlying interpersonal neural correlates using the functional near-infrared spectroscopy (fNIRS)-based hyperscanning technique. Participants solved one creativity task with two strangers in conditions with positive/negative/no feedback. Results revealed that performance in the negative condition was lower than in the other conditions. Moreover, results showed the highest 'index of convergence'/collective flexibility in the positive/control condition respectively. The fNIRS results demonstrated IBS increment in the frontopolar and bilateral dorsolateral prefrontal cortex, which was stronger in the positive and negative conditions. The IBS increment in the frontopolar and bilateral DLPFC covaried with group creative performance in the positive condition. The findings indicated that negative feedback suppressed the group creative performance; whereas no feedback facilitated collective flexibility and positive feedback promoted interpersonal interaction, these two feedback conditions both benefited group creative performance.
+DA  - 2019/02/18/
+PY  - 2019
+DO  - 10.1016/j.neuropsychologia.2019.01.004
+DP  - PubMed
+VL  - 124
+SP  - 19
+EP  - 30
+J2  - Neuropsychologia
+LA  - eng
+SN  - 1873-3514
+ST  - Praising or keeping silent on partner's ideas
+L2  - http://www.ncbi.nlm.nih.gov/pubmed/30633875
+KW  - Adult
+KW  - Brain Mapping
+KW  - Brainstorming
+KW  - Cooperative Behavior
+KW  - Cortical Synchronization
+KW  - Creativity
+KW  - Female
+KW  - fNIRS
+KW  - Group Processes
+KW  - Humans
+KW  - Hyperscanning
+KW  - Interpersonal brain synchronization
+KW  - Interpersonal Relations
+KW  - Male
+KW  - Prefrontal Cortex
+KW  - Spectroscopy, Near-Infrared
+KW  - Young Adult
+ER  - 
+
+TY  - JOUR
+TI  - Dynamic interpersonal neural synchronization underlying pain-induced cooperation in females
+AU  - Wang, Chenbo
+AU  - Zhang, Tingyu
+AU  - Shan, Zhoukuidong
+AU  - Liu, Jieqiong
+AU  - Yuan, Di
+AU  - Li, Xianchun
+T2  - Human Brain Mapping
+AB  - Individuals in pain are motivated to be cooperative in social interaction. Yet, there has been little research on how pain dynamically affects cooperation at a neural level. The present study investigated the cooperative behavior under acute physical pain by asking dyads to complete three blocks of button-press cooperative task, while neural activities were recorded simultaneously on each subject by the fNIRS-based hyperscanning. Results showed that individuals in pain improved their cooperation rate across task blocks. Accordingly, increased interpersonal neural synchronization (INS) was found at the left prefrontal cortex in second block, whereas increased INS was found at the right prefrontal cortex and the right parietal cortex in third block compared to the first block. Moreover, the change of INS in right parietal cortex was positively correlated with subjective pain rating in the pain treatment group. In addition, dynamic interpersonal neural networks were identified in painful condition with increasing frontoparietal networks across time. By uncovering dissociative neural processes involved in how pain affects cooperation in social interaction, the present work provides the first interbrain evidence to highlight the sociality of pain on social interaction in perspective of motivational aspect of pain.
+DA  - 2019///
+PY  - 2019
+DO  - https://doi.org/10.1002/hbm.24592
+DP  - Wiley Online Library
+VL  - 40
+IS  - 11
+SP  - 3222
+EP  - 3232
+LA  - en
+SN  - 1097-0193
+UR  - https://onlinelibrary.wiley.com/doi/abs/10.1002/hbm.24592
+Y2  - 2021/03/05/05:28:27
+L1  - https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/hbm.24592
+KW  - cooperation
+KW  - functional near-infrared spectroscopy
+KW  - hyperscanning
+KW  - interpersonal neural synchronization
+KW  - pain
+ER  - 
+
+TY  - JOUR
+TI  - When do we fall in neural synchrony with others?
+AU  - Lu, Kelong
+AU  - Hao, Ning
+T2  - Social Cognitive and Affective Neuroscience
+AB  - This study aimed to investigate the situation in which interpersonal brain synchronization (IBS) occurs during a collaborative task and examined its trajectory over time by developing a novel functional near-infrared spectroscopy (fNIRS)-based hyperscanning paradigm. Participants were asked to perform a collaborative task in three-person groups where two of the members are real participants and one is a confederate. Compared to dyads between real participants and confederates, real-participant pairings showed greater cooperation behavior and IBS between bilateral dorsolateral prefrontal cortex. And, IBS and cooperation increased over time in real-participant pairings, whereas they remained low and constant in dyads with the confederate. These findings indicate that IBS occurs between individuals engaging in interpersonal interaction during a collaborative task, during which both IBS and cooperatively interpersonal interaction tend to increase over time.
+DA  - 2019/03/05/
+PY  - 2019
+DO  - 10.1093/scan/nsz012
+DP  - Silverchair
+VL  - 14
+IS  - 3
+SP  - 253
+EP  - 261
+J2  - Social Cognitive and Affective Neuroscience
+SN  - 1749-5016
+UR  - https://doi.org/10.1093/scan/nsz012
+Y2  - 2021/03/05/05:29:05
+L1  - https://academic.oup.com/scan/article-pdf/14/3/253/28052129/nsz012.pdf
+ER  - 
+
+TY  - JOUR
+TI  - Obstruction increases activation in the right inferior frontal gyrus
+AU  - Liu, Tao
+AU  - Saito, Hirofumi
+AU  - Oi, Misato
+T2  - Social Neuroscience
+AB  - The right inferior frontal gyrus (IFG) is involved in intention understanding during interpersonal interactions. To examine how prior experience of cooperation and competition affects one’s right IFG activation in the subsequent interaction, using near-infrared spectroscopy (NIRS) we simultaneously measured paired participants’ bilateral IFG activations during a turn-taking game. Participant pairs were assigned to either one of two roles: a Builder taking the initial move to copy a target disk-pattern on monitor and the Partner taking the second move to aid in (cooperation) or to obstruct (competition) the Builder. The experiment consisted of two sessions. One participant (B-P) played as a Builder (B-) in session 1 and changed the role to the Partner (-P) in session 2, and vice versa for the paired participant (P-B). NIRS data in competition demonstrated that the Builder (B-) being obstructed in session 1 showed higher right IFG activation when (s)he took a role of obstructor (-P) in session 2 (the obstructed effect), whereas “the cooperated effect” was not revealed in cooperation. These results suggest that prior experience of being obstructed may facilitate understanding of the Builder and/or the obstructor’s tactical move, thereby increasing his/her right IFG activation when one is meant to obstruct in subsequent competitions.
+DA  - 2016/07/03/
+PY  - 2016
+DO  - 10.1080/17470919.2015.1088469
+DP  - Taylor and Francis+NEJM
+VL  - 11
+IS  - 4
+SP  - 344
+EP  - 352
+SN  - 1747-0919
+UR  - https://doi.org/10.1080/17470919.2015.1088469
+Y2  - 2021/03/05/05:29:28
+KW  - Cooperation and competition
+KW  - Inferior frontal gyrus (IFG)
+KW  - Near-infrared spectroscopy (NIRS)
+KW  - Role-assignment
+KW  - Turn-based interaction
+ER  - 
+
+TY  - JOUR
+TI  - NIRS-based hyperscanning reveals increased interpersonal coherence in superior frontal cortex during cooperation
+AU  - Cui, Xu
+AU  - Bryant, Daniel M.
+AU  - Reiss, Allan L.
+T2  - NeuroImage
+AB  - We used Near-Infrared Spectroscopy (NIRS) to simultaneously measure brain activity in two people while they played a computer-based cooperation game side by side. Inter-brain activity coherence was calculated between the two participants. We found that the coherence between signals generated by participants' right superior frontal cortices increased during cooperation, but not during competition. Increased coherence was also associated with better cooperation performance. To our knowledge, this work represents the first use of a single NIRS instrument for simultaneous measurements of brain activity in two people. This study demonstrates the use of NIRS-based hyperscanning in studies of social interaction in a naturalistic environment.
+DA  - 2012/02/01/
+PY  - 2012
+DO  - 10.1016/j.neuroimage.2011.09.003
+DP  - PubMed
+VL  - 59
+IS  - 3
+SP  - 2430
+EP  - 2437
+J2  - Neuroimage
+LA  - eng
+SN  - 1095-9572
+L1  - https://europepmc.org/articles/pmc3254802?pdf=render
+L2  - http://www.ncbi.nlm.nih.gov/pubmed/21933717
+KW  - Adult
+KW  - Algorithms
+KW  - Competitive Behavior
+KW  - Cooperative Behavior
+KW  - Data Interpretation, Statistical
+KW  - Electric Stimulation
+KW  - Female
+KW  - Frontal Lobe
+KW  - Games, Experimental
+KW  - Humans
+KW  - Interpersonal Relations
+KW  - Learning
+KW  - Male
+KW  - Psychomotor Performance
+KW  - Sense of Coherence
+KW  - Spectroscopy, Near-Infrared
+ER  - 
+
+TY  - JOUR
+TI  - Independent component analysis-based source-level hyperlink analysis for two-person neuroscience studies
+AU  - Zhao, Yang
+AU  - Dai, Rui-Na
+AU  - Xiao, Xiang
+AU  - Zhang, Zong
+AU  - Duan, Lian
+AU  - Li, Zheng
+AU  - Zhu, Chao-Zhe
+T2  - Journal of Biomedical Optics
+AB  - Two-person neuroscience, a perspective in understanding human social cognition and interaction, involves designing immersive social interaction experiments as well as simultaneously recording brain activity of two or more subjects, a process termed “hyperscanning.” Using newly developed imaging techniques, the interbrain connectivity or hyperlink of various types of social interaction has been revealed. Functional near-infrared spectroscopy (fNIRS)-hyperscanning provides a more naturalistic environment for experimental paradigms of social interaction and has recently drawn much attention. However, most fNIRS-hyperscanning studies have computed hyperlinks using sensor data directly while ignoring the fact that the sensor-level signals contain confounding noises, which may lead to a loss of sensitivity and specificity in hyperlink analysis. In this study, on the basis of independent component analysis (ICA), a source-level analysis framework is proposed to investigate the hyperlinks in a fNIRS two-person neuroscience study. The performance of five widely used ICA algorithms in extracting sources of interaction was compared in simulative datasets, and increased sensitivity and specificity of hyperlink analysis by our proposed method were demonstrated in both simulative and real two-person experiments.
+DA  - 2017/02//
+PY  - 2017
+DO  - 10.1117/1.JBO.22.2.027004
+DP  - www.spiedigitallibrary.org
+VL  - 22
+IS  - 2
+SP  - 027004
+J2  - JBO
+SN  - 1083-3668, 1560-2281
+UR  - https://www.spiedigitallibrary.org/journals/journal-of-biomedical-optics/volume-22/issue-2/027004/Independent-component-analysis-based-source-level-hyperlink-analysis-for-two/10.1117/1.JBO.22.2.027004.short
+Y2  - 2021/03/05/05:30:36
+L1  - https://www.spiedigitallibrary.org/journals/journal-of-biomedical-optics/volume-22/issue-2/027004/Independent-component-analysis-based-source-level-hyperlink-analysis-for-two/10.1117/1.JBO.22.2.027004.pdf
+ER  - 
+
+TY  - JOUR
+TI  - Between-brain connectivity during imitation measured by fNIRS
+AU  - Holper, Lisa
+AU  - Scholkmann, Felix
+AU  - Wolf, Martin
+T2  - NeuroImage
+AB  - The present study aimed to step into two-person neuroscience by investigating the hemodynamic correlates of between-brain connectivity involved in imitation and its dependency on pacing stimuli. To test this approach, we used wireless functional near-infrared spectroscopy (fNIRS) to record simultaneously during imitation performance of a paced finger-tapping task (PFT) in two subjects over premotor cortices (PMC). During the imitation (IM) condition, a model and an imitator were recorded while tapping in synchrony with auditory stimuli separated by a constant interval (stimulus-paced mode, St-P), followed by tapping without the pacing stimulus (self-paced mode, Se-P). During the control (CO) condition, each subject (single 1 and 2) performed the PFT task with the same pacing mode pattern, but alone without reference to each other. Using wavelet transform coherence (WTC) analysis evaluating functional connectivity between brains, we found (1) that IM revealed a larger coherence increase between the model and the imitator as compared to the CO condition. (2) Within the IM condition, a larger coherence increase was found during Se-P as compared to St-P mode. Using Granger-causality (G-causality) analysis evaluating effective connectivity between brains, we found (3) that IM revealed larger G-causality as compared to the CO condition and (4) that within the IM condition, the signal of the model G-caused that of the imitator to a greater extent as compared to vice versa. Our findings designate fNIRS as suitable tool for monitoring between-brain connectivity during dynamic interactions between two subjects and that those measurements might thereby provide insight into activation patterns not detectable using typical single-person experiments. Overall, the results of the present study demonstrate the potential of simultaneously assessing brain hemodynamics in interacting subjects in several research areas where social interactions are involved.
+DA  - 2012/10/15/
+PY  - 2012
+DO  - 10.1016/j.neuroimage.2012.06.028
+DP  - ScienceDirect
+VL  - 63
+IS  - 1
+SP  - 212
+EP  - 222
+J2  - NeuroImage
+LA  - en
+SN  - 1053-8119
+UR  - https://www.sciencedirect.com/science/article/pii/S1053811912006428
+Y2  - 2021/03/05/05:30:57
+L1  - https://pdf.sciencedirectassets.com/272508/1-s2.0-S1053811912X00156/1-s2.0-S1053811912006428/main.pdf?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEM3%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJGMEQCIESh7PzD0jQ6hmrRPdNC4CAqUVzulpDxaIIp5k2I0hKEAiBEY%2FceJxdk0x%2F6B5sFBRRxO%2Bcd93Rm%2BdONztVpKYR1%2Fyq9Awjl%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAMaDDA1OTAwMzU0Njg2NSIMVBDB3EYcgCZcKZBuKpEDJv6513w9d2H3hKd1pl5sR%2FTB36vI%2BUrUPanrZaVNoHKmgPwBhUIQIQYh2DlHkBm9KNML95zfBM%2B8RqSCXfS5pmhYykcF1NLpxVVEC5Q8bg8zsXP5Sjtfm6NVwxzJc1c%2F75P6Ww5OnI6KHQ4Imz1F%2B1Lq5Isa7xJdZSNxrqbOKvDGVgS5niZ3Mz7ug1Ykkdxres2d4Z2oj%2BnrlNLJYzlSDfATyLwB4vZhavVEdkouDoxmflfrRpu8u1T%2FlUOVtNvr2DViK1p0lxAl3YjHl63gj%2BgY4Z4gqkekDmYapaNNI0j3lVVY7vX1pgFKK6vquYAXY%2BfDbWl8cyGwwKIC300eq63K27t1KRskmiwLaMWpGnzn18c53t16%2B1ZsEjrPs6MguSxg0x9slE2KGuaw9oSWJCKErn8wPBRAlUgMqdFy1t7%2FBpqW36pDPcXeHE5jWNE1XRFmoVkbmd%2Fz84uKR0iVCmHNFIK77XPWrsy7uzI%2FfpCcbhB0xu5MLbS7bGPBjdyzxo0RDhMzrzTItnQQxGQISH0wlN6GggY67AEuu3YFT2lxrYnX0etbwo63MhwR4gsDvbGDiZUTY12I607YMIYsXV3vL4xyzvIP9rC3rERW0SfSiizQC8m5rdmT9%2BRj%2BC5xIfX0fDAat4%2FaQm6gsWCqJcEez7%2BSH%2BDz1ZGmecHnO8TIwR6pC%2F%2FlCPun5JGdPjnCA7yIuQNHjBwJy%2BEs67ymRD%2F42i5q7r13%2FT742dS4EtZz7QQkzBf6ip%2BrHUetKx2wLUFTDXy9VLa2hvALYbJOwRq0%2Ftj1OfJsjplAmP2ymvkmaNJb5YSna3e3LvwXtbsN1okDFh10mUC8fbwqga6oG2WD%2BK9MBw%3D%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20210305T053057Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIAQ3PHCVTYYFIYZ362%2F20210305%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=75c2e9c2a71c29331dab53d3782a182b27c7e4383cf10926591d24709eb974b5&hash=c54bef042ace1a24271932758254a99e9d37040ea6a68b6b03b851b889f670c5&host=68042c943591013ac2b2430a89b270f6af2c76d8dfd086a07176afe7c76c2c61&pii=S1053811912006428&tid=spdf-ac486f61-0455-4a55-8bd9-bbbeffedf11a&sid=a26e9aa360fff846556b1a409394829b2b18gxrqb&type=client
+KW  - Functional and effective connectivity
+KW  - Granger-causality
+KW  - Imitation
+KW  - Premotor cortex
+KW  - Two-person neuroscience
+KW  - Wavelet transform coherence (WTC)
+KW  - Wireless functional near-infrared spectroscopy (fNIRS)
+ER  - 
+
+TY  - JOUR
+TI  - Brains in Competition: Improved Cognitive Performance and Inter-Brain Coupling by Hyperscanning Paradigm with Functional Near-Infrared Spectroscopy
+AU  - Balconi, Michela
+AU  - Vanutelli, Maria E.
+T2  - Frontiers in Behavioral Neuroscience
+AB  - Hyperscanning brain paradigm was applied to competitive task for couples of subjects. Functional Near-Infrared Spectroscopy (fNIRS) and cognitive performance were considered to test inter-brain and cognitive strategy similarities between subjects (14 couples) during a joint-action. We supposed increased brain-to-brain coupling and improved cognitive outcomes due to joint-action and the competition. As supposed, the direct interaction between the subjects and the observed external feedback of their performance (an experimentally induced fictitious feedback) affected the cognitive performance with decreased Error Rates (ERs), and Response Times (RTs). In addition, fNIRS measure (oxyhemoglobin, O2Hb) revealed an increased brain activity in the prefrontal cortex (PFC) in post-feedback more than pre-feedback condition. Moreover, a higher inter-brain similarity was found for the couples during the task, with higher matched brain response in post-feedback condition than pre-feedback. Finally, a significant increased prefrontal brain lateralization effect was observed for the right hemisphere. Indeed the right PFC was more responsive with similar modalities within the couple during the post-feedback condition. The joined-task and competitive context was adduced to explain these cognitive performance improving, synergic brain responsiveness within the couples and lateralization effects (negative emotions).
+DA  - 2017///
+PY  - 2017
+DO  - 10.3389/fnbeh.2017.00163
+DP  - PubMed
+VL  - 11
+SP  - 163
+J2  - Front Behav Neurosci
+LA  - eng
+SN  - 1662-5153
+ST  - Brains in Competition
+L1  - https://www.frontiersin.org/articles/10.3389/fnbeh.2017.00163/pdf
+L2  - http://www.ncbi.nlm.nih.gov/pubmed/28912697
+KW  - cognition
+KW  - competition
+KW  - emotion
+KW  - fNIRS
+KW  - hyperscanning
+ER  - 
+
+TY  - JOUR
+TI  - Cluster imaging of multi-brain networks (CIMBN): a general framework for hyperscanning and modeling a group of interacting brains
+AU  - Duan, Lian
+AU  - Dai, Ruina
+AU  - Xiao, Xiang
+AU  - Sun, Peipei
+AU  - Li, Zheng
+AU  - Zhu, Chaozhe
+T2  - Frontiers in Neuroscience
+AB  - Studying the neural basis of human social interactions is a key topic in the field of social neuroscience. Brain imaging studies in this field usually focus on the neural correlates of the social interactions between two participants. However, as the participant number further increases, even by a small amount, great difficulties raise. One challenge is how to concurrently scan all the interacting brains with high ecological validity, especially for a large number of participants. The other challenge is how to effectively model the complex group interaction behaviors emerging from the intricate neural information exchange among a group of socially organized people. Confronting these challenges, we propose a new approach called “Cluster Imaging of Multi-brain Networks” (CIMBN). CIMBN consists of two parts. The first part is a cluster imaging technique with high ecological validity based on multiple functional near-infrared spectroscopy (fNIRS) systems. Using this technique, we can easily extend the simultaneous imaging capacity of social neuroscience studies up to dozens of participants. The second part of CIMBN is a multi-brain network (MBN) modeling method based on graph theory. By taking each brain as a network node and the relationship between any two brains as a network edge, one can construct a network model for a group of interacting brains. The emergent group social behaviors can then be studied using the network’s properties, such as its topological structure and information exchange efficiency. Although there is still much work to do, as a general framework for hyperscanning and modeling a group of interacting brains, CIMBN can provide new insights into the neural correlates of group social interactions, and advance social neuroscience and social psychology.
+DA  - 2015///
+PY  - 2015
+DO  - 10.3389/fnins.2015.00267
+DP  - Frontiers
+VL  - 9
+J2  - Front. Neurosci.
+LA  - English
+SN  - 1662-453X
+ST  - Cluster imaging of multi-brain networks (CIMBN)
+UR  - https://www.frontiersin.org/articles/10.3389/fnins.2015.00267/full
+Y2  - 2021/03/05/05:31:28
+L1  - https://www.frontiersin.org/articles/10.3389/fnins.2015.00267/pdf
+KW  - functional near-infrared spectroscopy
+KW  - graph theory
+KW  - hyperscanning
+KW  - multi-brain network
+KW  - social interaction
+KW  - social neuroscience
+ER  - 
+
+TY  - JOUR
+TI  - Synchronous activity of two people's prefrontal cortices during a cooperative task measured by simultaneous near-infrared spectroscopy
+AU  - Funane, Tsukasa
+AU  - Kiguchi, Masashi
+AU  - Atsumori, Hirokazu
+AU  - Sato, Hiroki
+AU  - Kubota, Kisou
+AU  - Koizumi, Hideaki
+T2  - Journal of Biomedical Optics
+AB  - The brain activity during cooperation as a form of social process is studied. We investigate the relationship between coinstantaneous brain-activation signals of multiple participants and their cooperative-task performance. A wearable near-infrared spectroscopy (NIRS) system is used for simultaneously measuring the brain activities of two participants. Each pair of participants perform a cooperative task, and their relative changes in cerebral blood are measured with the NIRS system. As for the task, the participants are told to count 10 s in their mind after an auditory cue and press a button. They are also told to adjust the timing of their button presses to make them as synchronized as possible. Certain information, namely, the "intertime interval" between the two button presses of each participant pair and which of the participants was the faster, is fed back to the participants by a beep sound after each trial. When the spatiotemporal covariance between the activation patterns of the prefrontal cortices of each participant is higher, the intertime interval between their button-press times was shorter. This result suggests that the synchronized activation patterns of the two participants' brains are associated with their performance when they interact in a cooperative task.
+DA  - 2011/07//
+PY  - 2011
+DO  - 10.1117/1.3602853
+DP  - www.spiedigitallibrary.org
+VL  - 16
+IS  - 7
+SP  - 077011
+J2  - JBO
+SN  - 1083-3668, 1560-2281
+UR  - https://www.spiedigitallibrary.org/journals/journal-of-biomedical-optics/volume-16/issue-7/077011/Synchronous-activity-of-two-peoples-prefrontal-cortices-during-a-cooperative/10.1117/1.3602853.short
+Y2  - 2021/03/05/05:31:44
+L1  - https://www.spiedigitallibrary.org/journals/journal-of-biomedical-optics/volume-16/issue-7/077011/Synchronous-activity-of-two-peoples-prefrontal-cortices-during-a-cooperative/10.1117/1.3602853.pdf
+ER  - 
+
+TY  - JOUR
+TI  - Interbrains cooperation: Hyperscanning and self-perception in joint actions
+AU  - Balconi, Michela
+AU  - Vanutelli, Maria Elide
+T2  - Journal of Clinical and Experimental Neuropsychology
+AB  - The aim of the present study was to investigate the neural bases of cooperative behaviors and social self-perception underlying the execution of joint actions by using a hyperscanning brain paradigm with functional near-infrared spectroscopy (fNIRS). We firstly found that an artificial positive feedback on the cognitive performance was able to affect the self-perception of social position and hierarchy (higher social ranking) for the dyad, as well as the cognitive performance (decreased error rate, ER, and response times, RTs). In addition, the shared cognitive strategy was concurrently improved within the dyad after this social reinforcing. Secondly, fNIRS measures revealed an increased brain activity in the postfeedback condition for the dyad. Moreover, an interbrain similarity was found for the dyads during the task, with higher coherent prefrontal cortex (PFC) activity for the interagents in the postfeedback condition. Finally, a significant prefrontal brain lateralization effect was revealed, with the left hemisphere being more engaged during the postfeedback condition. To summarize, the self-perception, the cognitive performance, and the shared brain activity were all reinforced by the social feedback within the dyad.
+DA  - 2017/08//
+PY  - 2017
+DO  - 10.1080/13803395.2016.1253666
+DP  - PubMed
+VL  - 39
+IS  - 6
+SP  - 607
+EP  - 620
+J2  - J Clin Exp Neuropsychol
+LA  - eng
+SN  - 1744-411X
+ST  - Interbrains cooperation
+L2  - http://www.ncbi.nlm.nih.gov/pubmed/27841088
+KW  - Brain Mapping
+KW  - Cognition
+KW  - Cooperation
+KW  - Cooperative Behavior
+KW  - Feedback, Psychological
+KW  - Female
+KW  - Functional Laterality
+KW  - Functional near-infrared spectroscopy
+KW  - Hierarchy, Social
+KW  - Humans
+KW  - Hyperscanning
+KW  - Interbrain
+KW  - Male
+KW  - Oxyhemoglobins
+KW  - Prefrontal Cortex
+KW  - Psychomotor Performance
+KW  - Reaction Time
+KW  - Self Concept
+KW  - Self-perception
+KW  - Social ranking
+KW  - Spectroscopy, Near-Infrared
+KW  - Young Adult
+ER  - 
+
+TY  - JOUR
+TI  - Two is better than one: The effects of strategic cooperation on intra- and inter-brain connectivity by fNIRS
+AU  - Balconi, Michela
+AU  - Pezard, Laurent
+AU  - Nandrino, Jean-Louis
+AU  - Vanutelli, Maria Elide
+T2  - PLOS ONE
+AB  - Inter-brain synchronization during joint actions is a core question in social neuroscience, and the differential contribution of intra- and inter-brain functional connectivity has yet to be clarified along with the role of psychological variables such as perceived self-efficacy. The cognitive performance and the neural activation underlying the execution of joint actions were recorded by functional Near-Infrared imaging during a synchronicity game. An 8-channel array of optodes was positioned over the frontal and prefrontal regions. During the task, the dyads received reinforcing feedback that was experimentally manipulated to induce adoption of common strategies. Intra- and inter-brain connectivity indices were computed along with an inter-brain/intra-brain connectivity index (ConIndex). Finally, correlation analyses were run to assess the relationship between behavioral and physiological levels. The results showed that the external feedback could modulate participant responses in both behavioral and neural components. After the reinforcing manipulation, there were faster response times and increased inter-brain connectivity, and ConIndex emerged primarily over the dorsolateral prefrontal cortex. Additionally, the presence of significant correlations between response times and inter-brain connectivity revealed that only the “two-players connection” may guarantee an efficient performance. The present study provides a significant contribution to the identification of intra- and inter-brain functional connectivity when social reinforcement is provided.
+DA  - 2017/11/16/
+PY  - 2017
+DO  - 10.1371/journal.pone.0187652
+DP  - PLoS Journals
+VL  - 12
+IS  - 11
+SP  - e0187652
+J2  - PLOS ONE
+LA  - en
+SN  - 1932-6203
+ST  - Two is better than one
+UR  - https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0187652
+Y2  - 2021/03/05/05:32:15
+L1  - https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0187652&type=printable
+KW  - Analysis of variance
+KW  - Behavior
+KW  - Cognitive science
+KW  - Motivation
+KW  - Near-infrared spectroscopy
+KW  - Neurophysiology
+KW  - Prefrontal cortex
+KW  - Social psychology
+ER  - 
+
+TY  - JOUR
+TI  - Functional brain connectivity when cooperation fails
+AU  - Balconi, Michela
+AU  - Vanutelli, Maria Elide
+AU  - Gatti, Laura
+T2  - Brain and Cognition
+AB  - Functional connectivity during cooperative actions is an important topic in social neuroscience that has yet to be answered. Here, we examined the effects of administration of (fictitious) negative social feedback in relation to cooperative capabilities. Cognitive performance and neural activation underlying the execution of joint actions was recorded with functional near-infrared spectroscopy (fNIRS) on prefrontal regions during a task where pairs of participants received negative feedback after their joint action. Performance (error rates (ERs) and response times (RTs)) and intra- and inter-brain connectivity indices were computed, along with the ConIndex (inter-brain/intra-brain connectivity). Finally, correlational measures were considered to assess the relation between these different measures. Results showed that the negative feedback was able to modulate participants' responses for both behavioral and neural components. Cognitive performance was decreased after the feedback. Moreover, decreased inter-brain connectivity and increased intra-brain connectivity was induced by the feedback, whereas the cooperative task pre-feedback condition was able to increase the brain-to-brain coupling, mainly localized within the dorsolateral prefrontal cortex (DLPFC). Finally, the presence of significant correlations between RTs and inter-brain connectivity revealed that ineffective joint action produces the worst cognitive performance and a more 'individual strategy' for brain activity, limiting the inter-brain connectivity. The present study provides a significant contribution to the identification of patterns of intra- and inter-brain functional connectivity when negative social reinforcement is provided in relation to cooperative actions.
+DA  - 2018/06//
+PY  - 2018
+DO  - 10.1016/j.bandc.2018.02.009
+DP  - PubMed
+VL  - 123
+SP  - 65
+EP  - 73
+J2  - Brain Cogn
+LA  - eng
+SN  - 1090-2147
+L2  - http://www.ncbi.nlm.nih.gov/pubmed/29525601
+KW  - Adult
+KW  - Attention
+KW  - Brain
+KW  - Brain Mapping
+KW  - Brain-to-brain coupling
+KW  - Cooperation
+KW  - Cooperative Behavior
+KW  - Female
+KW  - Functional connectivity
+KW  - Humans
+KW  - Hyperscanning
+KW  - Interpersonal Relations
+KW  - Joint action
+KW  - Male
+KW  - Reaction Time
+KW  - Spectroscopy, Near-Infrared
+KW  - Young Adult
+ER  - 
+
+TY  - JOUR
+TI  - Holistic cognitive and neural processes: a fNIRS-hyperscanning study on interpersonal sensorimotor synchronization
+AU  - Dai, Ruina
+AU  - Liu, Ran
+AU  - Liu, Tao
+AU  - Zhang, Zong
+AU  - Xiao, Xiang
+AU  - Sun, Peipei
+AU  - Yu, Xiaoting
+AU  - Wang, Dahui
+AU  - Zhu, Chaozhe
+T2  - Social Cognitive and Affective Neuroscience
+AB  - Interpersonal sensorimotor synchronization (interpersonal SMS) is the foundation of complex human social interaction. Previous studies primarily focused on the individual cognitive processes of interpersonal SMS. However, all individuals compose an entire interaction system with emerged holistic properties during interpersonal SMS. Therefore, we proposed the `holistic cognitive and neural processes’ of interpersonal SMS and defined quantitative measurements that included Holistic Correction Gain (HCG), Holistic Timekeeper Variance (HTV) and Holistic Motor Variance (HMV) based on linear error correction model and inter-brain couplings obtained by hyperscanning technique. We performed a joint-tapping experiment including bidirectional and unidirectional conditions using functional near-infrared spectroscopy (fNIRS) hyperscanning to evaluate effects of these holistic processes on synchronization performance. We found that the dyads’ performance highly correlated with the integrated effect of holistic cognitive processes in both conditions. Each holistic cognitive process played different roles in interpersonal SMS. HCG was critical to maintain synchronization. HTV related to mentalizing others’ behavior. Holistic neural process, the inter-brain coupling of right prefrontal cortex (PFC), was significantly different between bidirectional and unidirectional conditions, which suggested the existence of neural markers at holistic level in interpersonal SMS.
+DA  - 2018/11/08/
+PY  - 2018
+DO  - 10.1093/scan/nsy090
+DP  - Silverchair
+VL  - 13
+IS  - 11
+SP  - 1141
+EP  - 1154
+J2  - Social Cognitive and Affective Neuroscience
+SN  - 1749-5016
+ST  - Holistic cognitive and neural processes
+UR  - https://doi.org/10.1093/scan/nsy090
+Y2  - 2021/03/05/05:32:46
+L1  - https://academic.oup.com/scan/article-pdf/13/11/1141/26556489/nsy090.pdf
+ER  - 
+
+TY  - JOUR
+TI  - Brain-to-brain synchronization across two persons predicts mutual prosociality
+AU  - Hu, Yi
+AU  - Hu, Yinying
+AU  - Li, Xianchun
+AU  - Pan, Yafeng
+AU  - Cheng, Xiaojun
+T2  - Social Cognitive and Affective Neuroscience
+AB  - People tend to be more prosocial after synchronizing behaviors with others, yet the underlying neural mechanisms are rarely known. In this study, participant dyads performed either a coordination task or an independence task, with their brain activations recorded via the functional near-infrared spectroscopy hyperscanning technique. Participant dyads in the coordination group showed higher synchronized behaviors and greater subsequent inclination to help each other than those in the independence group, indicating the prosocial effect of interpersonal synchrony. Importantly, the coordination group demonstrated the significant task-related brain coherence, namely the interbrain synchronization, at the left middle frontal area. The detected interbrain synchronization was sensitive to shared intentionality between participants and was correlated with the mutual prosocial inclination. Further, the task-related brain coherence played a mediation role in the prosocial effect of interpersonal synchrony. This study reveals the relevance of brain-to-brain synchronization among individuals with subsequent mutual prosocial inclination and suggests the neural mechanism associating with shared cognition for the facilitation of interpersonal synchrony on prosociality.
+DA  - 2017/12/01/
+PY  - 2017
+DO  - 10.1093/scan/nsx118
+DP  - Silverchair
+VL  - 12
+IS  - 12
+SP  - 1835
+EP  - 1844
+J2  - Social Cognitive and Affective Neuroscience
+SN  - 1749-5016
+UR  - https://doi.org/10.1093/scan/nsx118
+Y2  - 2021/03/05/05:33:09
+L1  - https://academic.oup.com/scan/article-pdf/12/12/1835/27104244/nsx118.pdf
+ER  - 
+
+TY  - JOUR
+TI  - When cooperation goes wrong: brain and behavioural correlates of ineffective joint strategies in dyads
+AU  - Balconi, Michela
+AU  - Gatti, Laura
+AU  - Vanutelli, Maria Elide
+T2  - International Journal of Neuroscience
+AB  - Purpose: Human life is connoted by sophisticated interactions that involve not only single individuals, but larger social groups composed by members interacting each other. Cooperation secures a benefit to all the people engaged as well as important behaviors like helping, sharing, and acting prosocially. But what happens when the joint actions are not effective?Materials and method: In the present study, we asked 24 participants paired in 12 dyads to cooperate during an attentional task in a way to synchronize their responses and obtain better outcomes. In addition we tested inter-brain and cognitive strategy similarities between subjects. Then, we frustrated their strategies by providing false feedbacks signalling the incapacity to create a synergy, which was reinforced by a general negative evaluation halfway through the task. The effects of the feedback inmodulating subjects behavioural performance and brain responsiveness were explored by means of functional near-infrared spectroscopy (fNIRS).Results: Results showed a worsen performance after the negative feedback in the form of longer reaction times and a specifc pattern of brain activation involving th dorsolateral prefrontal cortex (DLPFC) and the superior frontal gyrus. The DLPFC showed increased O2Hb (oxy-haemoglobin) level after the feedback, compatible with the need for higher cognitive effort. In addition, fNIRS measures revealed a decreased inter-brain synchronicity in post-feedback condition for the dyad. Also, the representation of negative emotions in response to failing interactions was signalled by a right-lateralized effect.Conclusions: Results were interpreted at light of available knowledge on perceived self-efficacy and the implementation of common goals and strategies.
+DA  - 2018/02/01/
+PY  - 2018
+DO  - 10.1080/00207454.2017.1379519
+DP  - Taylor and Francis+NEJM
+VL  - 128
+IS  - 2
+SP  - 155
+EP  - 166
+SN  - 0020-7454
+ST  - When cooperation goes wrong
+UR  - https://doi.org/10.1080/00207454.2017.1379519
+Y2  - 2021/03/05/05:33:24
+L1  - https://air.unimi.it/bitstream/2434/527109/5/goes%20wrong.pdf
+KW  - Cooperation
+KW  - fNIRS
+KW  - hyperscanning
+KW  - performance
+KW  - self-efficacy
+ER  - 
+
+TY  - JOUR
+TI  - Inter-brain synchrony in mother-child dyads during cooperation: An fNIRS hyperscanning study
+AU  - Miller, Jonas G.
+AU  - Vrtička, Pascal
+AU  - Cui, Xu
+AU  - Shrestha, Sharon
+AU  - Hosseini, S. M. Hadi
+AU  - Baker, Joseph M.
+AU  - Reiss, Allan L.
+T2  - Neuropsychologia
+AB  - Coordinated brain activity between individuals, or inter-brain synchrony, has been shown to increase during cooperation and correlate with cooperation success. However, few studies have examined parent-child inter-brain synchrony and whether it is associated with meaningful aspects of the parent-child relationship. Here, we measured inter-brain synchrony in the right prefrontal (PFC) and temporal cortices in mother-child dyads while they engaged in a cooperative and independent task. We tested whether inter-brain synchrony in mother-child dyads (1) increases during cooperation, (2) differs in mother-son versus mother-daughter dyads, and (3) is related to cooperation performance and the attachment relationship. Overall inter-brain synchrony in the right hemisphere, and the right dorsolateral and frontopolar PFC in particular, was higher during cooperation. Mother-son dyads showed less inter-brain synchrony during the independent task and a stronger increase in synchrony in response to cooperation than mother-daughter dyads. Lastly, we did not find strong evidence for links between inter-brain synchrony and child attachment. Mother-child cooperation may increase overall inter-brain synchrony, although differently for mother-son versus mother-daughter dyads. More research is needed to better understand the potential role of overall inter-brain synchrony in mother-child cooperation, and the potential link between inter-brain synchrony and attachment.
+DA  - 2019/02/18/
+PY  - 2019
+DO  - 10.1016/j.neuropsychologia.2018.12.021
+DP  - ScienceDirect
+VL  - 124
+SP  - 117
+EP  - 124
+J2  - Neuropsychologia
+LA  - en
+SN  - 0028-3932
+ST  - Inter-brain synchrony in mother-child dyads during cooperation
+UR  - https://www.sciencedirect.com/science/article/pii/S0028393218303579
+Y2  - 2021/03/05/05:33:43
+L1  - https://europepmc.org/articles/pmc6937429?pdf=render
+KW  - Cooperation
+KW  - fNIRS hyperscanning
+KW  - Inter-brain synchrony
+KW  - Mother-child attachment
+ER  - 
+
+TY  - JOUR
+TI  - From the Laboratory to the Classroom: The Potential of Functional Near-Infrared Spectroscopy in Educational Neuroscience
+AU  - Brockington, Guilherme
+AU  - Balardin, Joana Bisol
+AU  - Zimeo Morais, Guilherme Augusto
+AU  - Malheiros, Amanda
+AU  - Lent, Roberto
+AU  - Moura, Luciana Monteiro
+AU  - Sato, Joao R.
+T2  - Frontiers in Psychology
+AB  - Paralleling two decades of growth in the emergent field known as educational neuroscience is an increasing concern that educational practices and programs should be evidence-based, however, the idea that neuroscience could potentially influence education is controversial. One of the criticisms, regarding applications of the findings produced in this discipline, concerns the artificiality of neuroscientific experiments and the oversimplified nature of the tests used to investigate cognitive processes in educational contexts. The simulations may not account for all of the variables present in real classroom activities. In this study, we aim to get a step closer to the formation of data-supported classroom methodologies by employing functional near-infrared spectroscopy in various experimental paradigms. First, we present two hyperscanning scenarios designed to explore realistic interdisciplinary contexts, i.e., the classroom. In a third paradigm, we present a case study of a single student evaluated with functional near-infrared spectroscopy and mobile eye-tracking glasses. These three experiments are performed to provide proofs of concept for the application of functional near-infrared spectroscopy in scenarios that more closely resemble authentic classroom routines and daily activities. The goal of our study is to explore the potential of this technique in hopes that it offers insights in experimental design to investigate teaching-learning processes during teacher-student interactions.
+DA  - 2018///
+PY  - 2018
+DO  - 10.3389/fpsyg.2018.01840
+DP  - PubMed
+VL  - 9
+SP  - 1840
+J2  - Front Psychol
+LA  - eng
+SN  - 1664-1078
+ST  - From the Laboratory to the Classroom
+L1  - https://www.frontiersin.org/articles/10.3389/fpsyg.2018.01840/pdf
+L2  - http://www.ncbi.nlm.nih.gov/pubmed/30364351
+KW  - classroom
+KW  - education
+KW  - educational neuroscience
+KW  - eye-tracking
+KW  - fNIRS
+KW  - functional near-infrared spectroscopy
+KW  - hyperscanning
+KW  - pupilometer
+ER  - 
+
+TY  - JOUR
+TI  - Sex differences in neural and behavioral signatures of cooperation revealed by fNIRS hyperscanning
+AU  - Baker, Joseph M.
+AU  - Liu, Ning
+AU  - Cui, Xu
+AU  - Vrticka, Pascal
+AU  - Saggar, Manish
+AU  - Hosseini, S. M. Hadi
+AU  - Reiss, Allan L.
+T2  - Scientific Reports
+AB  - Researchers from multiple fields have sought to understand how sex moderates human social behavior. While over 50 years of research has revealed differences in cooperation behavior of males and females, the underlying neural correlates of these sex differences have not been explained. A missing and fundamental element of this puzzle is an understanding of how the sex composition of an interacting dyad influences the brain and behavior during cooperation. Using fNIRS-based hyperscanning in 111 same- and mixed-sex dyads, we identified significant behavioral and neural sex-related differences in association with a computer-based cooperation task. Dyads containing at least one male demonstrated significantly higher behavioral performance than female/female dyads. Individual males and females showed significant activation in the right frontopolar and right inferior prefrontal cortices, although this activation was greater in females compared to males. Female/female dyad’s exhibited significant inter-brain coherence within the right temporal cortex, while significant coherence in male/male dyads occurred in the right inferior prefrontal cortex. Significant coherence was not observed in mixed-sex dyads. Finally, for same-sex dyads only, task-related inter-brain coherence was positively correlated with cooperation task performance. Our results highlight multiple important and previously undetected influences of sex on concurrent neural and behavioral signatures of cooperation.
+DA  - 2016/06/08/
+PY  - 2016
+DO  - 10.1038/srep26492
+DP  - www.nature.com
+VL  - 6
+IS  - 1
+SP  - 26492
+LA  - en
+SN  - 2045-2322
+UR  - https://www.nature.com/articles/srep26492
+Y2  - 2021/03/05/05:34:51
+L1  - https://www.nature.com/articles/srep26492.pdf
+L2  - https://www.nature.com/articles/srep26492?source=post_page---------------------------
+ER  - 
+

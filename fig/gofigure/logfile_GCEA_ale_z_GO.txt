@@ -1,0 +1,35 @@
+GO-Figure! version: 1.0.1
+
+Date run: 2022-02-28
+
+Command line input: ['/Users/leonlotter/projects/GO-Figure/gofigure.py', '-i', './GCEA_ale_z_GO_BP_gofigure.txt', '-o', './', '-j', 'standard-plus', '-n', 'bpo', '-a', '25', '-si', '0.2', '-rs', '123456', '-m', '5', '-l', 'none', '-q', 'pdf', '-w', 'GCEA_ale_z_GO']
+
+GOA version used to calculate IC and frequencies: 2020-10-06
+
+go.obo version used: releases/2022-01-13
+
+go.obo version used to create GO relations: releases/2021-02-01
+
+
+Calculating biological process
+
+The following GO terms are converted or deleted because either they are an alt_id and not a primary id in the go.obo, because they are obsolete in the go.obo, or because they can't be found in the go.obo: 
+
+Original GO	New GO(s)	Reason
+GO:0033136	GO:0042501	alt_id
+GO:2000574	No replacement	removed
+GO:0006987	No replacement	removed
+GO:0000726	No replacement	removed
+GO:0051182	No replacement	removed
+GO:0072600	GO:0034067	alt_id
+GO:0071033	GO:0071028	alt_id
+GO:0031657	No replacement	removed
+GO:0031659	No replacement	removed
+GO:0051533	GO:0070886	alt_id
+GO:0000042	GO:0034067	alt_id
+GO:0035826	No replacement	removed
+GO:0071804	GO:0006813	alt_id
+GO:0044789	No replacement	removed
+GO:0044791	No replacement	removed
+GO:2000188	GO:0042632	alt_id
+GO:0031050	GO:0034470	alt_id

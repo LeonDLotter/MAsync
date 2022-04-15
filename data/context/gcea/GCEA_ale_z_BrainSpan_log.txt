@@ -1,0 +1,195 @@
+
+┌-------------------------------------------------------------------------┐
+┝ 26-Feb-2022 14:09:11 Starting ABAnnotate: ale_z_BrainSpan               ┤
+└-------------------------------------------------------------------------┘
+
+Setting atlas & ABA data to SchaeferTian-116 parcels.
+Applying parcellation to /Users/leonlotter/MAsync/project/data/ale/ale_z.nii.gz.
+Initialising batch system... done.
+
+
+------------------------------------------------------------------------
+26-Feb-2022 14:09:26 - Running job #1
+------------------------------------------------------------------------
+26-Feb-2022 14:09:26 - Running 'Image Calculator'
+
+SPM12: spm_imcalc (v6961)                          14:09:26 - 26/02/2022
+========================================================================
+ImCalc Image: /Users/leonlotter/projects/ABAnnotate/ABAnnotate_v1/atlas/rmyTempSchaefer100-7_TianS1_atlas.nii
+26-Feb-2022 14:09:27 - Done    'Image Calculator'
+26-Feb-2022 14:09:27 - Done
+
+Extracting data for /Users/leonlotter/projects/ABAnnotate/ABAnnotate_v1/temp/ale_z.nii
+Using provided null maps.
+GCEA dataset: ABA-brainSpan-weights
+
+┌-------------------------------------------------------------------------┐
+┝ 26-Feb-2022 14:09:33 Running GCEA                                       ┤
+└-------------------------------------------------------------------------┘
+
+GCEA settings: 
+- Using phenotype data from: /Users/leonlotter/MAsync/project/data/ale/ale_z.nii.gz 
+- Using atlas with 116 regions: /Users/leonlotter/projects/ABAnnotate/ABAnnotate_v1/atlas/Schaefer100-7_TianS1_atlas.nii 
+- Using 5000 phenotype null maps: /Users/leonlotter/MAsync/project/data/context/gcea/gcea_nullmaps_ale_z.mat 
+- Using dataset: /Users/leonlotter/projects/ABAnnotate/ABAnnotate_v1/datasets/ABA-brainSpan-weights.mat 
+- Including categories with between 1 and Inf genes 
+- Removing annotates genes that co-occur in >= 20 percent of categories 
+- Keeping annotated genes with weights exceeding the 90th quantile 
+- Weighting gene-category-phenotype-associations if <weightedmean> is set 
+- Estimating 5000 category null samples 
+- Calculating gene scores based on Spearman correlations 
+- Aggregating gene scores per category by weightedmean 
+- Calculating p-values from right tail at BH-corrected p < 0.0500 
+
+
+Generating category null samples...
+Loaded 80 annotated categories from /Users/leonlotter/projects/ABAnnotate/ABAnnotate_v1/datasets/ABA-brainSpan-weights.mat.
+Transposed 0 category annotation vectors from row to column vector.
+Matching annotated genes to 15633 ABA-genes.
+972480/1380720 annotated genes are in gene expression dataset.
+0 categories have no annotated genes matching our 15633 genes.
+Thresholding genes at 0.90th quantile (weight > 28.59).
+Using binarized category-gene-annotations.
+Removed 1588 genes annotated in >= 20 percent of categories.
+Categories have between 5 and 224 annotated genes.
+Filtered to 80 categories with between 1 and Inf annotated genes.
+Computing category scores for 5000 generated 116-region null-phenotype-maps.
+(Spatial null maps loaded from /Users/leonlotter/MAsync/project/data/context/gcea/gcea_nullmaps_ale_z.mat)
+1104 of 6346 annotated genes are unique.
+Check again: We should have data for all 1104 of 1104 unique annotated genes.
+Computing category null distributions corresponding to 5000 null phenotypes for all 1104 genes annotated to categories.
+Progress (this might take some time...):
+....................................................................................................
+Starting parallel pool (parpool) using the 'local' profile ...
+Connected to the parallel pool (number of workers: 2).
+....................................................................................................
+Looking in at Category 1/80: prenatal_M1C (212 genes).
+212/212 genes from this category have matching records in the expression data.
+Looking in at Category 2/80: prenatal_DFC (200 genes).
+200/200 genes from this category have matching records in the expression data.
+Looking in at Category 3/80: prenatal_VFC (196 genes).
+196/196 genes from this category have matching records in the expression data.
+Looking in at Category 4/80: prenatal_OFC (224 genes).
+224/224 genes from this category have matching records in the expression data.
+Looking in at Category 5/80: prenatal_S1C (216 genes).
+216/216 genes from this category have matching records in the expression data.
+Looking in at Category 6/80: prenatal_IPC (200 genes).
+200/200 genes from this category have matching records in the expression data.
+Looking in at Category 7/80: prenatal_A1C (163 genes).
+163/163 genes from this category have matching records in the expression data.
+Looking in at Category 8/80: prenatal_STC (186 genes).
+186/186 genes from this category have matching records in the expression data.
+Looking in at Category 9/80: prenatal_ITC (202 genes).
+202/202 genes from this category have matching records in the expression data.
+Looking in at Category 10/80: prenatal_V1C (171 genes).
+171/171 genes from this category have matching records in the expression data.
+Looking in at Category 11/80: prenatal_MFC (202 genes).
+202/202 genes from this category have matching records in the expression data.
+Looking in at Category 12/80: prenatal_HIP (221 genes).
+221/221 genes from this category have matching records in the expression data.
+Looking in at Category 13/80: prenatal_STR (164 genes).
+164/164 genes from this category have matching records in the expression data.
+Looking in at Category 14/80: prenatal_AMY (210 genes).
+210/210 genes from this category have matching records in the expression data.
+Looking in at Category 15/80: prenatal_MD (165 genes).
+165/165 genes from this category have matching records in the expression data.
+Looking in at Category 16/80: prenatal_CBC (149 genes).
+149/149 genes from this category have matching records in the expression data.
+Looking in at Category 17/80: infant_M1C (36 genes).
+36/36 genes from this category have matching records in the expression data.
+Looking in at Category 18/80: infant_DFC (33 genes).
+33/33 genes from this category have matching records in the expression data.
+Looking in at Category 19/80: infant_VFC (29 genes).
+29/29 genes from this category have matching records in the expression data.
+Looking in at Category 20/80: infant_OFC (14 genes).
+14/14 genes from this category have matching records in the expression data.
+Looking in at Category 21/80: infant_S1C (35 genes).
+35/35 genes from this category have matching records in the expression data.
+Looking in at Category 22/80: infant_IPC (16 genes).
+16/16 genes from this category have matching records in the expression data.
+Looking in at Category 23/80: infant_A1C (25 genes).
+25/25 genes from this category have matching records in the expression data.
+Looking in at Category 24/80: infant_STC (10 genes).
+10/10 genes from this category have matching records in the expression data.
+Looking in at Category 25/80: infant_ITC (8 genes).
+8/8 genes from this category have matching records in the expression data.
+Looking in at Category 26/80: infant_V1C (47 genes).
+47/47 genes from this category have matching records in the expression data.
+Looking in at Category 27/80: infant_MFC (8 genes).
+8/8 genes from this category have matching records in the expression data.
+Looking in at Category 28/80: infant_HIP (22 genes).
+22/22 genes from this category have matching records in the expression data.
+Looking in at Category 29/80: infant_STR (106 genes).
+106/106 genes from this category have matching records in the expression data.
+Looking in at Category 30/80: infant_AMY (44 genes).
+44/44 genes from this category have matching records in the expression data.
+Looking in at Category 31/80: infant_MD (99 genes).
+99/99 genes from this category have matching records in the expression data.
+Looking in at Category 32/80: infant_CBC (121 genes).
+121/121 genes from this category have matching records in the expression data.
+Looking in at Category 33/80: child_M1C (82 genes).
+82/82 genes from this category have matching records in the expression data.
+Looking in at Category 34/80: child_DFC (21 genes).
+21/21 genes from this category have matching records in the expression data.
+Looking in at Category 35/80: child_VFC (54 genes).
+54/54 genes from this category have matching records in the expression data.
+Looking in at Category 36/80: child_OFC (11 genes).
+11/11 genes from this category have matching records in the expression data.
+Looking in at Category 37/80: child_S1C (69 genes).
+69/69 genes from this category have matching records in the expression data.
+Looking in at Category 38/80: child_IPC (52 genes).
+52/52 genes from this category have matching records in the expression data.
+Looking in at Category 39/80: child_A1C (23 genes).
+23/23 genes from this category have matching records in the expression data.
+Looking in at Category 40/80: child_STC (95 genes).
+95/95 genes from this category have matching records in the expression data.
+Looking in at Category 41/80: child_ITC (92 genes).
+92/92 genes from this category have matching records in the expression data.
+Looking in at Category 42/80: child_V1C (31 genes).
+31/31 genes from this category have matching records in the expression data.
+Looking in at Category 43/80: child_MFC (8 genes).
+8/8 genes from this category have matching records in the expression data.
+Looking in at Category 44/80: child_HIP (79 genes).
+79/79 genes from this category have matching records in the expression data.
+Looking in at Category 45/80: child_STR (136 genes).
+136/136 genes from this category have matching records in the expression data.
+Looking in at Category 46/80: child_AMY (26 genes).
+26/26 genes from this category have matching records in the expression data.
+Looking in at Category 47/80: child_MD (120 genes).
+120/120 genes from this category have matching records in the expression data.
+Looking in at Category 48/80: child_CBC (165 genes).
+165/165 genes from this category have matching records in the expression data.
+Looking in at Category 49/80: adolescent_M1C (13 genes).
+13/13 genes from this category have matching records in the expression data.
+Looking in at Category 50/80: adolescent_DFC (27 genes).
+27/27 genes from this category have matching records in the expression data.
+Looking in at Category 51/80: adolescent_VFC (8 genes).
+8/8 genes from this category have matching records in the expression data.
+Looking in at Category 52/80: adolescent_OFC (14 genes).
+14/14 genes from this category have matching records in the expression data.
+Looking in at Category 53/80: adolescent_S1C (9 genes).
+9/9 genes from this category have matching records in the expression data.
+Looking in at Category 54/80: adolescent_IPC (17 genes).
+17/17 genes from this category have matching records in the expression data.
+Looking in at Category 55/80: adolescent_A1C (8 genes).
+8/8 genes from this category have matching records in the expression data.
+Looking in at Category 56/80: adolescent_STC (5 genes).
+5/5 genes from this category have matching records in the expression data.
+Looking in at Category 57/80: adolescent_ITC (15 genes).
+15/15 genes from this category have matching records in the expression data.
+Looking in at Category 58/80: adolescent_V1C (11 genes).
+11/11 genes from this category have matching records in the expression data.
+Looking in at Category 59/80: adolescent_MFC (6 genes).
+6/6 genes from this category have matching records in the expression data.
+Looking in at Category 60/80: adolescent_HIP (40 genes).
+40/40 genes from this category have matching records in the expression data.
+Looking in at Category 61/80: adolescent_STR (95 genes).
+95/95 genes from this category have matching records in the expression data.
+Looking in at Category 62/80: adolescent_AMY (40 genes).
+40/40 genes from this category have matching records in the expression data.
+Looking in at Category 63/80: adolescent_MD (112 genes).
+112/112 genes from this category have matching records in the expression data.
+Looking in at Category 64/80: adolescent_CBC (155 genes).
+155/155 genes from this category have matching records in the expression data.
+Looking in at Category 65/80: adult_M1C (30 genes).
+30/30 genes from this category have ma

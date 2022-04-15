@@ -3,8 +3,7 @@
 
 This repository accompanies our paper: 
 
-Leon D. Lotter, Simon Huldreich Kohl, Christian Gerloff, Laura Bell, Alexandra Niephaus, Jana A. Kruppa, Martin Schulte-Rüther, Vanessa Reindl, & Kerstin Konrad (2022). *[The Neurobiological Basis of Interpersonal Neural Synchronization: 
-Evidence from a Multimodal Data Fusion Approach]()*. bioRxiv.
+Leon D. Lotter, Simon Huldreich Kohl, Christian Gerloff, Laura Bell, Alexandra Niephaus, Jana A. Kruppa, Martin Schulte-Rüther, Vanessa Reindl, & Kerstin Konrad (2022). *[The Neurobiological Basis of Interpersonal Neural Synchronization: Evidence from a Multimodal Data Fusion Approach]()*. bioRxiv.
 
 DOI: ... 
 
@@ -20,11 +19,12 @@ All data and code in this repository are licensed under a
 
 ---
 ## Main analyses and results:
-- ***[MAsync_main.ipynb](MAsync_main.ipynb)***: Jupyter notebook to reproduce all analyses except for resting-state data processing. Contains general descriptions of methods and results.
+
+- ***[MAsync_main.ipynb](MAsync_analyses.ipynb)***: Jupyter notebook to reproduce all analyses except for resting-state data processing. Contains general descriptions of methods and results.
 - ***[data/datasets/fmri_coordinates.csv](data/datasets/fmri_coordinates.csv)***: Coordinates and associated study information from fMRI interpersonal neural synchrony studies
 - ***[data/datasets/fnirs_coordinates.csv](data/datasets/fnirs_coordinates.csv)***: Coordinates and associated study information from fNIRS interpersonal neural synchrony studies
 
-## Futhermore:
+## All data, code, figures, & literature search result:
 
 #### `/data`
 Contains all results, see separate [README](data/README.md) file.

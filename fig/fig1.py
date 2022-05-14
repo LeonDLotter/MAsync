@@ -196,7 +196,7 @@ nw_layout = """
                 },
             "maxVelocity": 50,
             "solver": "forceAtlas2Based",
-            "timestep": 0.3,
+            "timestep": 0.5,
             "stabilization": {
                 "enabled": true,
                 "fit": true
@@ -284,14 +284,14 @@ nw.add_node('fMRI', label='fMRI', shape="circularImage", value=25, borderWidth=2
 nw.get_node('fMRI')["color"] = {"border": col_fMRI[0], "background": 'white',
                                 "highlight": {"border": col_fMRI[0], "background": 'white'}}
 nw.get_node('fMRI')["x"] = -750
-nw.get_node('fMRI')["y"] = 650
+nw.get_node('fMRI')["y"] = 800
 nw.get_node('fMRI')['font'] = {"size": 25}
 nw.add_node('fNIRS', label='fNIRS', shape="circularImage", value=25, borderWidth=2,
             image=join(sdir, 'citenet', 'brains', 'legend.svg'), physics=False)
 nw.get_node('fNIRS')["color"] = {"border": col_fNIRS[0], "background": 'white',
                                 "highlight": {"border": col_fNIRS[0], "background": 'white'}}
 nw.get_node('fNIRS')["x"] = -640
-nw.get_node('fNIRS')["y"] = 650
+nw.get_node('fNIRS')["y"] = 800
 nw.get_node('fNIRS')['font'] = {"size": 25}
 ## save
 nw.show('fig1B.html')

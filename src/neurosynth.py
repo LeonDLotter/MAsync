@@ -83,7 +83,8 @@ def download_neurosynth(save_path, version=7, abstract=True, vocab='terms',
 
 
 def create_neurosynth_topic_maps(ds, save_path, estimator='mkdachi2', topics=None, 
-                                 topic_thresh=0.001, sample_size=None, 
+                                 topic_pref='LDA200_abstract_weight__', 
+                                 topic_thresh=0.001, sample_size=10, 
                                  save_prefix='neurosynth_topic_',
                                  maps=['z'], overwrite=False):
 
@@ -105,22 +106,21 @@ def create_neurosynth_topic_maps(ds, save_path, estimator='mkdachi2', topics=Non
     else: 
         lgr.error(f"'estimator' must be 'ale' or 'mkdachi2' not '{estimator}'!")
 
-    ale_maps = []
     # loop over topics
     for topic in topics:
 
         # topic name and map path
-        topic_name = topic.split("__", 1)[1]
-        topic_maps = glob(join(save_path, f'{save_prefix}{topic_name}*.nii.gz'))
+        #topic_name = topic.split("__", 1)[1]
+        topic_maps = glob(join(save_path, f'{save_prefix}{topic}*.nii.gz'))
 
         # check if exist
         if overwrite == True or len(topic_maps) == 0:
 
             # get studies with {topic} > {topic_thresh}
-            ids_topic = ds.get_studies_by_label(labels=topic, label_threshold=topic_thresh)
+            ids_topic = ds.get_studies_by_label(labels=topic_pref+topic, label_threshold=topic_thresh)
             # slice new dataset
             ds_topic = ds.slice(ids_topic)
-            lgr.info(f'Topic {topic_name}: {len(ds_topic.ids)}/{len(ds.ids)} studies selected. '
+            lgr.info(f'Topic {topic}: {len(ds_topic.ids)}/{len(ds.ids)} studies selected. '
                      f'Creating {estimator} map...')
 
             # create meta map
@@ -133,13 +133,13 @@ def create_neurosynth_topic_maps(ds, save_path, estimator='mkdachi2', topics=Non
                 meta_topic = meta.fit(ds_topic, ds_NOT_topic)
 
             # save
-            save_name = f'{save_prefix}{topic_name}_{len(ds_topic.ids)}'
+            save_name = f'{save_prefix}{topic}_{len(ds_topic.ids)}'
             meta_topic.save_maps(output_dir=save_path, prefix=save_name, names=maps)
             lgr.info(f'Duration: {datetime.now() - now}. Saved {estimator} map(s) to '
                     f'{save_path}/{save_name}_*.nii.gz')
 
         else:
-            lgr.info(f'Topic {topic_name}: file exists and overwrite is True -> skipping file.')
+            lgr.info(f'Topic {topic}: file exists and overwrite is True -> skipping file.')
 
 
     

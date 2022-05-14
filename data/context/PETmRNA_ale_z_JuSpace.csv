@@ -11,14 +11,15 @@ List 1 image,D1,-0.230468764430477,0.0145,/Users/leonlotter/MAsync/project/matla
 List 1 image,D2,-0.258359180656573,0.0061922,/Users/leonlotter/MAsync/project/matlab_temp/ale_z.nii, 0.0069986
 List 1 image,DAT,-0.328075195603658,<.001,/Users/leonlotter/MAsync/project/matlab_temp/ale_z.nii, 0.0009998
 List 1 image,FDOPA,-0.328699190412672,<.001,/Users/leonlotter/MAsync/project/matlab_temp/ale_z.nii,  0.016197
-List 1 image,GABAa,0.438088412705912,<.001,/Users/leonlotter/MAsync/project/matlab_temp/ale_z.nii, 0.0025995
-List 1 image,H3,-0.262058615179468,0.0055,/Users/leonlotter/MAsync/project/matlab_temp/ale_z.nii,  0.075785
+List 1 image,GABAa,0.438088412705912,<.001,/Users/leonlotter/MAsync/project/matlab_temp/ale_z.nii, 0.0033993
+List 1 image,H3,-0.262058615179468,0.0055,/Users/leonlotter/MAsync/project/matlab_temp/ale_z.nii,  0.076785
 List 1 image,M1,0.183075316128881,0.051771,/Users/leonlotter/MAsync/project/matlab_temp/ale_z.nii,   0.05139
 List 1 image,mGluR5,0.24933677116781,0.008222,/Users/leonlotter/MAsync/project/matlab_temp/ale_z.nii, 0.0063987
-List 1 image,MU,-0.326973122367459,<.001,/Users/leonlotter/MAsync/project/matlab_temp/ale_z.nii,   0.12637
+List 1 image,MU,-0.326973122367459,<.001,/Users/leonlotter/MAsync/project/matlab_temp/ale_z.nii,   0.12877
 List 1 image,NET,0.243237952514812,0.0099144,/Users/leonlotter/MAsync/project/matlab_temp/ale_z.nii, 0.0085983
-List 1 image,NMDA,-0.195472523915208,0.037899,/Users/leonlotter/MAsync/project/matlab_temp/ale_z.nii,   0.10818
+List 1 image,NMDA,-0.195472523915208,0.037899,/Users/leonlotter/MAsync/project/matlab_temp/ale_z.nii,   0.10718
 List 1 image,VAChT,-0.375658258433555,<.001,/Users/leonlotter/MAsync/project/matlab_temp/ale_z.nii,0.00019996
+List 1 image,SV2a,0.297965657804607,0.0016246,/Users/leonlotter/MAsync/project/matlab_temp/ale_z.nii,0.00059988
 List 1 image,OXT,-0.239263306208344,0.011179,/Users/leonlotter/MAsync/project/matlab_temp/ale_z.nii, 0.0089982
 List 1 image,OXTR,-0.465868554019936,<.001,/Users/leonlotter/MAsync/project/matlab_temp/ale_z.nii, 0.0013997
 List 1 image,CD38,-0.622699348229073,<.001,/Users/leonlotter/MAsync/project/matlab_temp/ale_z.nii,0.00019996

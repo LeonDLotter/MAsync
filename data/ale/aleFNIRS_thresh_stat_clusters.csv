@@ -1,5 +1,5 @@
 cluster_id,peak_x,peak_y,peak_z,cluster_mean,volume_mm,talairach_gyrus,talairach_ba,aal
-1.0,62.0,-48.0,16.0,0.02199556232798238,3440.0,67.67% Superior_Temporal_Gyrus; 26.51% Middle_Temporal_Gyrus,59.77% Background; 20.70% Brodmann_area_22; 10.00% Brodmann_area_39,63.95% Temporal_Mid_R; 34.42% Temporal_Sup_R
-2.0,-26.0,66.0,8.0,0.020655518634633125,2264.0,35.69% Superior_Frontal_Gyrus; 32.51% Middle_Frontal_Gyrus; 27.21% Background,53.00% Background; 47.00% Brodmann_area_10,64.66% Frontal_Sup_2_L; 20.14% no_label; 10.25% Frontal_Sup_Medial_L
+1.0,62.0,-48.0,16.0,0.021995612758016862,3440.0,67.67% Superior_Temporal_Gyrus; 26.51% Middle_Temporal_Gyrus,59.77% Background; 20.70% Brodmann_area_22; 10.00% Brodmann_area_39,63.95% Temporal_Mid_R; 34.42% Temporal_Sup_R
+2.0,-26.0,66.0,8.0,0.020699677581226063,2248.0,35.59% Superior_Frontal_Gyrus; 32.38% Middle_Frontal_Gyrus; 27.40% Background,53.02% Background; 46.98% Brodmann_area_10,64.41% Frontal_Sup_2_L; 20.28% no_label; 10.32% Frontal_Sup_Medial_L
 3.0,28.0,54.0,32.0,0.02021507471434626,2040.0,50.59% Background; 49.41% Superior_Frontal_Gyrus,62.75% Background; 34.12% Brodmann_area_9,47.84% Frontal_Sup_2_R; 23.92% Frontal_Sup_Medial_R; 23.14% Frontal_Mid_2_R; 5.10% no_label
 4.0,36.0,38.0,42.0,0.021139791263837596,784.0,62.24% Middle_Frontal_Gyrus; 34.69% Background,56.12% Background; 38.78% Brodmann_area_8; 5.10% Brodmann_area_9,100.00% Frontal_Mid_2_R

@@ -64,64 +64,64 @@ bzdok_dist = pd.read_csv(join(wd, 'context', 'bzdok_distributions.csv'))
 
 
 # plot
-figS4ab1 = plt.figure(figsize=(15,12.5), constrained_layout=False)
+figS4 = plt.figure(figsize=(15,12.5), constrained_layout=False)
 h = 0.4
-gs = figS4ab1.add_gridspec(ncols=3, nrows=15, hspace=0, width_ratios=[1,0.3,0.3],
+gs = figS4.add_gridspec(ncols=3, nrows=15, hspace=0, width_ratios=[1,0.3,0.3],
                            height_ratios=[h,1,h,h,1,h,h,1,h,h,1,h,h,1,h])
 
 # Row 1: feng
-ax1 = figS4ab1.add_subplot(gs[0:3,0])
-pl_feng = plot_glass_brain(feng, figure=figS4ab1, axes=ax1, display_mode='lyrz',
+ax1 = figS4.add_subplot(gs[0:3,0])
+pl_feng = plot_glass_brain(feng, figure=figS4, axes=ax1, display_mode='lyrz',
                            title='Feng et al.: social interaction > no interaction', cmap=c)
 pl_feng.add_overlay(feng_nw, cmap=c_nw)
 pl_feng.add_overlay(feng_cl, cmap=c_cl)
-ax11 = figS4ab1.add_subplot(gs[1,1])
+ax11 = figS4.add_subplot(gs[1,1])
 ax11 = plot_bars(feng_dist, ax11, x='rel')
-ax12 = figS4ab1.add_subplot(gs[1,2])
+ax12 = figS4.add_subplot(gs[1,2])
 ax12 = plot_bars(feng_dist, ax12, x='abs')
 
 # Row 2: schurz affective
-ax2 = figS4ab1.add_subplot(gs[3:6,0])
-pl_schurz_a = plot_glass_brain(schurz_a, figure=figS4ab1, axes=ax2, display_mode='lyrz',
+ax2 = figS4.add_subplot(gs[3:6,0])
+pl_schurz_a = plot_glass_brain(schurz_a, figure=figS4, axes=ax2, display_mode='lyrz',
                               title='Schurz et al.: affective ToM', cmap=c)
 pl_schurz_a.add_overlay(schurz_a_nw, cmap=c_nw)
 pl_schurz_a.add_overlay(schurz_a_cl, cmap=c_cl)
-ax21 = figS4ab1.add_subplot(gs[4,1])
+ax21 = figS4.add_subplot(gs[4,1])
 plot_bars(schurz_a_dist, ax21, 'rel', xlim=(0,1))
-ax22 = figS4ab1.add_subplot(gs[4,2])
+ax22 = figS4.add_subplot(gs[4,2])
 plot_bars(schurz_a_dist, ax22, 'abs', xlim=(0,0.35))
 
 # Row 3: schurz intermediate
-ax3 = figS4ab1.add_subplot(gs[6:9,0])
-pl_schurz_i = plot_glass_brain(schurz_i, figure=figS4ab1, axes=ax3, display_mode='lyrz',
+ax3 = figS4.add_subplot(gs[6:9,0])
+pl_schurz_i = plot_glass_brain(schurz_i, figure=figS4, axes=ax3, display_mode='lyrz',
                               title='Schurz et al.: intermediate ToM', cmap=c)
 pl_schurz_i.add_overlay(schurz_i_nw, cmap=c_nw)
 pl_schurz_i.add_overlay(schurz_i_cl, cmap=c_cl)
-ax31 = figS4ab1.add_subplot(gs[7,1])
+ax31 = figS4.add_subplot(gs[7,1])
 plot_bars(schurz_i_dist, ax31, 'rel', xlim=(0,1))
-ax32 = figS4ab1.add_subplot(gs[7,2])
+ax32 = figS4.add_subplot(gs[7,2])
 plot_bars(schurz_i_dist, ax32, 'abs', xlim=(0,0.35))
 
 # Row 4: schurz cognitive
-ax4 = figS4ab1.add_subplot(gs[9:12,0])
-pl_schurz_c = plot_glass_brain(schurz_c, figure=figS4ab1, axes=ax4, display_mode='lyrz',
+ax4 = figS4.add_subplot(gs[9:12,0])
+pl_schurz_c = plot_glass_brain(schurz_c, figure=figS4, axes=ax4, display_mode='lyrz',
                               title='Schurz et al.: cognitive ToM', cmap=c)
 pl_schurz_c.add_overlay(schurz_c_nw, cmap=c_nw)                                       
 pl_schurz_c.add_overlay(schurz_c_cl, cmap=c_cl) 
-ax41 = figS4ab1.add_subplot(gs[10,1])
+ax41 = figS4.add_subplot(gs[10,1])
 plot_bars(schurz_c_dist, ax41, 'rel', xlim=(0,1))
-ax42 = figS4ab1.add_subplot(gs[10,2])
+ax42 = figS4.add_subplot(gs[10,2])
 plot_bars(schurz_c_dist, ax42, 'abs', xlim=(0,0.35))
 
 # Row 4: bzdok rTPJ
-ax5 = figS4ab1.add_subplot(gs[12:,0])
-pl_bzdok = plot_glass_brain(bzdok, figure=figS4ab1, axes=ax5, display_mode='lyrz',
+ax5 = figS4.add_subplot(gs[12:,0])
+pl_bzdok = plot_glass_brain(bzdok, figure=figS4, axes=ax5, display_mode='lyrz',
                               title='Bzdok et al.: rTPJ subunits', cmap=c)
 pl_bzdok.add_overlay(bzdok_cl, cmap=c_cl) 
-ax51 = figS4ab1.add_subplot(gs[13,1])
+ax51 = figS4.add_subplot(gs[13,1])
 plot_bars(bzdok_dist, ax51, 'rel', roiName=['aTPJ', 'pTPJ'],
           palette={'aTPJ':cmap[0,:], 'pTPJ':cmap[0,:]})
-ax52 = figS4ab1.add_subplot(gs[13,2])
+ax52 = figS4.add_subplot(gs[13,2])
 plot_bars(bzdok_dist, ax52, 'abs', roiName=['aTPJ', 'pTPJ'],
           palette={'aTPJ':cmap[0,:], 'pTPJ':cmap[0,:]})
 

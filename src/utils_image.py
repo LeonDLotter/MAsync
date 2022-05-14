@@ -17,7 +17,7 @@ from nilearn.image import load_img, math_img, new_img_like, get_data, resample_t
 from nilearn.regions import connected_regions
 from nilearn.reporting import get_clusters_table        
 from scipy.stats import zscore
-from scipy.stats import spearmanr, pearsonr
+from scipy.stats import spearmanr, pearsonr, rankdata
 import matplotlib.pylab as plt    
 from seaborn import regplot
 
@@ -69,16 +69,44 @@ def index_clusters_bin(img):
 #=============================================================================
     
 
-def correlate_volumes_via_atlas(x_img, y_img, atlas, method='spearman', 
+def partialcorr3(x, y, z, method="pearson"):
+    """Computes partial correlation between {x} and {y} controlled for {z}
+
+    Args:
+        x (array-like): input vector 1
+        y (array-like): input vector 2
+        z (array-like): input vector to be controlled for
+        corrtype (str, optional): "spearman" or "pearson. Defaults to "pearson".
+
+    Returns:
+        R (float): (ranked) partial correlation coefficient between x and y
+    """    
+
+    C = np.column_stack((x, y, z))
+    
+    if method=="spearman":
+        C = rankdata(C, axis=0)
+        
+    corr = np.corrcoef(C, rowvar=False) # Pearson product-moment correlation coefficients.
+    corr_inv = np.linalg.inv(corr) # the (multiplicative) inverse of a matrix.
+    P = -corr_inv[0,1] / (np.sqrt(corr_inv[0,0] * corr_inv[1,1]))
+    
+    return P
+
+
+def correlate_volumes_via_atlas(x_img, y_img, atlas, adjust_img, method='spearman', 
                                 colors=None, labels=None, pr=True, pl=True):
     """
     Correlates two volumes using roi wise averaged values defined by a given
-    parcellation. Prints correlation coefficients and a scatter plot.
+    parcellation. If {adjust_img} is given and {method}=='partial...', will
+    calculate partial correlations.
+    Can print correlation coefficients and a scatter plot.
     
     Input: 
         img1/2 = volumes to correlate
         atlas  = parcellation
-        method = 'spearman' or 'pearson'
+        adjust_img = data to be adjusted for when calculating partial correlations
+        method = 'spearman', 'pearson', 'partialspearman', 'partialpearson'
         labels = labels to plot over each marker
         colors = colors of each point, must be 1D array with color for each 
             marker
@@ -95,14 +123,26 @@ def correlate_volumes_via_atlas(x_img, y_img, atlas, method='spearman',
     masker = NiftiLabelsMasker(atlas)
     i1_dat = masker.fit_transform(i1)[0] 
     i2_dat = masker.fit_transform(i2)[0] 
+
+    if adjust_img:
+        i3 = resample_to_img(adjust_img, atlas)
+        i3_dat = masker.fit_transform(i3)[0] 
     
     # correlate
     if method == 'spearman':
         r, p = spearmanr(i1_dat, i2_dat, axis=1)
         if pr is True: print(f'Spearman`s r = {round(r,2)}') 
-    if method == 'pearson':
+    elif method == 'pearson':
         r, p = pearsonr(i1_dat, i2_dat)
         if pr is True: print(f'Pearson`s r = {round(r,2)}') 
+    elif method == 'partialspearman':
+        r = partialcorr3(i1_dat, i2_dat, i3_dat, corrtype='spearman')
+        if pr is True: print(f'Partial Spearman`s r = {round(r,2)}') 
+    elif method == 'partialpearson':
+        r = partialcorr3(i1_dat, i2_dat, i3_dat, corrtype='pearson')
+        if pr is True: print(f'Partial Pearson`s r = {round(r,2)}') 
+    else:
+        lgr.error(f'Method "{method}" not defined!')
         
     # plot
     if pl is True:
@@ -114,13 +154,20 @@ def correlate_volumes_via_atlas(x_img, y_img, atlas, method='spearman',
         if labels is not None:
             for i, l in enumerate(labels):
                 plt.text(i1_dat[i], i2_dat[i], l)
-            
-    return(r, pd.DataFrame({'idx': list(range(1,len(i1_dat)+1)), 
-                            'dat1': i1_dat, 
-                            'dat2': i2_dat, 
-                            'label': labels}))
     
-    
+    if not adjust_img:
+        return(r, pd.DataFrame({'idx': list(range(1,len(i1_dat)+1)), 
+                                'dat1': i1_dat, 
+                                'dat2': i2_dat, 
+                                'label': labels}))
+    else:
+        return(r, pd.DataFrame({'idx': list(range(1,len(i1_dat)+1)), 
+                                'dat1': i1_dat, 
+                                'dat2': i2_dat, 
+                                'dat3': i3_dat,
+                                'label': labels}))
+
+
 #=============================================================================
 
 

@@ -7,7 +7,7 @@ import pandas as pd
 
 pet_dir = '/Users/leonlotter/MAsync/PET/maps'
 atlas = '/Users/leonlotter/MAsync/project/data/atlases/Schaefer100-7_TianS1_2mm.nii.gz'
-parcellater = NiftiLabelsMasker(atlas)
+parcellater = NiftiLabelsMasker(atlas, resampling_target="data")
 
 def get_data(maps, n_subj=None):
     dat_list = list()
@@ -59,12 +59,13 @@ pet_dict = {
                    [204, 39]),
     'NET': get_data([join(pet_dir, 'NET-mrb-10-hesse2017.nii.gz'), 
                     join(pet_dir, 'NET-mrb-77-ding2010.nii.gz')], 
-                   [10, 77]),
+                    [10, 77]),
     'NMDA': get_data([join(pet_dir, 'NMDA-ge179-29-galovic2021.nii.gz')]),
     'VAChT': get_data([join(pet_dir, 'VAChT-feobv-18-aghourian2017.nii.gz'), 
                        join(pet_dir, 'VAChT-feobv-4-tuominen.nii.gz'),
                        join(pet_dir, 'VAChT-feobv-5-bedard2019.nii.gz')], 
-                      [18, 4, 5])
+                      [18, 4, 5]),
+    'SV2a': get_data([join(pet_dir, 'SV2A-ucbj-10-finnema2016.nii.gz')])
     }
 
 #%%

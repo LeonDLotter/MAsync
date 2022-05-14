@@ -3,7 +3,7 @@ import json
 import re
 from IPython.display import Markdown
 
-def make_ipynb_toc(notebook):
+def make_ipynb_toc(notebook, pr=False):
 
     toc = []
 
@@ -25,4 +25,8 @@ def make_ipynb_toc(notebook):
                         + link
                         + ")"
                     )
-    return(Markdown('\n'.join(toc)))
+                    
+    if pr:
+        [print(t) for t in toc]
+
+    return(Markdown("\n".join(toc)))

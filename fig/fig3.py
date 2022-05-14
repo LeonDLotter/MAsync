@@ -10,71 +10,126 @@ from os.path import join
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
-from matplotlib.colors import ListedColormap, to_hex
+from matplotlib.colors import ListedColormap
+import matplotlib as mpl
 import seaborn as sns
-from wordcloud import WordCloud 
 
-# colors
-cmap = pd.read_csv(join(sdir, 'colors.csv'), header=None).values
+def colors_from_values(values, palette_name):
+    # normalize the values to range [0, 1]
+    normalized = (values - min(values)) / (max(values) - min(values))
+    # convert to indices
+    indices = np.round(normalized * (len(values) - 1)).astype(np.int32)
+    # use the indices to get the colors
+    palette = sns.color_palette(palette_name, len(values))
+    return np.array(palette).take(indices, axis=0)
 
 
 # %% Fig 3A scatters ========================================================================
 
-pet_parc = pd.read_csv(join(wd, 'datasets', 'pet_parcellated_data.csv'))
+# pet data
+pet_corr = pd.read_csv(join(wd, 'context', 'PETmRNA_ale_z_fdr.csv'))
+pet_sig = list(pet_corr.query('(zr>0) & (sig==True)').PETmRNA)
+pet_zr = list(pet_corr.query('(zr>0) & (sig==True)').zr)
+pet_p = list(pet_corr.query('(zr>0) & (sig==True)').p)
+
+# parcellated data
 ale_parc = pd.read_csv(join(wd, 'macm', 'cor_macm_ale.csv'))['dat1']
 ale_parc.name = 'ALE Z'
+pet_parc = pd.read_csv(join(wd, 'datasets', 'pet_parcellated_data.csv'))
+fnirs_data = pd.read_csv(join(wd, 'fnirs', 'fnirs_atlas_result.csv'))
+fnirs_vals = np.zeros((116))
+for i in range(116):
+    if i+1 in list(fnirs_data.region_idx):
+        fnirs_vals[i] = fnirs_data[fnirs_data.region_idx==i+1].p_ch_ratio_sub_all.values
+    else:
+        fnirs_vals[i] = np.nan
+fnirs_nan_mask = np.isnan(fnirs_vals)
 
-reglkws = {'color':'#3E6282'}
-scatkws = {'edgecolor':'k'}
-fsize=12
+# make plot
+fig3a, axes = plt.subplots(len(pet_sig),1, figsize=(3.2,11), sharex=True)
+# iterate axes
+for i, pet in enumerate(pet_sig):
+    sns.scatterplot(x=ale_parc, y=pet_parc[pet], ax=axes[i], 
+                    hue=-np.log10(fnirs_vals), size=-np.log10(fnirs_vals), palette='viridis',
+                    edgecolor='k', alpha=0.6, sizes=(25,100))
+    sns.scatterplot(x=ale_parc[fnirs_nan_mask], y=pet_parc[pet][fnirs_nan_mask], ax=axes[i],
+                    edgecolor='k', alpha=0.9, color='w', size=3, legend=None)
+    sns.regplot(x=ale_parc, y=pet_parc[pet], ax=axes[i], scatter=None)
+    axes[i].set_ylabel(f'{pet} density (Z)', fontsize=12)
+    axes[i].set_xlabel(None)
+    axes[i].legend().set_visible(False)
+    p = f'= {pet_p[i]:.03f}' if round(pet_p[i],3) > 0 else '< 0.001'
+    axes[i].annotate(f'Z(rho) = {pet_zr[i]:.2f}, p {p}', 
+                     xy=(0.97,0.05), xycoords='axes fraction', ha='right')
+# set y label for bottom plot
+axes[i].set_xlabel('INS ALE (Z)', fontsize=12)
+# join legend
+handles, labels = axes[i].get_legend_handles_labels()
+fig3a.legend(handles, labels, title='fNIRS\n-log10(p)', title_fontsize=12, 
+             labelspacing=1,
+             loc='upper right',  bbox_to_anchor=(1.3, 0.99))
 
-fig3a, axes = plt.subplots(1,2, figsize=(10,3.5))
-axes = axes.ravel()
-# GABA
-sns.regplot(x=ale_parc, y=pet_parc['GABAa'], ax=axes[0], line_kws={'color':cmap[1,:]}, 
-            scatter_kws={'edgecolor':'k', 'alpha':0.5, 'color':to_hex(cmap[1,:])})
-axes[0].set_ylabel('GABAa receptor availability', fontsize=fsize)
-axes[0].set_xlabel('INS ALE Z-scores', fontsize=fsize)
-# 5HT2A
-sns.regplot(x=ale_parc, y=pet_parc['5HT2a'], ax=axes[1], line_kws={'color':cmap[0,:]}, 
-            scatter_kws={'edgecolor':'k', 'alpha':0.5, 'color':to_hex(cmap[0,:])})
-axes[1].set_ylabel('5HT2a receptor availability', fontsize=fsize)
-axes[1].set_xlabel('INS ALE Z-scores', fontsize=fsize)
-
+plt.tight_layout()
 plt.savefig(join(sdir, 'fig3a.pdf'), transparent=False, bbox_inches='tight')
 
 
-# %% Fig 3B scatters ========================================================================
+# %% Fig 3B GCEA cells & disease =====================================================================
 
-ale_parc = pd.read_csv(join(wd, 'macm', 'cor_macm_ale.csv'))['dat1']
-ale_parc.name = 'ALE Z'
+# data
+cell = pd.read_csv(join(wd, 'context', 'gcea', 'GCEA_ale_z_PsychEncodeTPM.csv'))
+cell.sort_values(by='cScorePheno', ascending=False, inplace=True)
+cell.reset_index(drop=True, inplace=True)
+disease = pd.read_csv(join(wd, 'context', 'gcea', 'GCEA_ale_z_DisGeNET.csv'))
+disease = disease[disease.pValPermCorr < 0.05]
+disease.cDesc1[disease.cDesc1=='MAJOR AFFECTIVE DISORDER 2'] = 'Major Affective Disorder 2'
+disease.sort_values(by='cScorePheno', ascending=False, inplace=True)
+disease.reset_index(drop=True, inplace=True)
 
-cell_parc_ex3 = pd.read_csv(join(wd, 'context', 'gcea', 'GCEA_cell_genes_Adult-Ex3.csv'))
-cell_parc_ex3.columns = [f'Ex3: {c}' for c in cell_parc_ex3.columns]
-df_ex3 = pd.melt(pd.concat([cell_parc_ex3, ale_parc], axis=1), id_vars=['ALE Z'], var_name='Gene', value_name='Gene expression')
-df_ex3['Cell type'] = 'Ex3'
+# plot function
+def plot_bars(data, ax, y, xlim, color, mark_labels=True):
+    # plot
+    sns.barplot(data=data, x='cScorePheno', y=y, ax=ax,
+                palette=colors_from_values(-np.log(data.pValZ), color))
+    # make labels nice
+    for i, p in enumerate(ax.patches):
+        # category label
+        x = p.get_x() + p.get_width() if data.cScorePheno[i] > 0 else p.get_x()
+        xy = (5, -12)
+        label = data[y][i]+'*' if (data.pValPermCorr[i]<0.05) & mark_labels else data[y][i]
+        weight = 'bold' if (data.pValPermCorr[i]<0.05) & mark_labels else 'normal'
+        ax.annotate(label, (x, p.get_y()), xytext=xy, textcoords='offset points', size=11, weight=weight)
+        # category size
+        #x = p.get_x() if data.cScorePheno[i] > 0 else p.get_x() + p.get_width() 
+        #xy = (-5, -12)
+        #label = data['cSize'][i]
+        #ax.annotate(label, (x, p.get_y()), xytext=xy, textcoords='offset points', size=11, ha='right')
+    # add details
+    ax.axvline(0, color='k', linewidth=1)
+    ax.set_xlabel("Average Z (Spearman's rho)", fontsize=11)
+    ax.set(yticklabels=[], ylabel=None, xlim=xlim)
+    ax.tick_params(left=False)
+    # add colorbar
+    cb = plt.colorbar(
+        mpl.cm.ScalarMappable(
+            norm=mpl.colors.Normalize(
+                vmin=-np.log10(data.pValZ.max()), 
+                vmax=-np.log10(data.pValZ.min())), 
+            cmap=color),
+        orientation='horizontal', 
+        ax=ax,
+        location='bottom',
+        pad=0.06) 
+    cb.set_label('- log10(p)', size=11)
 
-cell_parc_in6 = pd.read_csv(join(wd, 'context', 'gcea', 'GCEA_cell_genes_Adult-In6.csv'))
-cell_parc_in6.columns = [f'In6: {c}' for c in cell_parc_in6.columns]
-df_in6 = pd.melt(pd.concat([cell_parc_in6, ale_parc], axis=1), id_vars=['ALE Z'], var_name='Gene', value_name='Gene expression')
-df_in6['Cell type'] = 'In6'
-
-cell_parc_in5 = pd.read_csv(join(wd, 'context', 'gcea', 'GCEA_cell_genes_Adult-In5.csv'))
-cell_parc_in5.columns = [f'In5: {c}' for c in cell_parc_in5.columns]
-df_in5 = pd.melt(pd.concat([cell_parc_in5, ale_parc], axis=1), id_vars=['ALE Z'], var_name='Gene', value_name='Gene expression')
-df_in5['Cell type'] = 'In5'
-
-fackws = {'sharey':True, 'sharex':True, 'despine':False}
-
-cells = sns.lmplot(data=pd.concat([df_ex3, df_in6, df_in5], axis=0), col_wrap=7, height=1.3, aspect=0.95, 
-                   x='ALE Z', y='Gene expression', col='Gene', hue='Cell type', legend=False,
-                   palette=dict(Ex3=cmap[0,:], In6=cmap[1,:], In5=cmap[3,:]), 
-                   scatter_kws={'edgecolor':'k', 'alpha':0.1, 's':15}, facet_kws=fackws)
-cells.set_titles("{col_name}", fontweight='bold')
-cells.set(xticks=[], yticks=[], xlabel=None, ylabel=None)
-cells.fig.text(0.52,0.07, 'INS ALE Z-scores ', fontsize=13, rotation='horizontal', ha='center')
-cells.fig.text(0.015,0.54, 'Gene expression', fontsize=13, rotation='vertical', va='center')
-cells.savefig(join(sdir, 'fig3b.pdf'), transparent=False, bbox_inches='tight')
+# make figure
+fig3b, axes = plt.subplots(1,2, figsize=(8,12), gridspec_kw=dict(wspace=0.7))
+# cell plot
+plot_bars(data=cell, ax=axes[0], y='cLabel', xlim=(-0.3,0.5), color='cividis')
+# disease plot
+plot_bars(data=disease, ax=axes[1], y='cDesc1', xlim=(0,0.5), color='magma', mark_labels=False)
+# remove y axes
+sns.despine(fig3b, None, True, True, True, False)
+plt.savefig(join(sdir, 'fig3b.pdf'), transparent=True, bbox_inches='tight')
 
 
 # %% Fig3C brainspan =======================================
@@ -93,30 +148,11 @@ region_order = ['OFC', 'MFC', 'DFC', 'VFC', 'M1C', 'S1C', 'STC', 'ITC', 'IPC',
 
 plt.figure(figsize=(8, 2.5))
 heatmap(x=devel['region'], y=devel['age'], y_order=age_order, x_order=region_order,
-        color=-np.log(devel['pValZ']), size=devel['cScorePheno'], marker='o',
-        palette=sns.color_palette('magma_r', 500)[::-1], color_range=(0,12))
+        color=-np.log10(devel['pValZ']), size=devel['cScorePheno'], marker='o',
+        palette=sns.color_palette('magma_r', 500)[::-1], 
+        color_range=(0, round((-np.log10(devel['pValZ'])).max(),1)))
 plt.annotate('test', (2.2,0.5))
 plt.savefig(join(sdir, 'fig3c.pdf'), transparent=True, bbox_inches='tight')
 
 
-# %% Fig3D2 wordclouds ========================================================================
 
-gofigure_terms = pd.read_csv(join(sdir, 'gofigure', 'gofigure_res_descriptions_5.csv'))
-
-fig3b2, axes = plt.subplots(5,1, figsize=(4,4), constrained_layout=True)
-axes = axes.ravel()
-
-cloud = WordCloud(width=1500, height=250, margin=1, background_color='white', colormap='magma', 
-                    stopwords=['regulation', 'of', 'positive', 'negative', 'in', 'for', 'to'])
-for i, terms in enumerate(gofigure_terms.descs_str):
-    cloud.generate(terms)
-    axes[i].imshow(cloud, interpolation="bilinear")
-    axes[i].axis("off")
-    axes[i].set_title(str(i+1), x=-0.05, y=0.3, fontname='Arial', fontweight='bold')
-
-plt.savefig(join(sdir, 'fig3d2.png'), dpi=300, transparent=False, bbox_inches='tight')
-
-
-# %%
-
-# %%

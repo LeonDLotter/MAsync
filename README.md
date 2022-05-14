@@ -1,26 +1,22 @@
 # The Neurobiological Basis of Interpersonal Neural Synchronization: Evidence from a Multimodal Data Fusion Approach
 
 
-This repository accompanies our paper: 
+This repository accompanies our preprint: 
 
-Leon D. Lotter, Simon Huldreich Kohl, Christian Gerloff, Laura Bell, Alexandra Niephaus, Jana A. Kruppa, Martin Schulte-Rüther, Vanessa Reindl, & Kerstin Konrad (2022). *[The Neurobiological Basis of Interpersonal Neural Synchronization: Evidence from a Multimodal Data Fusion Approach]()*. bioRxiv.
+Leon D. Lotter, Simon Huldreich Kohl, Christian Gerloff, Laura Bell, Alexandra Niephaus, Jana A. Kruppa, Juergen Dukart, Martin Schulte-Rüther, Vanessa Reindl, & Kerstin Konrad (2022). *[The Neurobiological Basis of Interpersonal Neural Synchronization: Evidence from a Multimodal Data Fusion Approach]()*. bioRxiv.
 
-DOI: ... 
+[![DOI: XXX](https://img.shields.io/badge/DOI-XXX-blue)](http://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 ---
 
-All data and code in this repository are licensed under a
-[Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License][cc-by-nc-sa].
+All data and code in this repository are licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/).
 
-[cc-by-nc-sa]: http://creativecommons.org/licenses/by-nc-sa/4.0/
-[cc-by-nc-sa-shield]: https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg
-
-[![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
+[![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey)](http://creativecommons.org/licenses/by-nc-sa/4.0/)  
 
 ---
 ## Main analyses and results:
 
-- ***[MAsync_main.ipynb](MAsync_analyses.ipynb)***: Jupyter notebook to reproduce all analyses except for resting-state data processing. Contains general descriptions of methods and results.
+- ***[MAsync_analyses.ipynb](MAsync_analyses.ipynb)***: Jupyter notebook to reproduce all analyses except for resting-state data processing. Contains general descriptions of methods and results.
 - ***[data/datasets/fmri_coordinates.csv](data/datasets/fmri_coordinates.csv)***: Coordinates and associated study information from fMRI interpersonal neural synchrony studies
 - ***[data/datasets/fnirs_coordinates.csv](data/datasets/fnirs_coordinates.csv)***: Coordinates and associated study information from fNIRS interpersonal neural synchrony studies
 

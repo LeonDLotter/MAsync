@@ -128,3 +128,19 @@ dmypy.json
 # Pyre type checker
 .pyre/
 data/context/gcea/GCEA_ale_z_GO_BP.mat
+
+# VSC
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+.history/
+*.vsix
+
+# sync stuff
+.owncloudsync.log
+.sync_journal.db
+.sync_journal.db-shm
+.sync_journal.db-wal

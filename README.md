@@ -1,6 +1,5 @@
 # The Neurobiological Basis of Interpersonal Neural Synchronization: Evidence from a Multimodal Data Fusion Approach
 
-
 This repository accompanies our preprint: 
 
 Leon D. Lotter, Simon Huldreich Kohl, Christian Gerloff, Laura Bell, Alexandra Niephaus, Jana A. Kruppa, Juergen Dukart, Martin Schulte-Rüther, Vanessa Reindl, & Kerstin Konrad (2022). *[The Neurobiological Basis of Interpersonal Neural Synchronization: Evidence from a Multimodal Data Fusion Approach]()*. bioRxiv.

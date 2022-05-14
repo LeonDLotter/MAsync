@@ -47,5 +47,35 @@ Contains all functions called in the analysis notebook.
 - **[CONNbatch_processHCP.m](src/CONNbatch_processHCP.m)**: Matlab: Batch script to generate resting-state functional connectivity data from FIX-preprocessed HCP-data
 - **[juspace_correlations.m](src/juspace_correlations.m)**: Matlab: Wrapper script calling functions from the JuSpace toolbox for spatial correlation analyses  
   
+## Reproduce the analyses
+
+To ease the reproduction of our analyses, we added dependency management via poetry to this repository. To create a virtual python environment with all the package versions we used, perform the steps below. However, you can also install all required packages manually in a python 3.8.8 environment.
+
+###  Poetry on osx/ linux
+Install via curl:  
+```
+curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py | python -
+```
+###  Poetry on windows
+Install via powershell:  
+```
+(Invoke-WebRequest -Uri https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py -UseBasicParsing).Content | python -
+```
+Test if poetry was installed:  
+```
+poetry --version
+```
+If the command was not found add poetry to the `PATH` environment variable via:  
+```
+export PATH=$PATH:$HOME/.poetry/bin
+```
+
+### Run virtual environment
+Go to the folder you downloaded the repository to, start a new terminal, and get synchronized :sunglasses:
+```
+poetry shell
+```
+
+
 ## Contact
 If you have questions, comments or suggestions, feel free to [contact me](mailto:leondlotter@gmail.com)! 

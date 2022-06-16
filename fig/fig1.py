@@ -3,9 +3,9 @@
 # ========================================================================
 
 # %%
-pp = '/Users/leonlotter/MAsync/project'
-wd = '/Users/leonlotter/MAsync/project/data'
-sdir = '/Users/leonlotter/MAsync/project/fig'
+pp = '/Users/llotter/MAsync/project'
+wd = '/Users/llotter/MAsync/project/data'
+sdir = '/Users/llotter/MAsync/project/fig'
 
 import sys
 from os.path import join
@@ -103,13 +103,17 @@ for n_doi, doi in enumerate(dois):
     foci = nw_data[doi]['foci']
     foci = np.concatenate(foci)
     marker_color = col_fMRI[1] if nw_data[doi]['type']=='fMRI' else col_fNIRS[1]
-    brain_path = join(sdir, 'citenet', 'brains', f'doi_{n_doi}.svg')
     fig = plt.figure(figsize=(2,2))
-    plot_connectome(np.full([len(foci),len(foci),], np.nan), foci, figure=fig, colorbar=None, 
-        display_mode='z', node_size=130, node_color=marker_color, annotate=False) #output_file=brain_path, 
-    plt.savefig(brain_path, transparent=True, bbox_inches='tight')
+    gb = plot_connectome(np.full([len(foci),len(foci),], np.nan), foci, figure=fig, colorbar=None, 
+                         display_mode='z', node_size=130, node_color=marker_color, annotate=False) #output_file=brain_path, 
+    # fNIRS: all channel coords
+    if nw_data[doi]['type']=='fNIRS':
+        all_foci = ds_fNIRS.query("doi==@doi")[["x","y","z"]].values
+        gb.add_markers(all_foci, alpha=0.4, marker_color="black")
+    # save
+    plt.savefig(join(sdir, 'citenet_brains', f'doi_{n_doi}.svg'), transparent=True, bbox_inches='tight')
     plt.close()
-    nw_data[doi]['brain'] = brain_path
+    nw_data[doi]['brain'] = f'citenet_brains/doi_{n_doi}.svg'
 
 
 # save
@@ -166,6 +170,11 @@ nw_layout = """
                 }
             },
         "edges": {
+            "font": {
+                "color": "transparent",
+                "strokeColor": "transparent",
+                "background": "transparent"
+                },
             "color": {
                 "inherit": true,
                 "opacity": 0.6
@@ -184,7 +193,7 @@ nw_layout = """
             },
         "layout": {
             "improvedLayout": false,
-            "randomSeed": 965327
+            "randomSeed": 4
         },
         "physics": {
             "enabled": true,
@@ -279,20 +288,20 @@ for i, record in enumerate(nw_data):
     #        }
 
 # legend
-nw.add_node('fMRI', label='fMRI', shape="circularImage", value=25, borderWidth=2,
-            image=join(sdir, 'citenet', 'brains', 'legend.svg'), physics=False)
+nw.add_node('fMRI', label='fMRI', shape="circularImage", value=40, borderWidth=2,
+            image='citenet_brains/legend.svg', physics=False)
 nw.get_node('fMRI')["color"] = {"border": col_fMRI[0], "background": 'white',
                                 "highlight": {"border": col_fMRI[0], "background": 'white'}}
 nw.get_node('fMRI')["x"] = -750
 nw.get_node('fMRI')["y"] = 800
-nw.get_node('fMRI')['font'] = {"size": 25}
-nw.add_node('fNIRS', label='fNIRS', shape="circularImage", value=25, borderWidth=2,
-            image=join(sdir, 'citenet', 'brains', 'legend.svg'), physics=False)
+nw.get_node('fMRI')['font'] = {"size": 30}
+nw.add_node('fNIRS', label='fNIRS', shape="circularImage", value=40, borderWidth=2,
+            image='citenet_brains/legend.svg', physics=False)
 nw.get_node('fNIRS')["color"] = {"border": col_fNIRS[0], "background": 'white',
                                 "highlight": {"border": col_fNIRS[0], "background": 'white'}}
 nw.get_node('fNIRS')["x"] = -640
 nw.get_node('fNIRS')["y"] = 800
-nw.get_node('fNIRS')['font'] = {"size": 25}
+nw.get_node('fNIRS')['font'] = {"size": 30}
 ## save
 nw.show('fig1B.html')
 

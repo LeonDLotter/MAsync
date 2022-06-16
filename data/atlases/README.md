@@ -1,5 +1,6 @@
 - `BzdokTPJ_combined`: [Bzdok et al., 2013](https://doi.org/10.1016/j.neuroimage.2013.05.046)
 - `Feng_socialNonsocial`: [Feng et al., 2021](https://doi.org/10.1016/j.neubiorev.2021.03.025)
+- `Ficco_PredEncodeViolate`: [Ficco et al., 2021](https://doi.org/10.1038/s41598-021-95603-5)
 - `Schaefer100-7`: [Schaefer et al., 2018](https://doi.org/10.1093/cercor/bhx179)
 - `Schaefer100-7_TianS1`: [Schaefer et al., 2018](https://doi.org/10.1093/cercor/bhx179) & [Tian et al., 2020](https://doi.org/10.1038/s41593-020-00711-6)
 - `Schurz_ToM`: [Schurz et al., 2021](https://doi.org/10.1037/bul0000303)

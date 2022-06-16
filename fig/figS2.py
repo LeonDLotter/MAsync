@@ -3,9 +3,9 @@
 # ========================================================================
 
 # %%
-pdir = '/Users/leonlotter/MAsync/project'
-wd = '/Users/leonlotter/MAsync/project/data'
-sdir = '/Users/leonlotter/MAsync/project/fig'
+pdir = '/Users/llotter/MAsync/project'
+wd = '/Users/llotter/MAsync/project/data'
+sdir = '/Users/llotter/MAsync/project/fig'
 
 import sys
 from os.path import join
@@ -23,7 +23,7 @@ ds = fnirs_to_nimare_dataset(fnirs_tab, False)
 ids = ds.ids
 exps = ds.metadata.study_id
 
-# %% get plot
+# %% plot
 
 # ALE
 ale = ALE() # get ALE class
@@ -37,12 +37,18 @@ for i, id in enumerate(ids):
     # current exp
     ds_exp = ds.slice([id])
     print(f'{i+1}/{len(ids)}: {id}')
+    # get all coordinates
+    id_pub = id.split("-")[0]
+    fnirs_tab_exp = fnirs_tab.query("publication==@id_pub")
+    if len(fnirs_tab_exp)==0:
+        ValueError
     # get map
     ds_ale = ale.fit(ds_exp) # fit to dataset
     z_exp = ds_ale.get_map('z')
     # plot
-    plot_glass_brain(z_exp, figure=figS1, axes=axes[i], display_mode='lyrz',
-                     title=f'{exps[i]}: {len(ds_exp.coordinates)} channel(s), {ds_exp.metadata.sample_sizes.values[0][0]:2.0f} subjects')
+    gb = plot_glass_brain(z_exp, figure=figS1, axes=axes[i], display_mode='lyrz',
+                          title=f'{exps[i]}: {len(ds_exp.coordinates)}/{len(fnirs_tab_exp)} channel(s), {ds_exp.metadata.sample_sizes.values[0][0]:.0f} subjects')
+    gb.add_markers(fnirs_tab_exp[["x","y","z"]].values, alpha=0.4, marker_color="black")
 
 plt.savefig(join(sdir, 'figS2.pdf'), transparent=False, bbox_inches='tight')
 plt.savefig(join(sdir, 'figS2.png'), transparent=False, bbox_inches='tight')

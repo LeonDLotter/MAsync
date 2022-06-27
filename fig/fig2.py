@@ -3,8 +3,8 @@
 # ========================================================================
 
 #%% 
-wd = '/Users/leonlotter/MAsync/project/data'
-sdir = '/Users/leonlotter/MAsync/project/fig'
+wd = '/Users/llotter/MAsync/project/data'
+sdir = '/Users/llotter/MAsync/project/fig'
 
 from os.path import join
 import pandas as pd
@@ -77,7 +77,7 @@ plt.savefig(join(sdir, 'fig2ac.pdf'), transparent=True, bbox_inches='tight')
 #%% Fig 2B1 fnirs surf =======================================================================
 
 fnirs = join(wd, 'fnirs', 'fnirs_atlas_ratioSyncAllChannelsSubj.nii.gz')
-fnirs_sig = math_img('np.where((a==43) | (a==74) | (a==53), 1, 0)', 
+fnirs_sig = math_img('np.where((a==43) | (a==74) | (a==53) | (a==21), 1, 0)', 
                      a=join(wd, 'atlases', 'Schaefer100-7_2mm.nii.gz'))
 
 # template

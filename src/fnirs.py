@@ -20,7 +20,7 @@ import logging
 lgr = logging.getLogger(__name__)
 lgr.setLevel(logging.INFO)
 
-def fnirs_result(data, atlas, labels, publications=None):
+def fnirs_result(data, atlas, labels, publications=None, volumes=True, verbose=True):
     
     """
     Evaluates channel-wise MNI coordinates from fNIRS studies by a given whole-
@@ -51,6 +51,9 @@ def fnirs_result(data, atlas, labels, publications=None):
             coordinates ('i','j','k'). If distance == 0, nearest == original 
     """
 
+    if verbose==False:
+        lgr.setLevel(logging.ERROR)
+        
     # fNIRS DATA
     if type(data)==str:
         data = pd.read_csv(data)
@@ -148,33 +151,35 @@ def fnirs_result(data, atlas, labels, publications=None):
     result_df.reset_index(drop=True)
          
     # NEW VOLUMES
-    lgr.info('Creating volumes...')
-    # new data matrices
-    dat_sync, dat_ratio_sub, dat_ratio_exp = np.zeros(a_dat.shape), np.zeros(a_dat.shape), np.zeros(a_dat.shape) # empty data matrices               
-    for _, row in result_df.iterrows():
-        s = row['n_ch_sync']
-        if s > 0:
-            dat_sync[a_dat==row['region_idx']] = s # number of significant channels
-            dat_ratio_sub[a_dat==row['region_idx']] = row['ch_ratio_sub_all'] # ratio of sig to all channels 
-            dat_ratio_exp[a_dat==row['region_idx']] = row['ch_ratio_exp_all'] # ratio of sig to all channels weighted by total subjects
-        else: # fill parcels with -1 to indicate covered areas 
-            dat_sync[a_dat==row['region_idx']] = -1
-            dat_ratio_sub[a_dat==row['region_idx']] = -1
-            dat_ratio_exp[a_dat==row['region_idx']] = -1
-    # create dict with volumes    
-    vols = {'n_ch_sync': new_img_like(atlas, dat_sync),
-            'n_ch_ratio_sub_all': new_img_like(atlas, dat_ratio_sub),
-            'n_ch_ratio_exp_all': new_img_like(atlas, dat_ratio_exp)}    
+    if volumes:
+        lgr.info('Creating volumes...')
+        # new data matrices
+        dat_sync, dat_ratio_sub, dat_ratio_exp = np.zeros(a_dat.shape), np.zeros(a_dat.shape), np.zeros(a_dat.shape) # empty data matrices               
+        for _, row in result_df.iterrows():
+            s = row['n_ch_sync']
+            if s > 0:
+                dat_sync[a_dat==row['region_idx']] = s # number of significant channels
+                dat_ratio_sub[a_dat==row['region_idx']] = row['ch_ratio_sub_all'] # ratio of sig to all channels 
+                dat_ratio_exp[a_dat==row['region_idx']] = row['ch_ratio_exp_all'] # ratio of sig to all channels weighted by total subjects
+            else: # fill parcels with -1 to indicate covered areas 
+                dat_sync[a_dat==row['region_idx']] = -1
+                dat_ratio_sub[a_dat==row['region_idx']] = -1
+                dat_ratio_exp[a_dat==row['region_idx']] = -1
+        # create dict with volumes    
+        vols = {'n_ch_sync': new_img_like(atlas, dat_sync),
+                'n_ch_ratio_sub_all': new_img_like(atlas, dat_ratio_sub),
+                'n_ch_ratio_exp_all': new_img_like(atlas, dat_ratio_exp)}  
+        
+        return result_df, vols, df
     
-    lgr.info('Finished.')
-    
-    return(result_df, vols, df)
+    else:
+        return result_df, df
 
 
 #=============================================================================
 
 
-def fnirs_permute(fnirs_coord_df, region_indices, n_perm):
+def fnirs_permute(fnirs_coord_df, region_indices, n_perm, seed=None, verbose=True):
 
     """
     Calculated permutation-based p-values for the fnirs result as estimated in
@@ -235,7 +240,8 @@ def fnirs_permute(fnirs_coord_df, region_indices, n_perm):
     perm_ch_ratio_sub_all = np.zeros((len(region_indices), n_perm))
     perm_ch_ratio_exp_all = np.zeros((len(region_indices), n_perm))
 
-    for i in tqdm(range(n_perm)):
+    np.random.seed(seed=seed)
+    for i in tqdm(range(n_perm), disable=not verbose):
         # copy dataframe
         df = fnirs_coord_df.copy(deep=True)
         # drop parcel labels (dont fit anymore)
@@ -286,6 +292,50 @@ def fnirs_permute(fnirs_coord_df, region_indices, n_perm):
 #=============================================================================
 
 
+def rand_fnirs_coords(fnirs_df, mask, publications=None, radius=10, seed=None, verbose=True):
+    """
+    Takes the fnirs dataframe {fnirs_df} and randomizes coordinates of studies defined by {publications} 
+    within a sphere with a radius of {radius} * voxelsize mm. If ids is None, all coordinates are
+    randomized. Df and mask must be in the same space!
+    """
+    
+    # copy dataset to leave the input original 
+    fnirs_df = fnirs_df.copy(deep=True)
+
+    # set seed
+    np.random.seed(seed=seed)
+    
+    if verbose: lgr.info(f'Randomizing coordinates within a sphere of {radius} mm.')
+    # get possible coordinates to sample from
+    m = load_img(mask)
+    m_dat = m.get_fdata()
+    # all possible coordinates
+    ijk_all = np.argwhere(m_dat > 0) # array with all non zero mask coordinates
+    kdtree = KDTree(ijk_all) # prepare KDTree class
+
+    # get MNI coordinates
+    xyz = fnirs_df[['x', 'y', 'z']]
+    xyz_na = xyz["x"].isnull().to_numpy()
+    # convert to world coordinates
+    ijk = mm2vox(xyz.iloc[~xyz_na,:], m.affine)
+    # get all coordinates in sphere around coordinate
+    _, points = kdtree.query(ijk, k=None, distance_upper_bound=radius)
+    # loop over coordinates 
+    xyz_ = list()
+    for p in range(len(points)):
+        # get random coordinate
+        rand_coord = ijk_all[np.random.choice(points[p])]
+        # convert back to mni coordinate
+        xyz_.append(vox2mm(rand_coord, m.affine))
+    # write back to ds
+    fnirs_df.loc[~xyz_na, ['x', 'y', 'z']] = xyz_
+    
+    return(fnirs_df)
+
+
+#=============================================================================
+
+
 def rand_nimare_coords(ds, mask, ids=None, radius=10, seed=None, verbose=True):
     """
     Takes a dataset {ds} and randomizes coordinates of studies defined by {ids} 
@@ -297,8 +347,7 @@ def rand_nimare_coords(ds, mask, ids=None, radius=10, seed=None, verbose=True):
     ds = ds.copy()
 
     # set seed
-    if seed: 
-        np.random.seed(seed)
+    np.random.seed(seed=seed)
 
     # get study ids
     if ids is None:

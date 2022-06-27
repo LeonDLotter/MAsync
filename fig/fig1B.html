@@ -12,8 +12,8 @@
 <style type="text/css">
 
         #mynetwork {
-            width: 95%;
-            height: 95%;
+            width: 100%;
+            height: 100%;
             background-color: #ffffff;
             border: 1px solid lightgray;
             position: relative;
@@ -75,7 +75,7 @@
         // adding nodes and edges to the graph
         data = {nodes: nodes, edges: edges};
 
-        var options = {"nodes": {"scaling": {"min": 30, "max": 50}, "borderWidth": 1.5, "borderWidthSelected": 3.5, "font": {"size": 20, "background": "rgba(255,255,255,0.5)"}, "shadow": {"enabled": true}}, "edges": {"font": {"color": "transparent", "strokeColor": "transparent", "background": "transparent"}, "color": {"inherit": true, "opacity": 0.6}, "smooth": {"type": "continuous", "forceDirection": "none"}}, "interaction": {"keyboard": {"enabled": true}, "navigationButtons": true, "zoomView": true}, "layout": {"improvedLayout": false, "randomSeed": 4}, "physics": {"enabled": true, "forceAtlas2Based": {"gravitationalConstant": -100, "springLength": 220, "springConstant": 0.01, "avoidOverlap": 0.5}, "maxVelocity": 50, "solver": "forceAtlas2Based", "timestep": 0.5, "stabilization": {"enabled": true, "fit": true}}};
+        var options = {"nodes": {"scaling": {"min": 30, "max": 50}, "borderWidth": 1.5, "borderWidthSelected": 3.5, "font": {"size": 20, "background": "rgba(255,255,255,0.5)"}, "shadow": {"enabled": true}}, "edges": {"font": {"color": "transparent", "strokeColor": "transparent", "background": "transparent"}, "color": {"inherit": true, "opacity": 0.6}, "smooth": {"type": "continuous", "forceDirection": "none"}}, "interaction": {"keyboard": {"enabled": true}, "navigationButtons": true, "zoomView": false}, "layout": {"improvedLayout": false, "randomSeed": 4}, "physics": {"enabled": true, "forceAtlas2Based": {"gravitationalConstant": -100, "springLength": 220, "springConstant": 0.01, "avoidOverlap": 0.5}, "maxVelocity": 50, "solver": "forceAtlas2Based", "timestep": 0.5, "stabilization": {"enabled": true, "fit": true}}};
         
         
 

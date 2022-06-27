@@ -3,8 +3,8 @@
 # ========================================================================
 
 #%% 
-wd = '/Users/leonlotter/MAsync/project/data'
-sdir = '/Users/leonlotter/MAsync/project/fig'
+wd = '/Users/llotter/MAsync/project/data'
+sdir = '/Users/llotter/MAsync/project/fig'
 
 from os.path import join
 import pandas as pd
@@ -12,7 +12,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.colors import ListedColormap
 import seaborn as sns
-from nilearn.image import math_img
+from nilearn.image import load_img, math_img, new_img_like
 from nilearn.datasets import fetch_surf_fsaverage
 from neuromaps.transforms import mni152_to_fsaverage
 from surfplot import Plot
@@ -22,7 +22,7 @@ cmap = pd.read_csv(join(sdir, 'colors.csv'), header=None).values
 c_ale001 = ListedColormap(cmap[0,:])
 
 # atlas
-atlas = join(wd, 'atlases', 'Schaefer100-7_2mm.nii.gz')
+atlas = load_img(join(wd, 'atlases', 'Schaefer100-7_2mm.nii.gz'))
 
 # results tables
 fnirs_res = pd.read_csv(join(wd, 'fnirs', 'fnirs_atlas_result.csv'))
@@ -48,7 +48,7 @@ def plot_surf(fnirs_vol, outline_vol, title, save_path):
     fig = p.build(cbar_kws=kws) 
     plt.title(title, loc="left", y=0.9, size=15, c='w', bbox=dict(facecolor='k', edgecolor='k'))
     # save
-    plt.savefig(save_path, bbox_inches='tight', transparent='true')
+    plt.savefig(save_path, bbox_inches='tight', transparent='true', dpi=200)
 
 
 #%% figS5a - histograms for main result
@@ -76,47 +76,58 @@ plt.tight_layout()
 plt.savefig(join(sdir, 'figS5a.pdf'), bbox_inches='tight', transparent='true')
 
 
-#%% figS5b - all indices, all experiments
+#%% figS5b & c
 
-# number of channels
-fnirs = join(wd, 'fnirs', 'fnirs_atlas_syncChannels.nii.gz')
-test = ' | '.join([f'(a=={i})' for i in fnirs_res.query("p_n_ch_sync < 0.05").region_idx.to_list()])
-fnirs_sig = math_img(f'np.where({test}, 1, 0)', a=atlas)
-plot_surf(fnirs, fnirs_sig, 'All: Number of channels', join(sdir, 'figS5b1.pdf'))
-
-# ratio, weighted by subjects
-fnirs = join(wd, 'fnirs', 'fnirs_atlas_ratioSyncAllChannelsSubj.nii.gz')
-test = ' | '.join([f'(a=={i})' for i in fnirs_res.query("p_ch_ratio_sub_all < 0.05").region_idx.to_list()])
-fnirs_sig = math_img(f'np.where({test}, 1, 0)', a=atlas)
-plot_surf(fnirs, fnirs_sig, 'All: Ratio of INS to all channels weighted by number of subjects', join(sdir, 'figS5b2.pdf'))
-
-# ratio weighted by experiments
-fnirs = join(wd, 'fnirs', 'fnirs_atlas_ratioSyncAllChannelsExps.nii.gz')
-test = ' | '.join([f'(a=={i})' for i in fnirs_res.query("p_ch_ratio_exp_all < 0.05").region_idx.to_list()])
-fnirs_sig = math_img(f'np.where({test}, 1, 0)', a=atlas)
-plot_surf(fnirs, fnirs_sig, 'All: Ratio of INS to all channels weighted by number of experiments', join(sdir, 'figS5b3.pdf'))
-
-
-#%% figS5c - all indices, selected experiments
-
-# number of channels
-fnirs = join(wd, 'fnirs', 'fnirs_atlas_syncChannels_sel.nii.gz')
-test = ' | '.join([f'(a=={i})' for i in fnirs_res_sel.query("p_n_ch_sync < 0.05").region_idx.to_list()])
-fnirs_sig = math_img(f'np.where({test}, 1, 0)', a=atlas)
-plot_surf(fnirs, fnirs_sig, 'Restricted: Number of channels', join(sdir, 'figS5c1.pdf'))
-
-# ratio, weighted by subjects
-fnirs = join(wd, 'fnirs', 'fnirs_atlas_ratioSyncAllChannelsSubj_sel.nii.gz')
-test = ' | '.join([f'(a=={i})' for i in fnirs_res_sel.query("p_ch_ratio_sub_all < 0.05").region_idx.to_list()])
-fnirs_sig = math_img(f'np.where({test}, 1, 0)', a=atlas)
-plot_surf(fnirs, fnirs_sig, 'Restricted: Ratio of INS to all channels weighted by number of subjects', join(sdir, 'figS5c2.pdf'))
-
-# ratio weighted by experiments
-fnirs = join(wd, 'fnirs', 'fnirs_atlas_ratioSyncAllChannelsExps_sel.nii.gz')
-test = ' | '.join([f'(a=={i})' for i in fnirs_res_sel.query("p_ch_ratio_exp_all < 0.05").region_idx.to_list()])
-fnirs_sig = math_img(f'np.where({test}, 1, 0)', a=atlas)
-plot_surf(fnirs, fnirs_sig, 'Restricted: Ratio of INS to all channels weighted by number of experiments', join(sdir, 'figS5c3.pdf'))
+for dataset, dataset_title, abc in zip(["", "_sel"],
+                                       ["All", "Selected"],
+                                       ["b", "c"]):
+    for j, file, index, title in zip([1, 2, 3],
+                                     ["fnirs_atlas_syncChannels", 
+                                      "fnirs_atlas_ratioSyncAllChannelsSubj", 
+                                      "fnirs_atlas_ratioSyncAllChannelsExps"],
+                                     ["p_n_ch_sync", 
+                                      "p_ch_ratio_sub_all", 
+                                      "p_ch_ratio_exp_all"],
+                                     ['Number of channels', 
+                                      'Ratio of INS to all channels weighted by subject number', 
+                                      'Ratio of INS to all channels weighted by experiment number']):
+        # plot
+        fnirs = join(wd, 'fnirs', f'{file}{dataset}.nii.gz')
+        test = ' | '.join([f'(a=={i})' for i in fnirs_res.query(f"{index} < 0.05").region_idx.to_list()])
+        fnirs_sig = math_img(f'np.where({test}, 1, 0)', a=atlas)
+        plot_surf(fnirs, fnirs_sig, f'{dataset_title}: {title}', join(sdir, f'figS5{abc}{j}.pdf'))
 
 
+
+# %% figS5d & e
+
+for var, var_title, abc in zip(["rand_median", "rand_perc"],
+                               ["Randomized (M)", "Randomized (%)"],
+                               ["d", "e"]):
+    for j, file, index, title in zip([1, 2, 3],
+                                     ["fnirs_atlas_syncChannels", 
+                                      "fnirs_atlas_ratioSyncAllChannelsSubj", 
+                                      "fnirs_atlas_ratioSyncAllChannelsExps"],
+                                     ["p_n_ch_sync", 
+                                      "p_ch_ratio_sub_all", 
+                                      "p_ch_ratio_exp_all"],
+                                     ['Number of channels', 
+                                      'Ratio of INS to all channels weighted by subject number', 
+                                      'Ratio of INS to all channels weighted by experiment number']):
+        # get p volume
+        p_vol = new_img_like(atlas, data=np.zeros(atlas.shape))
+        for region_idx in fnirs_res.region_idx.to_list():
+            p = fnirs_res.query("region_idx==@region_idx")[f"{index}_{var}"].values
+            if var=="rand_median":
+                p = -np.log10(p)
+            else:
+                p = p * 100
+            p_vol = math_img(f'np.where(a=={region_idx}, {p}, p_vol)', a=atlas, p_vol=p_vol)
+        # get p <  0.05 indicator
+        fnirs = join(wd, 'fnirs', f'{file}.nii.gz')
+        test = ' | '.join([f'(a=={i})' for i in fnirs_res.query(f"{index} < 0.05").region_idx.to_list()])
+        fnirs_sig = math_img(f'np.where({test}, 1, 0)', a=atlas)
+        # plot
+        plot_surf(p_vol, fnirs_sig, f'{var_title}: {title}', join(sdir, f'figS5{abc}{j}.pdf'))
 
 # %%

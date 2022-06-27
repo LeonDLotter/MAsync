@@ -215,7 +215,9 @@ nw_layout = """
     """
     
     ## initialize pyvis network and populate with nx data 
-nw = Network(directed=True, height='95%', width='95%', bgcolor='#ffffff', font_color=False, heading='')
+nw = Network(directed=True,   
+             height='100%', width='100%', bgcolor='#ffffff', font_color=False, 
+             heading="")
 nw.from_nx(nx) # load nx data
 nw.set_options(nw_layout)
     

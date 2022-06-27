@@ -30,6 +30,8 @@ statsmodels = "^0.13.1"
 surfplot = "^0.1.0"
 tqdm = "^4.64.0"
 wordcloud = "^1.8.1"
+joblib = "^1.1.0"
+
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]

@@ -10,8 +10,10 @@ import os
 from os.path import join
 import numpy as np
 import nimare as ni
+from seaborn import histplot
 import nilearn as nl
 import math
+import matplotlib.pyplot as plt
 from atlasreader import get_statmap_info
 from .utils_image import index_clusters_bin
 
@@ -23,7 +25,7 @@ lgr.setLevel(logging.INFO)
 def ale(data, work_dir=None, pref='ALE_', 
         vox_thr=0.001, n_perm=1000, n_core=-1, cluster='mass', output=True, 
         save_cl_info=True, atlases=['talairach_gyrus', 'talairach_ba', 'aal'],
-        print_glassbrain=True, glassbrain_title=None, 
+        print_glassbrain=True, glassbrain_title=None, print_histogram=False,
         sample_size=None):   
     """
     Executes an Activation Likelihood Estimation using NiMARE functions with
@@ -104,13 +106,24 @@ def ale(data, work_dir=None, pref='ALE_',
         else:
             glassbrain_title1 = glassbrain_title+'; unthresholded'
         nl.plotting.plot_glass_brain(
-            ale.results.get_map('z'), title=glassbrain_title1, 
+            ale_res.get_map('z'), title=glassbrain_title1, 
             draw_cross=False, cmap='RdBu_r', display_mode='lyrz')
+        plt.show()
     
     # FWE correction
-    corrector = ni.correct.FWECorrector(method='montecarlo', n_iters=n_perm, 
+    corrector = ni.correct.FWECorrector(method='montecarlo', n_iters=n_perm,
                                         voxel_thresh=vox_thr, n_cores=n_core)
     ale_cres = corrector.transform(ale_res)
+    
+    # get the null distribution of max cluster sizes and estimate cutoff value
+    max_null = ale_cres.estimator.null_distributions_[f'values_desc-{cluster}_level-cluster_corr-fwe_method-montecarlo']
+    max_95 = np.percentile(max_null, 95)
+    lgr.info(f'Cluster {cluster} threshold based on null distribution of maximum values: > {max_95:.05f}')
+    if print_histogram:
+        histplot(max_null)
+        plt.axvline(x=max_95)
+        plt.title(f'Cluster {cluster} null distribution \n(threshold > {max_95:.02f} @ p < 0.05)')
+        plt.show()
     
     # Resulting cluster-level corrected "logp" volumes have the negative 
     # logarithm to the base 10 of the cluster-level FWE-corrected p-value 
@@ -177,6 +190,7 @@ def ale(data, work_dir=None, pref='ALE_',
                     glassbrain_title2 = glassbrain_title+'; thresholded'
                 nl.plotting.plot_glass_brain(img_bin, title=glassbrain_title2, 
                     draw_cross=False, cmap='RdBu_r', display_mode='lyrz')
+                plt.show()
         
             # Return if volumes saved
             lgr.info('ALE completed, significant clusters found. '

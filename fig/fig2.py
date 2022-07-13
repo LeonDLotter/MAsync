@@ -187,11 +187,22 @@ data = pd.concat([rsn[rsn.roiName=='ale_rTPJ_cluster'].relDistr.reset_index(drop
                   rsn[rsn.roiName=='macm_rTPJ_network'].absDistr.reset_index(drop=True)], 
                   axis=1)
 data.columns = ["ale_rel", "macm_rel", "ale_abs", "macm_abs"]
-labels = rsn.targetName[0:7]
+data_p = pd.concat([rsn[rsn.roiName=='ale_rTPJ_cluster'].relDistr_p.reset_index(drop=True),
+                    rsn[rsn.roiName=='macm_rTPJ_network'].relDistr_p.reset_index(drop=True),
+                    rsn[rsn.roiName=='ale_rTPJ_cluster'].absDistr_p.reset_index(drop=True),
+                    rsn[rsn.roiName=='macm_rTPJ_network'].absDistr_p.reset_index(drop=True)], 
+                  axis=1)
+data_p.columns = data.columns
+data_q = pd.concat([rsn[rsn.roiName=='ale_rTPJ_cluster'].relDistr_q.reset_index(drop=True),
+                    rsn[rsn.roiName=='macm_rTPJ_network'].relDistr_q.reset_index(drop=True),
+                    rsn[rsn.roiName=='ale_rTPJ_cluster'].absDistr_q.reset_index(drop=True),
+                    rsn[rsn.roiName=='macm_rTPJ_network'].absDistr_q.reset_index(drop=True)], 
+                  axis=1)
+data_q.columns = data.columns
 
 # label rotation
 N = len(labels)
-theta = [n / float(N) * 2 * np.pi for n in range(N)]
+theta = np.array([n / float(N) * 2 * np.pi for n in range(N)])
 
 ## PLOT
 fig_rsn = plt.figure(figsize=(10, 4.8))
@@ -206,15 +217,23 @@ ax4 = plt.subplot(144, polar=True, zorder=0)
 #ax3 = plt.subplot(223, polar=True, zorder=0)
 #ax4 = plt.subplot(224, polar=True, zorder=0)
 line = []
-for i,ax in enumerate([ax1,ax2,ax3,ax4]):
+for i, (ax, analysis) in enumerate(zip([ax1,ax2,ax3,ax4], data.columns)):
     # values
-    line.append(ax.plot(theta, data[data.columns[i]], linewidth=1.5, color=colors[i], alpha=0.75, zorder=2))
+    line.append(ax.plot(theta, data[analysis], linewidth=1.5, color=colors[i], alpha=0.75, zorder=2))
+    #ax.scatter(theta[data_q[analysis] < 0.05], data[analysis][data_q[analysis] < 0.05],
+    #           marker="$☆$", color="k", s=150, alpha=0.5, zorder=10)
     close_line(line[i][0])
-    ax.fill(theta, data[data.columns[i]], facecolor=colors[i], alpha=0.3, zorder=2)
+    ax.fill(theta, data[analysis], facecolor=colors[i], alpha=0.3, zorder=2)
     # y axis
     #ax.set_rticks(ticks[i])
     ax.set_rlabel_position(80)
     # adjust size
+    labels = rsn.targetName[0:7].copy()
+    for ii, (p,q) in enumerate(zip(data_p[analysis],data_q[analysis])):
+        if p < 0.05:
+            labels[ii] = "$\\bf{" + labels[ii] + "}$"
+        if q < 0.05:
+            labels[ii] = labels[ii] + "*"
     set_rotated_labels(labels, fig_rsn, ax, 0.18)
     
 # legend

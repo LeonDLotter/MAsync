@@ -18,6 +18,7 @@ from nilearn.regions import connected_regions
 from nilearn.reporting import get_clusters_table        
 from scipy.stats import zscore
 from scipy.stats import spearmanr, pearsonr, rankdata
+from scipy.ndimage import label
 import matplotlib.pylab as plt    
 from seaborn import regplot
 
@@ -171,6 +172,42 @@ def correlate_volumes_via_atlas(x_img, y_img, atlas, adjust_img, method='spearma
 #=============================================================================
 
 
+def get_cluster_stats(img_thresh):
+    """
+    Extracts connected components (clusters), cluster sizes, and cluster masses 
+    from a thresholded image.
+    
+    Input: 
+        thresholded image as string, nifti, or numpy array
+    Output: 
+        img_labels: array with labelled clusters (1 to n)
+        clust_labels: array with cluster labels
+        clust_sizes: array with cluster sizes
+        clust_masses: array with cluster masses (sum of in-cluster voxel values)
+    """
+    
+    # get data
+    if isinstance(img_thresh, (nb.nifti1.Nifti1Image, str)):
+        img_thresh_dat = load_img(img_thresh).get_fdata()
+    elif isinstance(img_thresh, np.ndarray):
+        img_thresh_dat = img_thresh
+    # label clusters
+    img_labels, n_labels = label(img_thresh_dat)
+    # get cluster sizes
+    clust_labels, clust_sizes = np.unique(img_labels, return_counts=True)
+    clust_sizes = clust_sizes[clust_labels!=0]
+    clust_labels = clust_labels[clust_labels!=0]
+    # get cluster masses
+    clust_masses = np.zeros(clust_sizes.shape)
+    for i, c in enumerate(clust_labels):
+        clust_masses[i] = np.sum(img_thresh_dat[img_labels==c])
+        
+    return img_labels, clust_labels, clust_sizes, clust_masses
+    
+
+#=============================================================================
+
+
 def get_size_of_rois(img):
     """
     Extracts a list of roi sizes from a volume or numpy array with indexed 
@@ -187,7 +224,7 @@ def get_size_of_rois(img):
     idx = np.unique(dat) # get roi indices
     idx = idx[idx != 0] # drop zero from list
     
-    # iterate over roi list anr extract roi sizes
+    # iterate over roi list and extract roi sizes
     sizes_list = list()
     for i in idx:
         sizes_list.append(len(dat[dat == i]))

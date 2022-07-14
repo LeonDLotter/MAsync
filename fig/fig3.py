@@ -3,8 +3,8 @@
 # ========================================================================
 
 #%% 
-wd = '/Users/leonlotter/MAsync/project/data'
-sdir = '/Users/leonlotter/MAsync/project/fig'
+wd = '/Users/llotter/MAsync/project/data'
+sdir = '/Users/llotter/MAsync/project/fig'
 
 from os.path import join
 import pandas as pd
@@ -27,16 +27,17 @@ def colors_from_values(values, palette_name):
 # %% Fig 3A scatters ========================================================================
 
 # pet data
-pet_corr = pd.read_csv(join(wd, 'context', 'PETmRNA_ale_z_fdr.csv'))
-pet_sig = list(pet_corr.query('(zr>0) & (sig==True)').PETmRNA)
-pet_zr = list(pet_corr.query('(zr>0) & (sig==True)').zr)
-pet_p = list(pet_corr.query('(zr>0) & (sig==True)').p)
+pet_corr = pd.read_csv(join(wd, 'context', 'PETmRNA_ale_z.csv'), index_col=0)
+pet_sig = list(pet_corr.query('p < 0.05').index)
+pet_zr = list(pet_corr.query('p < 0.05').zr)
+pet_p = list(pet_corr.query('p < 0.05').p)
+pet_q = list(pet_corr.query('p < 0.05').q)
 
 # parcellated data
 ale_parc = pd.read_csv(join(wd, 'macm', 'cor_macm_ale.csv'))['dat1']
 ale_parc.name = 'ALE Z'
 pet_parc = pd.read_csv(join(wd, 'datasets', 'pet_parcellated_data.csv'))
-fnirs_data = pd.read_csv(join(wd, 'fnirs', 'fnirs_atlas_result.csv'))
+fnirs_data = pd.read_csv(join(wd, 'fnirs', 'fnirs_atlas_result_perm.csv'))
 fnirs_vals = np.zeros((116))
 for i in range(116):
     if i+1 in list(fnirs_data.region_idx):
@@ -59,7 +60,9 @@ for i, pet in enumerate(pet_sig):
     axes[i].set_xlabel(None)
     axes[i].legend().set_visible(False)
     p = f'= {pet_p[i]:.03f}' if round(pet_p[i],3) > 0 else '< 0.001'
-    axes[i].annotate(f'Z(rho) = {pet_zr[i]:.2f}, p {p}', 
+    axes[i].annotate(f'Z(ρ) = {pet_zr[i]:.2f}', 
+                     xy=(0.97,0.17), xycoords='axes fraction', ha='right')
+    axes[i].annotate(f'p {p}, q = {pet_q[i]:.3f}', 
                      xy=(0.97,0.05), xycoords='axes fraction', ha='right')
 # set y label for bottom plot
 axes[i].set_xlabel('INS ALE (Z)', fontsize=12)

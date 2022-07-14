@@ -201,7 +201,7 @@ data_q = pd.concat([rsn[rsn.roiName=='ale_rTPJ_cluster'].relDistr_q.reset_index(
 data_q.columns = data.columns
 
 # label rotation
-N = len(labels)
+N = 7
 theta = np.array([n / float(N) * 2 * np.pi for n in range(N)])
 
 ## PLOT
@@ -265,19 +265,22 @@ ns_rTPJ.Term = [t.split('__')[1] for t in ns_rTPJ.Term]
 ns_rTPJ.sort_values(by='Term', inplace=True)
 ns_rTPJ.reset_index(drop=True, inplace=True)
 
-ns_whole = pd.read_csv(join(wd, 'context', 'topics_wholebrain.csv'))
-ns_whole.topic = ['_'.join(t.split('_')[2:6]) for t in ns_whole.topic]
+ns_whole = pd.read_csv(join(wd, 'context', 'topics_wholebrain.csv'), index_col=0)
+ns_whole['topic'] = ['_'.join(t.split('_')[2:6]) for t in ns_whole.index]
 ns_whole.sort_values(by='topic', inplace=True)
 ns_whole.reset_index(drop=True, inplace=True)
 
-ns = pd.concat([ns_rTPJ, ns_whole[['topic', 'r']]], axis=1)
+ns = pd.concat([ns_rTPJ, ns_whole], axis=1)
 
 x = np.abs(ns.zReverse) #-np.log(ns.pReverse)
 y = np.abs(ns.zForward)#-np.log(ns.pForward)
 labs, labsx, labsy = [],[],[]
 for i,l in enumerate(ns.topic):
-    if ns.pReverse[i] < 0.05 or ns.pForward[i] < 0.05 or ns.r[i] > 0.50:
-        labs.append('-'.join(l.split('_')[1:]))
+    if ns.pReverse[i] < 0.05 or ns.pForward[i] < 0.05 or ns.q[i] < 0.05:
+        lab = '-'.join(l.split('_')[1:])
+        if ns.q[i] < 0.05:
+            lab = lab+'*'
+        labs.append(lab)
         labsx.append(x[i])
         labsy.append(y[i])
 
@@ -286,14 +289,14 @@ sns.set_style("ticks")
 fig = plt.figure(figsize=(12,8))
 scat = sns.scatterplot(x=x, 
                         y=y,
-                        hue=ns.r,
-                        alpha=0.4, linewidth=1, edgecolor='k',
-                        size=ns.r,
+                        hue=-np.log10(ns.p),
+                        size=-np.log10(ns.p),
                         sizes=(20,10000),
-                        palette='inferno')
+                        palette='inferno',
+                        alpha=0.4, linewidth=1, edgecolor='k')
 leg = plt.legend(bbox_to_anchor=(1.02, 0.95), loc=2, borderaxespad=0, borderpad=0.8, 
            handletextpad=2.2, labelspacing=2.5, frameon=False,
-           title="Spearman's rho \n(whole-brain)")
+           title="Spearman's rho,\n-log10(p)\n(whole-brain)")
 for lh in leg.legendHandles: 
     lh.set_alpha(0.4)
     lh.set_edgecolor('k')
@@ -305,7 +308,7 @@ scat.set_ylabel('Z forward likelihood (rTPJ)')
 texts=[]
 for l,x,y in zip(labs, labsx, labsy):
     texts.append(scat.text(x=x, y=y, s=l, 
-                            size=17, horizontalalignment='center', verticalalignment='center'))
+                           size=17, horizontalalignment='center', verticalalignment='center'))
 adjust_text(texts, expand_text=(1.5, 1.1), arrowprops=dict(arrowstyle="-", color='k', alpha=0.8))
 
 plt.savefig('fig2f.pdf', transparent=True, bbox_inches='tight')

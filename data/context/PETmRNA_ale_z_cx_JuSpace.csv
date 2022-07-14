@@ -1,6 +1,0 @@
-List 1 image,PET Map,Mean Fisher's z (Spearman rho),p-val (parametric),File,p_exact
-List 1 image,GABAa,0.372453174817817,<.001,/Users/leonlotter/MAsync/project/matlab_temp/ale_z.nii,0.011398
-List 1 image,5HT2a,0.0823095889554692,0.41599,/Users/leonlotter/MAsync/project/matlab_temp/ale_z.nii, 0.57229
-List 1 image,SV2a,0.187091285117409,0.065553,/Users/leonlotter/MAsync/project/matlab_temp/ale_z.nii,0.069186
-List 1 image,mGluR5,0.150321017190383,0.1383,/Users/leonlotter/MAsync/project/matlab_temp/ale_z.nii, 0.30354
-List 1 image,NET,0.159010510401781,0.11706,/Users/leonlotter/MAsync/project/matlab_temp/ale_z.nii, 0.26195

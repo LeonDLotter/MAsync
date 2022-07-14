@@ -109,6 +109,40 @@ def distribution_null_test(ds, target_vol, roi_vol=None,
                            vox_thresh=0.001, cluster_thresh=25, thresh_type="size", 
                            n_perm=1000, seed=None, n_proc=-1,
                            target_labs=None, template=None):
+    """
+    Assignes permutation-based p-values to the overlap between meta-analytically derived ROIs with, 
+    e.g., a given target network parcellation. 
+    Relative distribution = proportion of 'roi_vols' voxels within a given 
+        'target_vol' cluster vs. all 'roi_vols' voxels.
+    Absolute distribution  = proportion of 'roi_vols'-voxels within a given 
+        'target_vol' cluster vs. all voxels within this 'target_vol' cluster.
+    If the ROI volume {roi_vol} is None, a true ROI map is calculated from the input dataset {ds}. 
+    The 'true' distributions across the target ROIs {target_vol} are calculated. Based on the 
+    numbers of subjects and foci in {ds}, {n_perm} null datasets are randomly created. On each of
+    these datasets, an ALE ROI map is calculated using the thresholding settings {vox_thresh}, 
+    {cluster_thresh} and {thresh_type}. Relative/Absolute distributions are calculated for each
+    of these null ROI maps and the resulting null distributions are compared to the true values
+    to estimate positive-sided p-values for each ROI in {target_vol}.
+    
+    Input:
+        ds = NiMARE dataset
+        target_vol = target volume with clusters/parcels indexed from 1 to n
+        roi_vol = input volume. If None, will be generated from NiMARE dataset
+        vox_thresh = voxel threshold as p-value
+        cluster_thresh = cluster mass or size threshold, depending on {thresh_type}
+        thresh_type = 'mass' or 'size'
+        n_perm = number of iterations/ null datasets/ maps
+        seed = seed for reproducability
+        n_proc = number of parallel processes, -1 = number of CPU cores
+        target_labs = list of target cluster/parcel names for output table
+        template = template (i.e. grey matter) from which to sample random foci coordinates.
+            if None, will use nilearn MNI-152 GM TPM thresholded at > 0.2
+
+    Output:
+        - pandas dataframe with p-values corresponding to relative and absolute distributions  
+            within each cluster of the target volume.  
+        - dict with {n_perm} pandas dataframes as resulting from the rel_abs_distributions method
+    """
     
     def thresh_img(img_stat, img_z):    
         # voxel threshold 

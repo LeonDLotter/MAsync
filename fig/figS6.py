@@ -3,8 +3,8 @@
 # ========================================================================
 
 #%% 
-wd = '/Users/leonlotter/MAsync/project/data'
-sdir = '/Users/leonlotter/MAsync/project/fig'
+wd = '/Users/llotter/MAsync/project/data'
+sdir = '/Users/llotter/MAsync/project/fig'
 
 from os.path import join
 from re import A
@@ -15,7 +15,7 @@ import matplotlib as mpl
 from matplotlib.colors import ListedColormap
 import seaborn as sns
 import sys
-sys.path.append(join('/Users/leonlotter/MAsync/project', 'src'))
+sys.path.append(join('/Users/llotter/MAsync/project', 'src'))
 from utils_image import parcel_data_to_volume
 from nilearn.input_data import NiftiLabelsMasker
 from nilearn.plotting import plot_glass_brain
@@ -26,9 +26,10 @@ from matplotlib.cm import get_cmap
 atlas = join(wd, 'atlases', 'Schaefer100-7_TianS1_2mm.nii.gz')
 
 # prepare data
-pet = pd.read_csv(join(wd, 'context', 'PETmRNA_ale_z_fdr.csv'))
+pet = pd.read_csv(join(wd, 'context', 'PETmRNA_ale_z.csv'), index_col=0)
 pet.sort_values(by='zr', ascending=False, inplace=True)
-pet.reset_index(drop=True, inplace=True)
+pet.reset_index(drop=False, inplace=True)
+pet_parc = pd.read_csv(join(wd, 'datasets', 'pet_parcellated_data.csv'))
 
 # brain color
 c = get_cmap('viridis').colors
@@ -50,14 +51,14 @@ fsize = 12
 # PLOT
 figS6, ax = plt.subplots(1,1, figsize=(4,12))
 
-pet_plot = sns.barplot(data=pet, x='zr', y='PETmRNA', ax=ax,
+pet_plot = sns.barplot(data=pet, x='zr', y='index', ax=ax,
                        palette=colors_from_values(-np.log10(pet.p), "viridis"))
 # labels
 for i, p in enumerate(pet_plot.patches):
     x = p.get_x() + p.get_width() if pet.zr[i] > 0 else p.get_x()
     xy = (5, -15)
-    label = pet.PETmRNA[i]+'*' if pet.sig[i]==True else pet.PETmRNA[i]
-    weight = 'bold' if pet.sig[i]==True else 'normal'
+    label = pet["index"][i]+'*' if pet.q[i]<0.05 else pet["index"][i]
+    weight = 'bold' if pet.p[i]<0.05 else 'normal'
     pet_plot.annotate(label, (x, p.get_y()), xytext=xy, textcoords='offset points', size=fsize, weight=weight)
 # style
 pet_plot.axvline(0, color='k', linewidth=1)
@@ -76,24 +77,20 @@ plt.savefig(join(sdir, 'figS6a.pdf'), transparent=True, bbox_inches='tight')
 
 # %% FigS6B PET brains =============================================================
 
-masker = NiftiLabelsMasker(atlas)
-
 # ale volume
-ale_z = load_img(join(wd, 'ale', 'ale_z.nii.gz'))
-ale_data = masker.fit_transform(ale_z)[0] 
-ale_vol, _ = parcel_data_to_volume(ale_data, atlas, rank=False)
-ale_vol_rank, _ = parcel_data_to_volume(ale_data, atlas, rank=True)
+ale_data = pd.read_csv(join(wd, 'ale', 'ale_z_parc.csv'))
+ale_vol = parcel_data_to_volume(ale_data["ALE z"], atlas, rank=False)[0]
+ale_vol_rank = parcel_data_to_volume(ale_data["ALE z"], atlas, rank=True)[0]
 # ale cluster
 ale_cl = load_img(join(wd, 'ale', 'ale_thresh_bin.nii.gz'))
 
 # pet 
-pet_labels = pet[(pet.sig==True) & (pet.zr>0)].PETmRNA.to_list()
+pet_labels = pet.query('p < 0.05')["index"].to_list()
 pet_maps = list()
 pet_maps_rank = list()
 for map in pet_labels:
-    pet_vol = load_img(join(wd, 'context', 'parcel_maps', f'{map}.nii.gz'))
-    pet_data = masker.fit_transform(pet_vol)[0] 
-    pet_vol_rank, _ = parcel_data_to_volume(pet_data, atlas, rank=True)
+    pet_vol = parcel_data_to_volume(pet_parc[map], atlas, rank=False)[0]
+    pet_vol_rank = parcel_data_to_volume(pet_parc[map], atlas, rank=True)[0]
     pet_maps.append(pet_vol)
     pet_maps_rank.append(pet_vol_rank)
 

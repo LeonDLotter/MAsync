@@ -30,8 +30,8 @@ figS7a.savefig(join(sdir, 'figS7a.pdf'), transparent=True, bbox_inches='tight')
 # %% scatters
 
 gaba_cl = pd.read_csv(join(wd, 'context', 'GABAcl_parcellated_data.csv'))
-gaba_res = pd.read_csv(join(wd, 'context', 'GABAcl_ale_z_fdr.csv'))
-ale_parc = pd.read_csv(join(wd, 'macm', 'cor_macm_ale.csv'))['dat1']
+gaba_res = pd.read_csv(join(wd, 'context', 'GABAcl_ale_z.csv'))
+ale_parc = pd.read_csv(join(wd, 'ale', 'ale_z_parc.csv'))['ALE z']
 ale_parc.name = 'INS ALE Z-scores'
 
 figS7b = plt.figure(figsize=(3,12), constrained_layout=False)
@@ -42,7 +42,9 @@ for i, cl in enumerate(gaba_cl.columns):
                 scatter_kws={'edgecolor':'k', 'alpha':0.5, 'color':to_hex(cmap[1,:])})
     ax.set_ylabel(f'GABA cluster {i+1}')
     p = f'= {gaba_res.p[i]:.03f}' if round(gaba_res.p[i],3) > 0 else '< 0.001'
-    ax.annotate(f'Z(rho) = {gaba_res.zr[i]:.2f}, p {p}', 
+    ax.annotate(f'Z(rho) = {gaba_res.zr[i]:.2f}', 
+                xy=(0.97,0.17), xycoords='axes fraction', ha='right')
+    ax.annotate(f'p {p}, q = {gaba_res.q[i]:.03f}', 
                 xy=(0.97,0.05), xycoords='axes fraction', ha='right')
 
 figS7b.savefig(join(sdir, 'figS7b.pdf'), transparent=True, bbox_inches='tight') 

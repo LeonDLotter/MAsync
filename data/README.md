@@ -35,10 +35,9 @@ Output types:
 Used templates, parcellations, and meta-analytic maps. For sources, refer to separate [README](atlases/README.md).
 
 #### `/context`
-Results from contextualization analyses: Distributions of the INS map within meta-analytic maps, conjunction volumes with prior meta-analytic maps, neurosynth topic decoding results, results from spatial correlation with PET and mRNA expression maps, JuSpace null maps.
+Results from contextualization analyses: Distributions of the INS map within meta-analytic maps, conjunction volumes with prior meta-analytic maps, neurosynth topic decoding results, results from spatial correlation with PET and mRNA expression maps.
 
 - **/gcea**: results from gene-category enrichment analyses using [ABAnnotate](https://github.com/LeonDLotter/ABAnnotate). Note: the *.mat with results from the GeneOntology-BiologicalProcess annotations was not uploaded (size > 200mb). You can generate it using the analysis notebook and ABAnnotate or request it.
-- **/parcel\_maps**: parcellated volumes generated from parcellated PET data for analysis with [JuSpace](https://github.com/juryxy/JuSpace)
 - **/topic\_maps**: meta-analytic maps generated from Neurosynth LDA topic-decoding selected from the 200-topic LDA dataset
 
 #### `/datasets`

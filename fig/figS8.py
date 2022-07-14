@@ -27,7 +27,7 @@ cmap = "viridis"
 
 #%% get data & plot
 da_data = pd.read_csv(join(wd, "context", "PETmRNAcells_dominance_analysis.csv"), index_col=0)
-da_totalr2 = da_data["Total Dominance"].sum()
+da_totalr2 = da_data["total dominance"].sum()
 predictors = list(da_data.index)
 #colors = sns.color_palette("tab10", len(da_data))
 #colors.reverse()
@@ -39,7 +39,7 @@ axes = axes.ravel()
 
 # 1: full model
 predictors.reverse()
-colors = np.flip(colors_from_values(da_data["Total Dominance"], cmap),0)
+colors = np.flip(colors_from_values(da_data["total dominance"], cmap),0)
 perc = da_totalr2
 for i, predictor in enumerate(predictors):
     perc_df = pd.DataFrame(
@@ -53,9 +53,9 @@ for i, predictor in enumerate(predictors):
                 color=colors[i],
                 linewidth=1,
                 edgecolor="w")
-    perc = perc - da_data["Total Dominance"][predictor]
+    perc = perc - da_data["total dominance"][predictor]
 axes[0].set_xlim(0, 0.4)
-axes[0].set_xlabel("Explained Variance ($R^2$)", size=12)
+axes[0].set_xlabel("Explained Variance", size=12)
 axes[0].set_yticklabels(["Full Model"], size=12)
 p = axes[0].patches[0]
 axes[0].annotate("100.0%", (p.get_x() + p.get_width(), p.get_y()), xytext=(5, -15), textcoords='offset points', size=11)
@@ -63,15 +63,15 @@ axes[0].annotate("100.0%", (p.get_x() + p.get_width(), p.get_y()), xytext=(5, -1
 # 2: total dominance    
 sns.barplot(data=da_data,
             y=da_data.index,
-            x="Total Dominance",
+            x="total dominance",
             ax=axes[1],
-            palette=colors_from_values(da_data["Total Dominance"], cmap),
+            palette=colors_from_values(da_data["total dominance"], cmap),
             linewidth=1,
             edgecolor="w")
 # details
 for i, p in enumerate(axes[1].patches):
     x = p.get_x() + p.get_width()
-    perc = da_data["Total Dominance"][i] / da_totalr2 * 100
+    perc = da_data["total dominance"][i] / da_totalr2 * 100
     label = f"{perc:.01f}%" 
     axes[1].annotate(label, (x, p.get_y()), xytext=(5, -15), textcoords='offset points', size=11)
 axes[1].set_xlim(0, 0.4)
@@ -81,9 +81,9 @@ axes[1].set_xlabel("Explained Variance (Total Dominance)", size=12)
 # 3: individual dominance
 sns.barplot(data=da_data,
             y=da_data.index,
-            x="Individual Dominance",
+            x="individual dominance",
             ax=axes[2],
-            palette=colors_from_values(da_data["Individual Dominance"], cmap),
+            palette=colors_from_values(da_data["individual dominance"], cmap),
             linewidth=1,
             edgecolor="w")
 # details

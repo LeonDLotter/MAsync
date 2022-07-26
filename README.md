@@ -1,14 +1,14 @@
-# The Neurobiological Basis of Interpersonal Neural Synchronization: Evidence from a Multimodal Data Fusion Approach
+# Revealing the Neurobiology Underlying Interpersonal Neural Synchronization with Multimodal Data Fusion
 
-This repository accompanies our preprint: 
+This repository accompanies our publication: 
 
-Leon D. Lotter, Simon H. Kohl, Christian Gerloff, Laura Bell, Alexandra Niephaus, Jana A. Kruppa, Juergen Dukart, Martin Schulte-Rüther, Vanessa Reindl, & Kerstin Konrad (2022). *[The Neurobiological Basis of Interpersonal Neural Synchronization: Evidence from a Multimodal Data Fusion Approach]()*. bioRxiv.
+Leon D. Lotter, Simon H. Kohl, Christian Gerloff, Laura Bell, Alexandra Niephaus, Jana A. Kruppa, Juergen Dukart, Martin Schulte-Rüther, Vanessa Reindl, & Kerstin Konrad (2022). *[Revealing the Neurobiology Underlying Interpersonal Neural Synchronization with Multimodal Data Fusion]()*. bioRxiv.
 
 [![DOI: XXX](https://img.shields.io/badge/DOI-XXX-blue)](http://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 ---
 
-All data and code in this repository are licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/).
+All data and code in this repository are licensed under [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/).
 
 [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey)](http://creativecommons.org/licenses/by-nc-sa/4.0/)  
 
@@ -31,7 +31,7 @@ Contains code to reproduce figures and the associated files.
 Contains results from different stages of the literature search as *.ris files.
 
 #### `/src` 
-Contains all functions called in the analysis notebook.
+Contains all functions called in the analysis notebook. Also includes a development version of the [JuSpyce](https://github.com/LeonDLotter/JuSpyce) toolbox.
 
 - **[ale.py](src/ale.py)**: Wrapper for Activation Likelihood Estimation workflow in NiMARE
 - **[fnirs.py](src/fnirs.py)**: Quantitative analysis of fNIRS data
@@ -53,30 +53,31 @@ To ease the reproduction of our analyses, we added dependency management via poe
 ###  Poetry on osx/ linux
 Install via curl:  
 ```
-curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py | python -
+curl -sSL https://install.python-poetry.org | python -
 ```
 ###  Poetry on windows
 Install via powershell:  
 ```
-(Invoke-WebRequest -Uri https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py -UseBasicParsing).Content | python -
+(Invoke-WebRequest -Uri https://install.python-poetry.org -UseBasicParsing).Content | python -
 ```
-Test if poetry was installed:  
+### Test if poetry was correctly installed:  
 ```
 poetry --version
 ```
-If the command was not found add poetry to the `PATH` environment variable via:  
+If the command is not found, add poetry to the `PATH` environment variable via:  
 ```
 export PATH=$PATH:$HOME/.poetry/bin
 ```
-
 ### Run virtual environment
 Go to the folder you downloaded the repository to, start a new terminal, and get synchronized :sunglasses:
 ```
-poetry shell
+poetry shell  
+poetry install
 ```
 
 ## Further resources
-Three toolboxes were developed partly in the context of this paper:
+[Here](https://leondlotter.github.io/MAsync/), we provide an interactive version of the citation network included in the manuscript (Figure 2B).  
+Three toolboxes were developed partly in the context of this paper:  
 - [SetYouFree](https://github.com/ChristianGerloff/set-you-free): A tool for automated literature retrieval from API-accessible databases
 - [JuSpyce](https://github.com/LeonDLotter/JuSpyce): A - wait for it - *spyced up* Python-adaptation of the [JuSpace](https://github.com/juryxy/JuSpace) toolbox, incorporating numerous strategies to test for alignment between multimodal neuromaging data
 - [ABAnnotate](https://github.com/LeonDLotter/ABAnnotate): A MATLAB toolbox for ensemble-based multimodal gene-category enrichment analysis of human neuroimaging data

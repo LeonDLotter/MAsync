@@ -79,7 +79,7 @@ poetry install
 [Here](https://leondlotter.github.io/MAsync/citenet), we provide an interactive version of the citation network included in the manuscript (Figure 2B).  
 Three toolboxes were developed partly in the context of this paper:  
 - [SetYouFree](https://github.com/ChristianGerloff/set-you-free): A tool for automated literature retrieval from API-accessible databases  
-- [JuSpyce](https://github.com/LeonDLotter/JuSpyce): A - wait for it - *spyced up* Python-adaptation of the [JuSpace](https://github.com/juryxy/JuSpace) toolbox, incorporating numerous strategies to test for alignment between multimodal neuromaging data  
+- [JuSpyce](https://github.com/LeonDLotter/JuSpyce): A - wait for it - s**py**ced up Python adaptation of the [JuSpace](https://github.com/juryxy/JuSpace) toolbox, incorporating numerous strategies to test for alignment between multimodal neuroimaging data  
 - [ABAnnotate](https://github.com/LeonDLotter/ABAnnotate): A MATLAB toolbox for ensemble-based multimodal gene-category enrichment analysis of human neuroimaging data
 
 ## Contact

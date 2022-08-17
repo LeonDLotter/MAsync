@@ -46,7 +46,7 @@ Datasets used for all analyses. **This includes the coordinate data for fNIRS an
 - **/neurosynth**: the downloaded neurosynth database version 7
 - **brainmap\_NormMapActOnly\_{}.pkl.gz**: "normal mapping" & "activation only" experiments from the BrainMap database as a NiMARE dataset
 - **fmri\_coordinates**: INS fMRI coordinates and associated study information
-- **fnirs\_coordinates**: INS FNIRS coordinates and associated study information
+- **fnirs\_coordinates**: INS fNIRS coordinates and associated study information
 - **pet\_parcellated**: parcellated PET data
 
 #### `/fnirs`

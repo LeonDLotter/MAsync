@@ -4,13 +4,17 @@ This repository accompanies our publication:
 
 Leon D. Lotter, Simon H. Kohl, Christian Gerloff, Laura Bell, Alexandra Niephaus, Jana A. Kruppa, Juergen Dukart, Martin Schulte-Rüther, Vanessa Reindl, & Kerstin Konrad (2022). *[Revealing the Neurobiology Underlying Interpersonal Neural Synchronization with Multimodal Data Fusion](https://doi.org/10.1101/2022.07.26.501562)*. bioRxiv.
 
-[![DOI: XXX](https://img.shields.io/badge/DOI-10.1101/2022.07.26.501562-blue)](https://doi.org/10.1101/2022.07.26.501562)
+[![DOI](https://img.shields.io/badge/bioRxiv-10.1101/2022.07.26.501562-BD2736)](https://doi.org/10.1101/2022.07.26.501562)
+
+[![DOI](https://img.shields.io/badge/Zenodo-10.5281/zenodo.7002119-0F80C1)](https://zenodo.org/badge/latestdoi/407815811)
 
 ---
 
 All data and code in this repository are licensed under [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/).
 
 [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey)](http://creativecommons.org/licenses/by-nc-sa/4.0/)  
+
+Please cite both the preprint (bioRxiv) and the dataset (Zenodo) when using data from this repository.
 
 ---
 ## Main analyses and results:

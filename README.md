@@ -8,10 +8,6 @@ Leon D. Lotter, Simon H. Kohl, Christian Gerloff, Laura Bell, Alexandra Niephaus
 [![DOI](https://img.shields.io/badge/Zenodo-10.5281/zenodo.7002119-0F80C1)](https://zenodo.org/badge/latestdoi/407815811)  
 [![Twitter](https://img.shields.io/badge/Twitter-Thread-1A8CD8)](https://twitter.com/LeonDLotter/status/1559124740450795521)
 
-<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
-
-<span data-badge-details="right" data-badge-type="2" data-doi="10.1101/2022.07.26.501562" data-hide-no-mentions="true" class="altmetric-embed"></span>
-
 ---
 
 All data and code in this repository are licensed under [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/).

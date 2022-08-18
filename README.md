@@ -4,13 +4,11 @@ This repository accompanies our publication:
 
 Leon D. Lotter, Simon H. Kohl, Christian Gerloff, Laura Bell, Alexandra Niephaus, Jana A. Kruppa, Juergen Dukart, Martin Schulte-Rüther, Vanessa Reindl, & Kerstin Konrad (2022). *[Revealing the Neurobiology Underlying Interpersonal Neural Synchronization with Multimodal Data Fusion](https://doi.org/10.1101/2022.07.26.501562)*. bioRxiv.
 
-[![DOI](https://img.shields.io/badge/bioRxiv-10.1101/2022.07.26.501562-BD2736)](https://doi.org/10.1101/2022.07.26.501562)
-
-[![DOI](https://img.shields.io/badge/Zenodo-10.5281/zenodo.7002119-0F80C1)](https://zenodo.org/badge/latestdoi/407815811)
-
-[![Thread][https://img.shields.io/badge/Link-Thread-1A8CD8?style=flat-square#badge]](https://twitter.com/LeonDLotter/status/1559124740450795521)
-
-
+[![DOI](https://img.shields.io/badge/bioRxiv-10.1101/2022.07.26.501562-BD2736)](https://doi.org/10.1101/2022.07.26.501562)  
+[![DOI](https://img.shields.io/badge/Zenodo-10.5281/zenodo.7002119-0F80C1)](https://zenodo.org/badge/latestdoi/407815811)  
+[![Twitter](https://img.shields.io/badge/Twitter-Thread-1A8CD8)](https://twitter.com/LeonDLotter/status/1559124740450795521)  
+<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
+<div data-badge-details="right" data-badge-type="2" data-doi="10.1101/2022.07.26.501562" data-hide-no-mentions="true" class="altmetric-embed"></div>
 
 ---
 

@@ -114,7 +114,7 @@ def csv_to_nimare_ds(file, exp_var, n_var, con_var, spa_var,
             
             # collect data from each experiment
             dset_dict[exp] = {'contrasts': {
-                this_exp_data[con_var].unique()[0]: contrast }}
+                "+".join(this_exp_data[con_var].unique()): contrast }}
    
     # convert dict to NiMARE dataset, target space MNI152
     ds = ni.dataset.Dataset(dset_dict, target='mni152_2mm')
@@ -125,9 +125,9 @@ def csv_to_nimare_ds(file, exp_var, n_var, con_var, spa_var,
     elif single_contrasts == True:
         lgr.info('Treating multiple contrasts per study independently.')
     # unique study ids (not contrasts)
-    ids = ds.metadata.study_id.unique() 
+    ids = ds.metadata.id.unique() 
     # unique subjects
-    n = [ds.metadata[ds.metadata.study_id==iD].sample_sizes.tolist() for iD in ids] 
+    n = [ds.metadata[ds.metadata.id==iD].sample_sizes.to_list()[0] for iD in ids] 
     lgr.info(f'Imported data from {len(ids)} studies, {np.sum(n)} participants, ' 
              f'and {len(ds.coordinates)} foci as {len(ds.ids)} unique contrasts ' 
              'into NiMARE dataset.')
@@ -150,7 +150,7 @@ def nimare_ds_to_sleuth(ds, save_path=None):
     """
     
     # get experiments and number of subjects
-    exps = ds.metadata.study_id
+    exps = ds.metadata.id
     cons = ds.metadata.contrast_id
     ns = ds.metadata.sample_sizes
     
@@ -159,15 +159,18 @@ def nimare_ds_to_sleuth(ds, save_path=None):
         save_path = os.path.join(os.getcwd(), 'sleuth_foci.txt')
         
     # open text file and write reference space
-    with open(save_path, 'w') as t:
+    with open(save_path, 'w', newline="\n") as t:
         t.write('// Reference=MNI\n')
         
         # write experiments with coordinates
         for e, c, n in zip(exps, cons, ns):
             # experiment info
-            t.write('// {}: {} \n// Subjects={} \n'.format(e, c, n[0]))
+            try:
+                t.write(f'// {e} \n// Subjects={n[0]}\n')
+            except TypeError:
+                t.write(f'// {e} \n// Subjects={n}\n')
             # coordinates
-            coords = ds.coordinates[ds.coordinates.study_id==e][['x', 'y', 'z']]
+            coords = ds.coordinates[ds.coordinates.id==e][['x', 'y', 'z']]
             t.write(coords.to_csv(header=False, index=False, sep='\t') + '\n')
     
     lgr.info(f'Sleuth foci file saved to: {save_path}')

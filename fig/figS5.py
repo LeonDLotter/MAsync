@@ -25,7 +25,7 @@ c_ale001 = ListedColormap(cmap[0,:])
 atlas = load_img(join(wd, 'atlases', 'Schaefer100-7_2mm.nii.gz'))
 
 # results tables
-fnirs_res = pd.read_csv(join(wd, 'fnirs', 'fnirs_atlas_result.csv'))
+fnirs_res = pd.read_csv(join(wd, 'fnirs', 'fnirs_atlas_result_perm.csv'))
 fnirs_res_sel = pd.read_csv(join(wd, 'fnirs', 'fnirs_atlas_result_sel.csv'))
 fnirs_res_perm = pd.read_csv(join(wd, 'fnirs', 'fnirs_atlas_perm_ch_ratio_sub_all.csv'), index_col=0)
 

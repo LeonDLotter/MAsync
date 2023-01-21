@@ -1,20 +1,21 @@
-# Revealing the Neurobiology Underlying Interpersonal Neural Synchronization with Multimodal Data Fusion
+# Revealing the neurobiology underlying interpersonal neural synchronization with multimodal data fusion
 
 This repository accompanies our publication: 
 
-Leon D. Lotter, Simon H. Kohl, Christian Gerloff, Laura Bell, Alexandra Niephaus, Jana A. Kruppa, Juergen Dukart, Martin Schulte-Rüther, Vanessa Reindl, & Kerstin Konrad (2022). *[Revealing the Neurobiology Underlying Interpersonal Neural Synchronization with Multimodal Data Fusion](https://doi.org/10.1101/2022.07.26.501562)*. bioRxiv.
+Leon D. Lotter, Simon H. Kohl, Christian Gerloff, Laura Bell, Alexandra Niephaus, Jana A. Kruppa, Juergen Dukart, Martin Schulte-Rüther, Vanessa Reindl, & Kerstin Konrad (2023). *[Revealing the neurobiology underlying interpersonal neural synchronization with multimodal data fusion](https://doi.org/10.1016/j.neubiorev.2023.105042)*. Neuroscience & Biobehavioral Reviews.
 
+[![DOI](https://img.shields.io/badge/Journal-10.1016/j.neubiorev.2023.105042-darkgreen)](https://doi.org/10.1016/j.neubiorev.2023.105042)  
 [![DOI](https://img.shields.io/badge/bioRxiv-10.1101/2022.07.26.501562-BD2736)](https://doi.org/10.1101/2022.07.26.501562)  
 [![DOI](https://img.shields.io/badge/Zenodo-10.5281/zenodo.7002119-0F80C1)](https://zenodo.org/badge/latestdoi/407815811)  
 [![Twitter](https://img.shields.io/badge/Twitter-Thread-1A8CD8)](https://twitter.com/LeonDLotter/status/1559124740450795521)
 
 ---
 
-All data and code in this repository are licensed under [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/).
+All data and code in this repository are licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/).
 
 [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey)](http://creativecommons.org/licenses/by-nc-sa/4.0/)  
 
-Please cite both the preprint (bioRxiv) and the dataset (Zenodo) when using data from this repository.
+Please cite both the publication and the dataset (Zenodo) when using data from this repository.
 
 ---
 ## Main analyses and results:
